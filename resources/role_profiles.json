@@ -1,0 +1,70 @@
+{
+  "left_back": {
+    "weights": {
+      "tackles_per_90": 0.18,
+      "interceptions_per_90": 0.15,
+      "carries_prgc": 0.20,
+      "key_passes_per_90": 0.15,
+      "total_cmp_pct": 0.10,
+      "progressive_passes_per_90": 0.12,
+      "aerial_duels_won_pct": 0.05,
+      "expected_xag": 0.03,
+      "performance_gls": 0.02
+    },
+    "notes": "Modern attacking fullback: progress ball, create from wide, solid 1v1 defending."
+  },
+  "centre_back": {
+    "weights": {
+      "tackles_per_90": 0.20,
+      "interceptions_per_90": 0.25,
+      "aerial_duels_won_pct": 0.20,
+      "total_cmp_pct": 0.15,
+      "carries_prgc": 0.20
+    },
+    "notes": "Aggressive stopper with aerial dominance and secure distribution."
+  },
+  "defensive_midfielder": {
+    "weights": {
+      "tackles_per_90": 0.20,
+      "interceptions_per_90": 0.20,
+      "total_cmp_pct": 0.15,
+      "progressive_passes_per_90": 0.20,
+      "carries_prgc": 0.15,
+      "key_passes_per_90": 0.10
+    },
+    "notes": "Anchor: break-up play, recycle efficiently, progress under pressure."
+  },
+  "attacking_midfielder": {
+    "weights": {
+      "key_passes_per_90": 0.22,
+      "expected_xag": 0.25,
+      "carries_prgc": 0.18,
+      "progressive_passes_per_90": 0.18,
+      "total_cmp_pct": 0.12,
+      "performance_gls": 0.05
+    },
+    "notes": "Chance creator between lines with final-third output."
+  },
+  "winger": {
+    "weights": {
+      "key_passes_per_90": 0.20,
+      "carries_prgc": 0.22,
+      "progressive_passes_per_90": 0.18,
+      "standard_sot_pct": 0.10,
+      "expected_xg": 0.15,
+      "performance_gls": 0.15
+    },
+    "notes": "Ball-carrying outlet with creation and end product."
+  },
+  "striker": {
+    "weights": {
+      "expected_xg": 0.30,
+      "performance_gls": 0.35,
+      "standard_sot_pct": 0.20,
+      "key_passes_per_90": 0.05,
+      "carries_prgc": 0.10
+    },
+    "notes": "Box presence, finishing efficiency, shot quality."
+  }
+}
+

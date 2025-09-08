@@ -1,0 +1,32 @@
+{
+  "possession": {
+    "multipliers": {
+      "progressive_passes_per_90": 1.15,
+      "total_cmp_pct": 1.10,
+      "carries_prgc": 1.10
+    },
+    "notes": "Emphasize secure progression and high pass quality."
+  },
+  "transition": {
+    "multipliers": {
+      "carries_prgc": 1.15,
+      "key_passes_per_90": 1.10
+    },
+    "notes": "Reward vertical carries and quick chance creation."
+  },
+  "high_press": {
+    "multipliers": {
+      "tackles_per_90": 1.15,
+      "interceptions_per_90": 1.10
+    },
+    "notes": "Elevate off-ball defensive activity."
+  },
+  "direct": {
+    "multipliers": {
+      "standard_sot_pct": 1.10,
+      "expected_xg": 1.10
+    },
+    "notes": "Favor finishing quality and shot value."
+  }
+}
+

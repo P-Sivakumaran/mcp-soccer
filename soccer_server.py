@@ -113,6 +113,7 @@ class EnhancedSoccerDataServer:
         self._build_caches()
         self._build_percentiles()
         self._result_cache = _LRUCache(128)
+        self._init_resources()
         logger.info(f"Enhanced server loaded {len(self.data)} players with {len(self.data.columns)} metrics")
     
     def load_comprehensive_data(self):
@@ -269,6 +270,24 @@ class EnhancedSoccerDataServer:
         ]
         group_cols = [c for c in ['league', 'position'] if c in df.columns]
         self.data_with_pct = self._compute_percentiles(df, [c for c in key_cols if c in df.columns], group_cols)
+
+    def _init_resources(self):
+        base = Path(__file__).parent / 'resources'
+        self._resources = []
+        def add_res(name, filename, description, mime):
+            p = base / filename
+            self._resources.append({
+                'uri': f'resource://{name}',
+                'name': name,
+                'description': description,
+                'mimeType': mime,
+                'path': str(p)
+            })
+        add_res('role_profiles', 'role_profiles.json', 'Role profiles with metric weights', 'application/json')
+        add_res('style_profiles', 'style_profiles.json', 'Style profile multipliers', 'application/json')
+        add_res('stat_dictionary', 'stat_dictionary.md', 'Stat dictionary and field notes', 'text/markdown')
+        add_res('league_strength', 'league_strength.json', 'Lightweight league strength multipliers', 'application/json')
+        add_res('writing_guidelines', 'writing_guidelines.md', 'Guidelines for scouting note tone/structure', 'text/markdown')
 
     def _get_base_filtered(self, leagues: Optional[List[str]], seasons: Optional[List[str]]):
         """Pick a best starting slice using caches to reduce scan size."""
@@ -2345,11 +2364,53 @@ def handle_mcp_request(request):
             }
         
         elif method == 'resources/list':
+            # Publish static resources for the LLM to read
+            res_list = []
+            for r in getattr(server, '_resources', []):
+                res_list.append({
+                    'uri': r['uri'],
+                    'name': r['name'],
+                    'description': r['description'],
+                    'mimeType': r['mimeType']
+                })
             return {
                 "jsonrpc": "2.0",
                 "id": request_id,
-                "result": {"resources": []}
+                "result": {"resources": res_list}
             }
+        elif method == 'resources/read':
+            uri = request.get('params', {}).get('uri')
+            match = None
+            for r in getattr(server, '_resources', []):
+                if r['uri'] == uri:
+                    match = r
+                    break
+            if not match:
+                return {
+                    "jsonrpc": "2.0",
+                    "id": request_id,
+                    "error": {"code": -32004, "message": f"Resource not found: {uri}"}
+                }
+            try:
+                with open(match['path'], 'r', encoding='utf-8') as f:
+                    text = f.read()
+                return {
+                    "jsonrpc": "2.0",
+                    "id": request_id,
+                    "result": {
+                        "contents": [{
+                            "uri": match['uri'],
+                            "mimeType": match['mimeType'],
+                            "text": text
+                        }]
+                    }
+                }
+            except Exception as e:
+                return {
+                    "jsonrpc": "2.0",
+                    "id": request_id,
+                    "error": {"code": -32005, "message": f"Failed to read resource: {e}"}
+                }
             
         elif method == 'tools/call':
             tool_name = request['params']['name']
