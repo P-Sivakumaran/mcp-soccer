@@ -16,6 +16,7 @@ from enum import Enum
 import re
 import time
 from time import perf_counter
+from collections import OrderedDict
 
 # Configure logging to stderr only
 # Allow log level override via env var for observability
@@ -111,6 +112,7 @@ class EnhancedSoccerDataServer:
         self._optimize_dataframe()
         self._build_caches()
         self._build_percentiles()
+        self._result_cache = _LRUCache(128)
         logger.info(f"Enhanced server loaded {len(self.data)} players with {len(self.data.columns)} metrics")
     
     def load_comprehensive_data(self):
@@ -208,7 +210,29 @@ class EnhancedSoccerDataServer:
         # Precompute minutes 90s if not present but minutes exist
         if 'playing_time_90s' not in df.columns and 'playing_time_min' in df.columns:
             df['playing_time_90s'] = (pd.to_numeric(df['playing_time_min'], errors='coerce') / 90.0).round(3)
+        # Global season start year for ordering
+        if 'season' in df.columns:
+            def _sy(x):
+                try:
+                    s = str(x)
+                    return int(s[:4]) if s[:4].isdigit() else -1
+                except Exception:
+                    return -1
+            df['season_start_year'] = df['season'].apply(_sy).astype('int32')
+        # Downcast numeric columns to reduce memory
+        num_cols = df.select_dtypes(include=['float64', 'int64']).columns
+        for c in num_cols:
+            try:
+                if str(df[c].dtype).startswith('float'):
+                    df[c] = pd.to_numeric(df[c], errors='coerce', downcast='float')
+                else:
+                    df[c] = pd.to_numeric(df[c], errors='coerce', downcast='integer')
+            except Exception:
+                continue
         self.data = df
+
+    def _contains_noregex(self, series_lower: pd.Series, needle_lower: str) -> pd.Series:
+        return series_lower.astype(str).str.contains(needle_lower, na=False, regex=False)
 
     def _build_caches(self):
         """Build simple caches for league/season filtered subsets."""
@@ -350,6 +374,24 @@ class EnhancedSoccerDataServer:
     ) -> List[Dict[str, Any]]:
         """Advanced player search with comprehensive filtering"""
         
+        # Basic LRU cache: cache by key of inputs
+        cache_key = (
+            'search_players_advanced',
+            tuple(sorted(leagues)) if leagues else None,
+            tuple(sorted(positions)) if positions else None,
+            age_min, age_max,
+            tuple(sorted(nationality)) if nationality else None,
+            team,
+            tuple(sorted(seasons)) if seasons else None,
+            latest_season_only,
+            min_minutes_played,
+            tuple(sorted(stat_filters.items())) if stat_filters else None,
+            limit,
+            sort_by
+        )
+        cached = self._result_cache.get(cache_key)
+        if cached is not None:
+            return cached
         t0 = perf_counter()
         # Start with cached slice where possible
         filtered = self._get_base_filtered(leagues, seasons).copy()
@@ -368,7 +410,7 @@ class EnhancedSoccerDataServer:
                     pos_condition = filtered['position'].isin(mapped_positions)
                 else:
                     # Direct position match
-                    pos_condition = filtered['position'].str.contains(pos, case=False, na=False)
+                    pos_condition = filtered['position'].astype(str).str.contains(pos, case=False, na=False, regex=False)
                 position_conditions.append(pos_condition)
             
             if position_conditions:
@@ -389,7 +431,7 @@ class EnhancedSoccerDataServer:
         if team:
             tlow = str(team).lower()
             team_col = 'team_lower' if 'team_lower' in filtered.columns else 'team'
-            filtered = filtered[filtered[team_col].astype(str).str.contains(tlow, na=False)]
+            filtered = filtered[self._contains_noregex(filtered[team_col], tlow)]
         
         # Season filtering
         if seasons and ('season' in filtered.columns):
@@ -458,6 +500,7 @@ class EnhancedSoccerDataServer:
 
         dt = (perf_counter() - t0) * 1000
         logger.info(f"search_players_advanced filters={{'leagues':{leagues},'positions':{positions},'age_min':{age_min},'age_max':{age_max},'team':{team},'seasons':{seasons}}} -> {len(players)} results in {dt:.1f}ms")
+        self._result_cache.set(cache_key, players)
         return players
 
     def _compute_percentiles(self, df: pd.DataFrame, cols: List[str], group_cols: List[str]) -> pd.DataFrame:
@@ -646,6 +689,15 @@ class EnhancedSoccerDataServer:
     ) -> List[Dict[str, Any]]:
         """Discover high-upside talents with role/style fit and transparent rationale."""
 
+        cache_key = (
+            'discover_talents', (role or '').lower(), (style or '').lower() if style else None,
+            tuple(sorted(leagues)) if leagues else None, age_max, age_min, min_minutes,
+            tuple(sorted(seasons)) if seasons else None, alignment, coverage_threshold,
+            exclude_elite, top_n, diversify_by, explain
+        )
+        cached = self._result_cache.get(cache_key)
+        if cached is not None:
+            return cached
         t0 = perf_counter()
         df = self.data.copy()
         if df.empty:
@@ -776,6 +828,7 @@ class EnhancedSoccerDataServer:
 
         dt = (perf_counter() - t0) * 1000
         logger.info(f"discover_talents role={role} style={style} leagues={leagues} age_max={age_max} min_minutes={min_minutes} target_season={target_season} -> {len(results)} results in {dt:.1f}ms")
+        self._result_cache.set(cache_key, results)
         return results
 
     # ----- Additional Scout Tools -----
@@ -863,7 +916,10 @@ class EnhancedSoccerDataServer:
         df = self.data_with_pct if hasattr(self, 'data_with_pct') else self.data
         if df is None or df.empty:
             return { 'error': 'No data available' }
-        target_matches = df[df['player'].str.contains(player_name, case=False, na=False)]
+        if 'player_lower' in df.columns:
+            target_matches = df[self._contains_noregex(df['player_lower'], str(player_name).lower())]
+        else:
+            target_matches = df[df['player'].str.contains(player_name, case=False, na=False, regex=False)]
         if target_matches.empty:
             return { 'error': f"Player '{player_name}' not found" }
         if seasons and 'season' in target_matches.columns:
@@ -944,7 +1000,7 @@ class EnhancedSoccerDataServer:
             if pos_targets and 'position' in df.columns:
                 df = df[df['position'].astype(str).str.contains('|'.join(pos_targets), case=False, na=False)]
         elif position and 'position' in df.columns:
-            df = df[df['position'].astype(str).str.contains(position, case=False, na=False)]
+            df = df[df['position'].astype(str).str.contains(position, case=False, na=False, regex=False)]
 
         # Ensure minutes filter per season row
         if 'playing_time_min' in df.columns:
@@ -1270,6 +1326,10 @@ class EnhancedSoccerDataServer:
     ) -> List[Dict[str, Any]]:
         """Get league leaders in specific statistics"""
         
+        cache_key = ('get_league_leaders', league, stat, position, season, min_games)
+        cached = self._result_cache.get(cache_key)
+        if cached is not None:
+            return cached
         t0 = perf_counter()
         filtered = self.data[self.data['league'] == league].copy()
         
@@ -1278,7 +1338,7 @@ class EnhancedSoccerDataServer:
             filtered = filtered[filtered['season'] == season]
         
         if position:
-            filtered = filtered[filtered['position'].str.contains(position, case=False, na=False)]
+            filtered = filtered[filtered['position'].astype(str).str.contains(position, case=False, na=False, regex=False)]
         
         # Filter by minimum games
         games_col = 'playing_time_mp' if 'playing_time_mp' in filtered.columns else 'playing_time_starts'
@@ -1312,6 +1372,7 @@ class EnhancedSoccerDataServer:
 
         dt = (perf_counter() - t0) * 1000
         logger.info(f"get_league_leaders league={league} position={position} stat={stat} season={season} -> {len(leaders)} results in {dt:.1f}ms")
+        self._result_cache.set(cache_key, leaders)
         return leaders
     
     def compare_multiple_players(
@@ -1365,7 +1426,10 @@ class EnhancedSoccerDataServer:
         # Collect matches per player
         matches_by_player: Dict[str, pd.DataFrame] = {}
         for name in player_names:
-            m = self.data[self.data['player'].str.contains(name, case=False, na=False)]
+            if 'player_lower' in self.data.columns:
+                m = self.data[self._contains_noregex(self.data['player_lower'], str(name).lower())]
+            else:
+                m = self.data[self.data['player'].str.contains(name, case=False, na=False, regex=False)]
             matches_by_player[name] = m.copy() if len(m) > 0 else pd.DataFrame()
 
         # Determine target season
@@ -1521,7 +1585,12 @@ class EnhancedSoccerDataServer:
         """Generate comprehensive scouting report for a player"""
         
         # Find the player
-        matches = self.data[self.data['player'].str.contains(player_name, case=False, na=False)]
+        # Fast lower-case contains
+        if 'player_lower' in self.data.columns:
+            plow = str(player_name).lower()
+            matches = self.data[self._contains_noregex(self.data['player_lower'], plow)]
+        else:
+            matches = self.data[self.data['player'].str.contains(player_name, case=False, na=False, regex=False)]
         
         if len(matches) == 0:
             return {'error': f"Player '{player_name}' not found"}
@@ -1763,7 +1832,10 @@ class EnhancedSoccerDataServer:
         """Get player career summary with temporal analysis"""
         
         # Find all records for this player
-        player_data = self.data[self.data['player'].str.contains(player_name, case=False, na=False)]
+        if 'player_lower' in self.data.columns:
+            player_data = self.data[self._contains_noregex(self.data['player_lower'], str(player_name).lower())]
+        else:
+            player_data = self.data[self.data['player'].str.contains(player_name, case=False, na=False, regex=False)]
         
         if len(player_data) == 0:
             return {'error': f"Player '{player_name}' not found"}
@@ -1948,6 +2020,24 @@ class EnhancedSoccerDataServer:
 
 # Initialize the enhanced server
 server = EnhancedSoccerDataServer()
+
+
+class _LRUCache:
+    def __init__(self, maxsize: int = 128):
+        self.maxsize = maxsize
+        self._store = OrderedDict()
+
+    def get(self, key):
+        if key in self._store:
+            self._store.move_to_end(key)
+            return self._store[key]
+        return None
+
+    def set(self, key, value):
+        self._store[key] = value
+        self._store.move_to_end(key)
+        if len(self._store) > self.maxsize:
+            self._store.popitem(last=False)
 
 # MCP Protocol Handler with enhanced functions
 def handle_mcp_request(request):
