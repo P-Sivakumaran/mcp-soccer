@@ -782,10 +782,13 @@ class EnhancedSoccerDataServer:
             pct_cols = [c for c in metric_cols if c in self.data_with_pct.columns]
             # Keep only needed columns and percentiles
             # We assume percentiles have been precomputed on self.data_with_pct
-            cols_to_keep = ['player','team','league','season','position','age','playing_time_min','playing_time_90s'] + pct_cols + [f"{c}_pctile" for c in pct_cols]
-            cols_to_keep = [c for c in cols_to_keep if c in self.data_with_pct.columns]
+            merge_keys = ['player','team','league','season','position']
+            df_cols = list(df.columns)
+            base_cols = ['age','playing_time_min','playing_time_90s'] + pct_cols + [f"{c}_pctile" for c in pct_cols]
+            # Only keep base columns that aren't already in df (except merge keys)
+            cols_to_keep = merge_keys + [c for c in base_cols if c in self.data_with_pct.columns and c not in df_cols]
             base = self.data_with_pct[cols_to_keep].copy()
-            work = pd.merge(df, base, on=['player','team','league','season','position'], how='left', suffixes=('', ''))
+            work = pd.merge(df, base, on=merge_keys, how='left')
 
         # Compute fit score
         weights = self._role_weights(role or '')
