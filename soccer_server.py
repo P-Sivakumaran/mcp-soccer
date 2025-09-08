@@ -97,6 +97,23 @@ class PlayerSummary:
     key_stats: Dict[str, float]
     overall_rating: float
 
+class _LRUCache:
+    def __init__(self, maxsize: int = 128):
+        self.maxsize = maxsize
+        self._store = OrderedDict()
+
+    def get(self, key):
+        if key in self._store:
+            self._store.move_to_end(key)
+            return self._store[key]
+        return None
+
+    def set(self, key, value):
+        self._store[key] = value
+        self._store.move_to_end(key)
+        if len(self._store) > self.maxsize:
+            self._store.popitem(last=False)
+
 class ScoutingPosition(Enum):
     GK = "GK"
     DF = "DF" 
@@ -2040,24 +2057,6 @@ class EnhancedSoccerDataServer:
 # Initialize the enhanced server
 server = EnhancedSoccerDataServer()
 
-
-class _LRUCache:
-    def __init__(self, maxsize: int = 128):
-        self.maxsize = maxsize
-        self._store = OrderedDict()
-
-    def get(self, key):
-        if key in self._store:
-            self._store.move_to_end(key)
-            return self._store[key]
-        return None
-
-    def set(self, key, value):
-        self._store[key] = value
-        self._store.move_to_end(key)
-        if len(self._store) > self.maxsize:
-            self._store.popitem(last=False)
-
 # MCP Protocol Handler with enhanced functions
 def handle_mcp_request(request):
     """Handle MCP requests for enhanced soccer server"""
@@ -2161,10 +2160,10 @@ def handle_mcp_request(request):
                                     "seasons": {"type": "array", "items": {"type": "string"}, "description": "Candidate seasons"},
                                     "alignment": {"type": "string", "enum": ["overlap", "target"], "default": "overlap", "description": "Season alignment strategy"},
                                     "coverage_threshold": {"type": "number", "default": 0.75, "description": "Coverage threshold for overlap alignment"},
-                                    "exclude_elite": {"type": "boolean", "default": true, "description": "Exclude established elite profiles"},
+                                    "exclude_elite": {"type": "boolean", "default": True, "description": "Exclude established elite profiles"},
                                     "top_n": {"type": "integer", "default": 10, "description": "Number of candidates to return"},
                                     "diversify_by": {"type": "string", "enum": ["league", "team", "none"], "description": "Ensure diversity by league or team"},
-                                    "explain": {"type": "boolean", "default": true, "description": "Include strengths/risks and rationale"}
+                                    "explain": {"type": "boolean", "default": True, "description": "Include strengths/risks and rationale"}
                                 }
                             }
                         },
