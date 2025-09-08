@@ -373,6 +373,7 @@ class EnhancedSoccerDataServer:
             'games_played': 'playing_time_mp',
             'expected_goals': 'expected_xg',
             'expected_assists': 'expected_xag',
+            'expected_assists_per_90': 'per_90_minutes_xag',
             'shots': 'standard_sh',
             'shots_on_target': 'standard_sot',
             'shots_on_target_pct': 'standard_sot_pct',
@@ -476,10 +477,16 @@ class EnhancedSoccerDataServer:
         # Latest season only mode
         if latest_season_only:
             # Get the most recent season for each player
-            latest_season_data = filtered.groupby('player')['season'].max().reset_index()
+            # Convert season to string first to handle categorical data
+            season_col = filtered['season'].astype(str) if filtered['season'].dtype.name == 'category' else filtered['season']
+            temp_df = filtered.copy()
+            temp_df['season_str'] = season_col
+            latest_season_data = temp_df.groupby('player')['season_str'].max().reset_index()
             latest_season_data.columns = ['player', 'latest_season']
             filtered = filtered.merge(latest_season_data, on='player')
-            filtered = filtered[filtered['season'] == filtered['latest_season']]
+            # Compare using string versions
+            filtered_season_str = filtered['season'].astype(str) if filtered['season'].dtype.name == 'category' else filtered['season'].astype(str)
+            filtered = filtered[filtered_season_str == filtered['latest_season']]
             filtered = filtered.drop('latest_season', axis=1)
             
         if min_minutes_played:
@@ -498,6 +505,20 @@ class EnhancedSoccerDataServer:
         if sort_by:
             sort_column = self.stat_mappings.get(sort_by, sort_by)
             if sort_column in filtered.columns:
+                # Ensure column is numeric for sorting
+                sort_series = filtered[sort_column]
+                if sort_series.dtype.name == 'category':
+                    # Convert categorical to numeric if possible
+                    try:
+                        sort_series = pd.to_numeric(sort_series, errors='coerce')
+                        filtered = filtered.copy()  # Ensure we don't modify the original
+                        filtered[sort_column] = sort_series
+                    except:
+                        pass
+                # Fill NaN values with -inf to sort them last
+                if sort_series.isna().any():
+                    filtered = filtered.copy()
+                    filtered[sort_column] = filtered[sort_column].fillna(-float('inf'))
                 filtered = filtered.sort_values(sort_column, ascending=False)
         
         # Limit results
