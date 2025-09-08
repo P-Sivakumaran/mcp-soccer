@@ -2090,7 +2090,7 @@ def handle_mcp_request(request):
                     "tools": [
                         {
                             "name": "search_players_advanced",
-                            "description": "Advanced player search with comprehensive filtering including season selection",
+                            "description": "Advanced player search with comprehensive filtering including season selection. Example: Big 5 wingers age<=23, min 900 minutes, sort by progressive_passes_per_90.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2111,7 +2111,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "search_by_profile",
-                            "description": "Search players based on comprehensive scouting profile",
+                            "description": "Search players based on comprehensive scouting profile. Example: DM, high_press, age 20–24, min 1200 minutes.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2133,7 +2133,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "get_league_leaders",
-                            "description": "Get top performers in a league for specific statistics with season filtering",
+                            "description": "Get top performers in a league for specific statistics with season filtering. Example: Premier League xG leaders (2024-25).",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2148,7 +2148,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "discover_talents",
-                            "description": "Discover high-upside talents by role/style with fit score and rationale",
+                            "description": "Discover high-upside talents by role/style with fit score and rationale. Example: left_back, possession, age_max=24, top_n=5.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2170,7 +2170,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "profile_role_fit",
-                            "description": "Profile a player's role/style fit with explainability",
+                            "description": "Profile a player's role/style fit with explainability. Example: player='João Neves', role='defensive_midfielder', style='high_press'.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2186,7 +2186,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "recommend_comparables",
-                            "description": "Find most similar players by percentiles",
+                            "description": "Find most similar players by percentiles. Example: comparables for 'Bukayo Saka' (k=5).",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2203,7 +2203,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "trend_watch",
-                            "description": "Identify improving and declining players over recent seasons",
+                            "description": "Identify improving and declining players over recent seasons. Example: improving CMs in La Liga (last 2 seasons).",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2218,7 +2218,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "undervalued_creators",
-                            "description": "Find high-progression creators with modest output (underrated)",
+                            "description": "Find high-progression creators with modest output (underrated). Example: U23 in Ligue 1.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2231,7 +2231,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "style_fit_search",
-                            "description": "Search across all positions by style fit only",
+                            "description": "Search across all positions by style fit only. Example: transition style, Big 5, min 900 minutes.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2246,7 +2246,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "multi_role_candidates",
-                            "description": "Players who fit two roles strongly",
+                            "description": "Players who fit two roles strongly. Example: left_back + defensive_midfielder.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2261,7 +2261,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "conversion_candidates",
-                            "description": "Players in other positions suited to the target role",
+                            "description": "Players in other positions suited to the target role. Example: convert to 'centre_back'.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2275,7 +2275,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "xi_builder",
-                            "description": "Build a simple XI by role for a given style",
+                            "description": "Build a simple XI by role for a given style. Example: U23 possession XI across Big 5.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2289,7 +2289,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "compare_multiple_players",
-                            "description": "Compare multiple players across key statistics with season alignment",
+                            "description": "Compare multiple players across key statistics with season alignment (overlap by default). Example: compare 4 left_backs.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2309,7 +2309,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "generate_detailed_scouting_report",
-                            "description": "Generate comprehensive scouting report for a player with season control and elite peer context",
+                            "description": "Generate comprehensive scouting report for a player with percentiles and overall rating. Example: 'Pedri' 2024-25.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
@@ -2324,7 +2324,7 @@ def handle_mcp_request(request):
                         },
                         {
                             "name": "get_player_career_summary",
-                            "description": "Get player career summary with temporal analysis and progression tracking",
+                            "description": "Get player career summary with temporal analysis and progression tracking. Example: best_season for 'Mbappé'.",
                             "inputSchema": {
                                 "type": "object",
                                 "properties": {
