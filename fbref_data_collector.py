@@ -13,6 +13,15 @@ from datetime import datetime
 import logging
 from typing import Dict, List, Optional
 import json
+import random
+import argparse
+import os
+import sys
+
+try:
+    from importlib import metadata as importlib_metadata  # Python 3.8+
+except Exception:
+    import importlib_metadata  # type: ignore
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -52,7 +61,7 @@ class ComprehensiveFBrefCollector:
     
     def collect_all_player_data(self) -> Dict[str, pd.DataFrame]:
         """Collect all available FBref player data for all seasons"""
-        
+
         logger.info("📊 Starting comprehensive FBref data collection...")
         all_data = {}
         
@@ -81,11 +90,11 @@ class ComprehensiveFBrefCollector:
             for stat_name, (method_name, stat_type) in stat_types.items():
                 try:
                     logger.info(f"📈 Collecting {stat_name} stats for {season}...")
-                    
-                    # Get the method and call it with stat_type parameter
+                    t0 = time.perf_counter()
+                    # Get the method and call it with stat_type parameter with retries
                     method = getattr(fbref, method_name, None)
                     if method:
-                        data = method(stat_type=stat_type)
+                        data = self._fetch_with_retries(method, stat_type=stat_type)
                         
                         if data is not None and not data.empty:
                             # Reset index to get player and team as columns
@@ -102,7 +111,8 @@ class ComprehensiveFBrefCollector:
                             else:
                                 all_data[key] = data
                             
-                            logger.info(f"✅ {stat_name} ({season}): {len(data)} records collected")
+                            dt = (time.perf_counter() - t0)
+                            logger.info(f"✅ {stat_name} ({season}): {len(data)} records collected in {dt:.1f}s")
                             
                             # Save raw data by season
                             raw_file = self.raw_dir / f"fbref_{stat_name}_{season}.csv"
@@ -114,7 +124,7 @@ class ComprehensiveFBrefCollector:
                         logger.warning(f"⚠️  Method {method_name} not found")
                     
                     # Rate limiting to be respectful to FBref
-                    time.sleep(2)
+                    time.sleep(1.5)
                     
                 except Exception as e:
                     logger.error(f"❌ Error collecting {stat_name} for {season}: {e}")
@@ -122,6 +132,22 @@ class ComprehensiveFBrefCollector:
         
         logger.info(f"🎉 Data collection complete! Collected {len(all_data)} stat types across {len(self.seasons)} seasons")
         return all_data
+
+    def _fetch_with_retries(self, method, max_attempts: int = 3, base_delay: float = 2.0, **kwargs):
+        """Call a soccerdata method with basic exponential backoff retries."""
+        attempt = 0
+        last_err = None
+        while attempt < max_attempts:
+            try:
+                return method(**kwargs)
+            except Exception as e:
+                last_err = e
+                attempt += 1
+                sleep_s = base_delay * (2 ** (attempt - 1)) + random.uniform(0, 0.5)
+                logger.warning(f"Retry {attempt}/{max_attempts} after error: {e}. Sleeping {sleep_s:.1f}s")
+                time.sleep(sleep_s)
+        logger.error(f"All retries failed for method={getattr(method, '__name__', str(method))} kwargs={kwargs}: {last_err}")
+        raise last_err
     
     def standardize_data_formats(self, all_data: Dict[str, pd.DataFrame]) -> Dict[str, pd.DataFrame]:
         """Standardize column names and formats across all datasets"""
@@ -200,6 +226,7 @@ class ComprehensiveFBrefCollector:
             'kp': 'kp',
             'carries_prgc': 'carries_prgc',
             'take_ons_succ': 'take-ons_succ',
+            'take_ons_att': 'take-ons_att',
             'touches_att_pen': 'touches_att_pen',
             'sca_sca': 'sca_sca',
             'gca_gca': 'gca_gca'
@@ -376,6 +403,13 @@ class ComprehensiveFBrefCollector:
                         logger.info(f"⚽ {position}: {len(pos_df)} players → {pos_file}")
         
         # Create summary file for quick reference
+        # Build metadata versions
+        def _pkg_ver(pkg: str) -> str:
+            try:
+                return importlib_metadata.version(pkg)
+            except Exception:
+                return 'unknown'
+
         summary_data = {
             'total_players': len(unified_df),
             'leagues': unified_df['league'].nunique() if 'league' in unified_df.columns else 0,
@@ -383,7 +417,14 @@ class ComprehensiveFBrefCollector:
             'positions': unified_df['position'].nunique() if 'position' in unified_df.columns else 0,
             'columns': len(unified_df.columns),
             'seasons': self.seasons,
-            'created': datetime.now().isoformat()
+            'created': datetime.now().isoformat(),
+            'metadata': {
+                'collector_version': '1.1.0',
+                'python_version': sys.version.split()[0],
+                'pandas': _pkg_ver('pandas'),
+                'numpy': _pkg_ver('numpy'),
+                'soccerdata': _pkg_ver('soccerdata')
+            }
         }
         
         summary_file = self.data_dir / "data_summary.json"
@@ -444,14 +485,23 @@ class ComprehensiveFBrefCollector:
 # Main execution function
 def main():
     """Main function to run the FBref data collection"""
-    
     print("🚀 FBref Comprehensive Data Collector")
     print("=====================================")
-    
-    # Get seasons from command line arguments or use defaults
-    import sys
-    if len(sys.argv) > 1:
-        seasons = sys.argv[1:]
+
+    parser = argparse.ArgumentParser(description="Collect FBref player stats and produce unified datasets")
+    parser.add_argument('seasons', nargs='*', help="Seasons like 2024-25 2023-24")
+    parser.add_argument('--log-level', default=os.getenv('SOCCER_COLLECTOR_LOG_LEVEL', 'INFO'), help="Logging level (DEBUG, INFO, WARNING, ERROR)")
+    args = parser.parse_args()
+
+    # Set log level
+    try:
+        logging.getLogger().setLevel(getattr(logging, str(args.log_level).upper(), logging.INFO))
+    except Exception:
+        pass
+
+    # Get seasons or defaults
+    if args.seasons:
+        seasons = args.seasons
         print(f"📅 Collecting data for seasons: {', '.join(seasons)}")
     else:
         seasons = ["2023-24", "2024-25", "2025-26"]

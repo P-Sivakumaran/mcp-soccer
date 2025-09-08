@@ -33,6 +33,10 @@ A professional-grade Model Context Protocol (MCP) server that provides comprehen
    python soccer_server.py
    ```
 
+   Optional observability controls:
+   - Set `SOCCER_MCP_LOG_LEVEL` to `DEBUG|INFO|WARNING|ERROR` to adjust verbosity.
+   - The server precomputes league/position percentiles and an overall rating per player for richer queries.
+
 4. **Configure Claude Desktop**:
    Add to your `claude_desktop_config.json`:
    ```json
@@ -53,6 +57,11 @@ A professional-grade Model Context Protocol (MCP) server that provides comprehen
 - "Compare Pedri, Bellingham, and Gavi across key statistics"
 - "Generate a detailed scouting report for Erling Haaland"
 - "Show me the top 10 goal scorers in La Liga"
+
+## Data Collection Notes
+
+- The collector includes retry logic with exponential backoff for resilience and writes metadata (library versions) to `data/data_summary.json`.
+- You can control collector log level via `--log-level INFO` or `SOCCER_COLLECTOR_LOG_LEVEL`.
 
 ## Files
 
