@@ -777,7 +777,458 @@ class EnhancedSoccerDataServer:
         dt = (perf_counter() - t0) * 1000
         logger.info(f"discover_talents role={role} style={style} leagues={leagues} age_max={age_max} min_minutes={min_minutes} target_season={target_season} -> {len(results)} results in {dt:.1f}ms")
         return results
-    
+
+    # ----- Additional Scout Tools -----
+    def profile_role_fit(
+        self,
+        player_name: str,
+        role: Optional[str] = None,
+        style: Optional[str] = None,
+        min_minutes: int = 450,
+        seasons: Optional[List[str]] = None,
+        alignment: str = 'overlap'
+    ) -> Dict[str, Any]:
+        """Profile a single player's role/style fit with explainability."""
+        df = self.data.copy()
+        matches = df[df['player'].str.contains(player_name, case=False, na=False)]
+        if matches.empty:
+            return { 'error': f"Player '{player_name}' not found" }
+        if seasons and 'season' in matches.columns:
+            matches = matches[matches['season'].isin(seasons)]
+        # Choose season (prefer overlap among this player's seasons with minutes)
+        season_used = None
+        if alignment == 'overlap':
+            season_used = self._choose_overlap_season(matches, min_minutes=min_minutes, coverage_threshold=0.0)  # 0.0 -> pick latest with minutes
+        if not season_used and 'season' in matches.columns:
+            # fallback: latest by start year
+            ms = sorted(matches['season'].tolist(), key=lambda x: int(str(x)[:4]) if isinstance(x, str) and x[:4].isdigit() else -1)
+            season_used = ms[-1]
+        row = matches[matches['season'] == season_used].iloc[0] if season_used is not None else matches.iloc[-1]
+
+        # Use percentiles df
+        if hasattr(self, 'data_with_pct'):
+            enriched = self.data_with_pct[(self.data_with_pct['player'] == row.get('player')) & (self.data_with_pct['season'] == row.get('season'))]
+            if not enriched.empty:
+                row = enriched.iloc[0]
+        weights = self._role_weights(role or '')
+        multipliers = self._style_adjustments(style)
+
+        def metric_pct(k: str) -> float:
+            val = row.get(f"{k}_pctile", np.nan)
+            return float(val) if pd.notna(val) else 0.0
+
+        score = 0.0
+        total_w = 0.0
+        breakdown = {}
+        for m, w in weights.items():
+            adj = multipliers.get(m, 1.0)
+            pct = metric_pct(m)
+            contribution = pct * w * adj
+            breakdown[m] = round(contribution, 2)
+            score += contribution
+            total_w += w * adj
+        fit_score = round(score / total_w, 2) if total_w > 0 else 0.0
+
+        # strengths/risks
+        pcts = { m: metric_pct(m) for m in weights.keys() }
+        strengths = sorted(pcts.items(), key=lambda kv: kv[1], reverse=True)[:3]
+        risks = sorted(pcts.items(), key=lambda kv: kv[1])[:2]
+        minutes = float(row.get('playing_time_min') or (row.get('playing_time_90s') or 0) * 90.0 or 0)
+
+        return {
+            'player': row.get('player', 'Unknown'),
+            'role': role,
+            'style': style,
+            'season_used': row.get('season', 'Unknown'),
+            'minutes': round(minutes),
+            'fit_score': fit_score,
+            'percentiles': { k: round(v,1) for k, v in pcts.items() },
+            'breakdown': breakdown,
+            'strengths': [f"{k.replace('_',' ')} ({v:.0f}th pct)" for k,v in strengths],
+            'risks': [f"{k.replace('_',' ')} ({v:.0f}th pct)" for k,v in risks],
+            'rationale': f"Strong {', '.join([s[0].replace('_',' ') for s in strengths])}; monitor {', '.join([r[0].replace('_',' ') for r in risks])}."
+        }
+
+    def recommend_comparables(
+        self,
+        player_name: str,
+        k: int = 5,
+        role: Optional[str] = None,
+        leagues: Optional[List[str]] = None,
+        seasons: Optional[List[str]] = None,
+        alignment: str = 'overlap',
+        min_minutes: int = 450
+    ) -> Dict[str, Any]:
+        """Find most similar players by percentile vectors (simple L1 distance)."""
+        df = self.data_with_pct if hasattr(self, 'data_with_pct') else self.data
+        if df is None or df.empty:
+            return { 'error': 'No data available' }
+        target_matches = df[df['player'].str.contains(player_name, case=False, na=False)]
+        if target_matches.empty:
+            return { 'error': f"Player '{player_name}' not found" }
+        if seasons and 'season' in target_matches.columns:
+            target_matches = target_matches[target_matches['season'].isin(seasons)]
+        # Choose season for target
+        if alignment == 'overlap':
+            season_used = self._choose_overlap_season(target_matches, min_minutes=min_minutes, coverage_threshold=0.0)
+        else:
+            season_used = None
+        if not season_used and 'season' in target_matches.columns:
+            ms = sorted(target_matches['season'].tolist(), key=lambda x: int(str(x)[:4]) if isinstance(x, str) and x[:4].isdigit() else -1)
+            season_used = ms[-1]
+        target = target_matches[target_matches['season'] == season_used].iloc[0] if season_used is not None else target_matches.iloc[-1]
+
+        # Candidate pool
+        pool = df.copy()
+        if leagues and 'league' in pool.columns:
+            pool = pool[pool['league'].isin(leagues)]
+        if 'playing_time_min' in pool.columns:
+            pool = pool[pd.to_numeric(pool['playing_time_min'], errors='coerce') >= float(min_minutes)]
+        # Role filter
+        if role:
+            pos_targets = self._role_to_positions(role)
+            if pos_targets and 'position' in pool.columns:
+                pool = pool[pool['position'].astype(str).str.contains('|'.join(pos_targets), case=False, na=False)]
+
+        # Metrics for similarity
+        metrics = [
+            'progressive_passes_per_90_pctile','carries_prgc_pctile','key_passes_per_90_pctile','total_cmp_pct_pctile',
+            'tackles_per_90_pctile','interceptions_per_90_pctile','aerial_duels_won_pct_pctile','expected_xag_pctile','expected_xg_pctile','standard_sot_pct_pctile'
+        ]
+        # Ensure columns exist
+        metrics = [m for m in metrics if m in pool.columns and m in target.index]
+
+        def distance(row):
+            diffs = []
+            for m in metrics:
+                diffs.append(abs((row.get(m) or 0) - (target.get(m) or 0)))
+            return float(np.mean(diffs)) if diffs else 9999.0
+
+        pool = pool[pool['player'] != target.get('player')]
+        pool['similarity'] = pool.apply(lambda r: 100.0 - distance(r), axis=1)  # higher is more similar
+        top = pool.sort_values('similarity', ascending=False).head(k)
+
+        results = []
+        for _, r in top.iterrows():
+            results.append({
+                'name': r.get('player', 'Unknown'),
+                'team': r.get('team', 'Unknown'),
+                'league': r.get('league', 'Unknown'),
+                'position': r.get('position', 'Unknown'),
+                'season_used': r.get('season', 'Unknown'),
+                'similarity': round(float(r.get('similarity', 0)), 1)
+            })
+        return {
+            'player': target.get('player', 'Unknown'),
+            'season_used': target.get('season', 'Unknown'),
+            'comparables': results
+        }
+
+    def trend_watch(
+        self,
+        role: Optional[str] = None,
+        position: Optional[str] = None,
+        leagues: Optional[List[str]] = None,
+        last_n_seasons: int = 2,
+        min_minutes: int = 900,
+        top_n: int = 10
+    ) -> Dict[str, Any]:
+        """Find improving and declining players based on delta of key metrics over last_n_seasons."""
+        df = self.data.copy()
+        if df.empty or 'season' not in df.columns:
+            return { 'error': 'Insufficient data' }
+        if leagues and 'league' in df.columns:
+            df = df[df['league'].isin(leagues)]
+        if role:
+            pos_targets = self._role_to_positions(role)
+            if pos_targets and 'position' in df.columns:
+                df = df[df['position'].astype(str).str.contains('|'.join(pos_targets), case=False, na=False)]
+        elif position and 'position' in df.columns:
+            df = df[df['position'].astype(str).str.contains(position, case=False, na=False)]
+
+        # Ensure minutes filter per season row
+        if 'playing_time_min' in df.columns:
+            df = df[pd.to_numeric(df['playing_time_min'], errors='coerce') >= float(min_minutes)]
+        elif 'playing_time_90s' in df.columns:
+            df = df[pd.to_numeric(df['playing_time_90s'], errors='coerce') * 90.0 >= float(min_minutes)]
+
+        if df.empty:
+            return { 'improving': [], 'declining': [] }
+
+        # Metrics based on role
+        weights = self._role_weights(role or '')
+        chosen = list(weights.keys())[:6]
+
+        # Order seasons
+        df = df.copy()
+        df['season_start'] = df['season'].apply(lambda x: int(str(x)[:4]) if isinstance(x, str) and str(x)[:4].isdigit() else -1)
+        # Keep last_n_seasons by player
+        def last_n(group):
+            return group.sort_values('season_start').tail(last_n_seasons)
+        recent = df.groupby('player', group_keys=False).apply(last_n)
+        recent = recent.sort_values(['player','season_start'])
+
+        # Calculate simple score per season as weighted sum of raw metrics (fallback if no pct)
+        def season_score(row):
+            s = 0.0
+            tw = 0.0
+            for m, w in weights.items():
+                val = row.get(m, np.nan)
+                if pd.notna(val):
+                    s += float(val) * w
+                    tw += w
+            return s / tw if tw > 0 else 0.0
+        recent['role_score'] = recent.apply(season_score, axis=1)
+
+        # Compute deltas per player
+        deltas = []
+        for name, grp in recent.groupby('player'):
+            vals = grp.sort_values('season_start')['role_score'].tolist()
+            if len(vals) >= 2:
+                change = vals[-1] - vals[0]
+                last_row = grp.sort_values('season_start').iloc[-1]
+                deltas.append({
+                    'name': name,
+                    'team': last_row.get('team','Unknown'),
+                    'league': last_row.get('league','Unknown'),
+                    'position': last_row.get('position','Unknown'),
+                    'season_latest': last_row.get('season','Unknown'),
+                    'change': round(change,2)
+                })
+
+        improvers = sorted([d for d in deltas if d['change'] > 0], key=lambda x: x['change'], reverse=True)[:top_n]
+        decliners = sorted([d for d in deltas if d['change'] < 0], key=lambda x: x['change'])[:top_n]
+        return { 'improving': improvers, 'declining': decliners }
+
+    def undervalued_creators(
+        self,
+        leagues: Optional[List[str]] = None,
+        age_max: Optional[int] = None,
+        min_minutes: int = 900,
+        top_n: int = 10
+    ) -> List[Dict[str, Any]]:
+        """Find players with high progression/creation percentiles but modest goals/assists (underrated)."""
+        df = self.data_with_pct if hasattr(self, 'data_with_pct') else self.data
+        if df is None or df.empty:
+            return []
+        work = df.copy()
+        if leagues and 'league' in work.columns:
+            work = work[work['league'].isin(leagues)]
+        if age_max is not None and 'age' in work.columns:
+            work = work[work['age'] <= age_max]
+        # Minutes filter
+        if 'playing_time_min' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_min'], errors='coerce') >= float(min_minutes)]
+        elif 'playing_time_90s' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_90s'], errors='coerce') * 90.0 >= float(min_minutes)]
+
+        # Define creation score and output score
+        def creation_pct(row):
+            vals = []
+            for k in ['progressive_passes_per_90_pctile','carries_prgc_pctile','key_passes_per_90_pctile','sca_sca_pctile']:
+                if k in row.index and pd.notna(row.get(k)):
+                    vals.append(float(row.get(k)))
+            return np.mean(vals) if vals else 0.0
+        def output_pct(row):
+            vals = []
+            for k in ['performance_gls_pctile','expected_xg_pctile','gca_gca_pctile']:
+                if k in row.index and pd.notna(row.get(k)):
+                    vals.append(float(row.get(k)))
+            return np.mean(vals) if vals else 0.0
+        work['creation_score'] = work.apply(creation_pct, axis=1)
+        work['output_score'] = work.apply(output_pct, axis=1)
+        work['undervalue_gap'] = work['creation_score'] - work['output_score']
+        top = work.sort_values('undervalue_gap', ascending=False).head(top_n)
+        results = []
+        for _, r in top.iterrows():
+            results.append({
+                'name': r.get('player','Unknown'),
+                'team': r.get('team','Unknown'),
+                'league': r.get('league','Unknown'),
+                'position': r.get('position','Unknown'),
+                'season_used': r.get('season','Unknown'),
+                'creation_score': round(float(r.get('creation_score',0)),1),
+                'output_score': round(float(r.get('output_score',0)),1),
+                'undervalue_gap': round(float(r.get('undervalue_gap',0)),1)
+            })
+        return results
+
+    def style_fit_search(
+        self,
+        style: str,
+        leagues: Optional[List[str]] = None,
+        age_max: Optional[int] = None,
+        min_minutes: int = 900,
+        top_n: int = 10
+    ) -> List[Dict[str, Any]]:
+        """Rank players by style fit only (possession/transition/high_press/direct)."""
+        df = self.data_with_pct if hasattr(self, 'data_with_pct') else self.data
+        if df is None or df.empty:
+            return []
+        work = df.copy()
+        if leagues and 'league' in work.columns:
+            work = work[work['league'].isin(leagues)]
+        if age_max is not None and 'age' in work.columns:
+            work = work[work['age'] <= age_max]
+        if 'playing_time_min' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_min'], errors='coerce') >= float(min_minutes)]
+        elif 'playing_time_90s' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_90s'], errors='coerce') * 90.0 >= float(min_minutes)]
+
+        multipliers = self._style_adjustments(style)
+        # Base weights equally across style metrics we adjust
+        keys = list(multipliers.keys())
+        if not keys:
+            return []
+        def style_score(row):
+            vals = []
+            for m in keys:
+                v = row.get(f"{m}_pctile", np.nan)
+                if pd.notna(v):
+                    vals.append(float(v) * multipliers[m])
+            return np.mean(vals) if vals else 0.0
+        work['style_fit'] = work.apply(style_score, axis=1)
+        top = work.sort_values('style_fit', ascending=False).head(top_n)
+        return [
+            {
+                'name': r.get('player','Unknown'),
+                'team': r.get('team','Unknown'),
+                'league': r.get('league','Unknown'),
+                'position': r.get('position','Unknown'),
+                'season_used': r.get('season','Unknown'),
+                'style_fit': round(float(r.get('style_fit',0)),1)
+            } for _, r in top.iterrows()
+        ]
+
+    def multi_role_candidates(
+        self,
+        primary_role: str,
+        secondary_role: str,
+        leagues: Optional[List[str]] = None,
+        min_minutes: int = 900,
+        top_n: int = 10
+    ) -> List[Dict[str, Any]]:
+        """Players with strong fit across two roles (avg of role fits)."""
+        df = self.data_with_pct if hasattr(self, 'data_with_pct') else self.data
+        if df is None or df.empty:
+            return []
+        work = df.copy()
+        if leagues and 'league' in work.columns:
+            work = work[work['league'].isin(leagues)]
+        if 'playing_time_min' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_min'], errors='coerce') >= float(min_minutes)]
+        elif 'playing_time_90s' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_90s'], errors='coerce') * 90.0 >= float(min_minutes)]
+        w1, w2 = self._role_weights(primary_role), self._role_weights(secondary_role)
+        keys = list(set(list(w1.keys()) + list(w2.keys())))
+        def fit(row, weights):
+            s=0.0; tw=0.0
+            for m,w in weights.items():
+                v = row.get(f"{m}_pctile", np.nan)
+                if pd.notna(v):
+                    s += float(v)*w
+                    tw += w
+            return (s/tw) if tw>0 else 0.0
+        work['fit_primary'] = work.apply(lambda r: fit(r,w1), axis=1)
+        work['fit_secondary'] = work.apply(lambda r: fit(r,w2), axis=1)
+        work['fit_combo'] = (work['fit_primary'] + work['fit_secondary'])/2.0
+        top = work.sort_values('fit_combo', ascending=False).head(top_n)
+        return [
+            {
+                'name': r.get('player','Unknown'),
+                'team': r.get('team','Unknown'),
+                'league': r.get('league','Unknown'),
+                'position': r.get('position','Unknown'),
+                'season_used': r.get('season','Unknown'),
+                'fit_primary': round(float(r.get('fit_primary',0)),1),
+                'fit_secondary': round(float(r.get('fit_secondary',0)),1),
+                'fit_combo': round(float(r.get('fit_combo',0)),1)
+            } for _, r in top.iterrows()
+        ]
+
+    def conversion_candidates(
+        self,
+        target_role: str,
+        leagues: Optional[List[str]] = None,
+        min_minutes: int = 900,
+        top_n: int = 10
+    ) -> List[Dict[str, Any]]:
+        """Players not in target positions but whose metrics fit the target role."""
+        df = self.data_with_pct if hasattr(self, 'data_with_pct') else self.data
+        if df is None or df.empty:
+            return []
+        work = df.copy()
+        if leagues and 'league' in work.columns:
+            work = work[work['league'].isin(leagues)]
+        if 'playing_time_min' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_min'], errors='coerce') >= float(min_minutes)]
+        elif 'playing_time_90s' in work.columns:
+            work = work[pd.to_numeric(work['playing_time_90s'], errors='coerce') * 90.0 >= float(min_minutes)]
+        # compute fit to target role
+        weights = self._role_weights(target_role)
+        def fit(row):
+            s=0.0; tw=0.0
+            for m,w in weights.items():
+                v = row.get(f"{m}_pctile", np.nan)
+                if pd.notna(v):
+                    s += float(v)*w
+                    tw += w
+            return (s/tw) if tw>0 else 0.0
+        work['target_fit'] = work.apply(fit, axis=1)
+        # exclude current target positions
+        targets = self._role_to_positions(target_role)
+        if targets and 'position' in work.columns:
+            work = work[~work['position'].astype(str).str.contains('|'.join(targets), case=False, na=False)]
+        top = work.sort_values('target_fit', ascending=False).head(top_n)
+        return [
+            {
+                'name': r.get('player','Unknown'),
+                'team': r.get('team','Unknown'),
+                'league': r.get('league','Unknown'),
+                'position': r.get('position','Unknown'),
+                'season_used': r.get('season','Unknown'),
+                'target_fit': round(float(r.get('target_fit',0)),1)
+            } for _, r in top.iterrows()
+        ]
+
+    def xi_builder(
+        self,
+        style: str,
+        leagues: Optional[List[str]] = None,
+        age_policy: Optional[str] = None,  # 'u23','u25','prime','any'
+        min_minutes: int = 900
+    ) -> Dict[str, Any]:
+        """Build a simple XI by role using discover_talents per slot."""
+        role_order = [
+            ('goalkeeper','GK'),
+            ('right_back','RB'),
+            ('centre_back','RCB'),
+            ('centre_back','LCB'),
+            ('left_back','LB'),
+            ('defensive_midfielder','DM'),
+            ('central_midfielder','CM'),
+            ('attacking_midfielder','AM'),
+            ('winger','RW'),
+            ('winger','LW'),
+            ('striker','ST')
+        ]
+        age_max = None
+        if age_policy == 'u23': age_max = 23
+        elif age_policy == 'u25': age_max = 25
+        elif age_policy == 'prime': age_max = 28
+        used_names = set()
+        xi = []
+        for role, slot in role_order:
+            cands = self.discover_talents(
+                role=role, style=style, leagues=leagues, age_max=age_max, min_minutes=min_minutes,
+                alignment='overlap', coverage_threshold=0.7, exclude_elite=False, top_n=10, diversify_by='team', explain=True
+            )
+            pick = next((c for c in cands if c['name'] not in used_names), None)
+            if pick:
+                used_names.add(pick['name'])
+                xi.append({ 'slot': slot, **pick })
+        return { 'style': style, 'age_policy': age_policy, 'xi': xi }
+
     def search_by_profile(self, scout_brief: Dict[str, Any]) -> List[Dict[str, Any]]:
         """Search players based on comprehensive scouting profile"""
         
@@ -1609,6 +2060,125 @@ def handle_mcp_request(request):
                             }
                         },
                         {
+                            "name": "profile_role_fit",
+                            "description": "Profile a player's role/style fit with explainability",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "player_name": {"type": "string"},
+                                    "role": {"type": "string"},
+                                    "style": {"type": "string", "enum": ["possession", "transition", "high_press", "direct"]},
+                                    "min_minutes": {"type": "integer", "default": 450},
+                                    "seasons": {"type": "array", "items": {"type": "string"}},
+                                    "alignment": {"type": "string", "enum": ["overlap", "target"], "default": "overlap"}
+                                },
+                                "required": ["player_name", "role"]
+                            }
+                        },
+                        {
+                            "name": "recommend_comparables",
+                            "description": "Find most similar players by percentiles",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "player_name": {"type": "string"},
+                                    "k": {"type": "integer", "default": 5},
+                                    "role": {"type": "string"},
+                                    "leagues": {"type": "array", "items": {"type": "string"}},
+                                    "seasons": {"type": "array", "items": {"type": "string"}},
+                                    "alignment": {"type": "string", "enum": ["overlap", "target"], "default": "overlap"},
+                                    "min_minutes": {"type": "integer", "default": 450}
+                                },
+                                "required": ["player_name"]
+                            }
+                        },
+                        {
+                            "name": "trend_watch",
+                            "description": "Identify improving and declining players over recent seasons",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "role": {"type": "string"},
+                                    "position": {"type": "string"},
+                                    "leagues": {"type": "array", "items": {"type": "string"}},
+                                    "last_n_seasons": {"type": "integer", "default": 2},
+                                    "min_minutes": {"type": "integer", "default": 900},
+                                    "top_n": {"type": "integer", "default": 10}
+                                }
+                            }
+                        },
+                        {
+                            "name": "undervalued_creators",
+                            "description": "Find high-progression creators with modest output (underrated)",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "leagues": {"type": "array", "items": {"type": "string"}},
+                                    "age_max": {"type": "integer"},
+                                    "min_minutes": {"type": "integer", "default": 900},
+                                    "top_n": {"type": "integer", "default": 10}
+                                }
+                            }
+                        },
+                        {
+                            "name": "style_fit_search",
+                            "description": "Search across all positions by style fit only",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "style": {"type": "string", "enum": ["possession", "transition", "high_press", "direct"]},
+                                    "leagues": {"type": "array", "items": {"type": "string"}},
+                                    "age_max": {"type": "integer"},
+                                    "min_minutes": {"type": "integer", "default": 900},
+                                    "top_n": {"type": "integer", "default": 10}
+                                },
+                                "required": ["style"]
+                            }
+                        },
+                        {
+                            "name": "multi_role_candidates",
+                            "description": "Players who fit two roles strongly",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "primary_role": {"type": "string"},
+                                    "secondary_role": {"type": "string"},
+                                    "leagues": {"type": "array", "items": {"type": "string"}},
+                                    "min_minutes": {"type": "integer", "default": 900},
+                                    "top_n": {"type": "integer", "default": 10}
+                                },
+                                "required": ["primary_role", "secondary_role"]
+                            }
+                        },
+                        {
+                            "name": "conversion_candidates",
+                            "description": "Players in other positions suited to the target role",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "target_role": {"type": "string"},
+                                    "leagues": {"type": "array", "items": {"type": "string"}},
+                                    "min_minutes": {"type": "integer", "default": 900},
+                                    "top_n": {"type": "integer", "default": 10}
+                                },
+                                "required": ["target_role"]
+                            }
+                        },
+                        {
+                            "name": "xi_builder",
+                            "description": "Build a simple XI by role for a given style",
+                            "inputSchema": {
+                                "type": "object",
+                                "properties": {
+                                    "style": {"type": "string", "enum": ["possession", "transition", "high_press", "direct"]},
+                                    "leagues": {"type": "array", "items": {"type": "string"}},
+                                    "age_policy": {"type": "string", "enum": ["u23", "u25", "prime", "any"]},
+                                    "min_minutes": {"type": "integer", "default": 900}
+                                },
+                                "required": ["style"]
+                            }
+                        },
+                        {
                             "name": "compare_multiple_players",
                             "description": "Compare multiple players across key statistics with season alignment",
                             "inputSchema": {
@@ -1710,6 +2280,22 @@ def handle_mcp_request(request):
                 result = server.get_player_career_summary(**args)
             elif tool_name == 'discover_talents':
                 result = server.discover_talents(**args)
+            elif tool_name == 'profile_role_fit':
+                result = server.profile_role_fit(**args)
+            elif tool_name == 'recommend_comparables':
+                result = server.recommend_comparables(**args)
+            elif tool_name == 'trend_watch':
+                result = server.trend_watch(**args)
+            elif tool_name == 'undervalued_creators':
+                result = server.undervalued_creators(**args)
+            elif tool_name == 'style_fit_search':
+                result = server.style_fit_search(**args)
+            elif tool_name == 'multi_role_candidates':
+                result = server.multi_role_candidates(**args)
+            elif tool_name == 'conversion_candidates':
+                result = server.conversion_candidates(**args)
+            elif tool_name == 'xi_builder':
+                result = server.xi_builder(**args)
             # Legacy functions
             elif tool_name == 'search_players':
                 # Convert to advanced search
