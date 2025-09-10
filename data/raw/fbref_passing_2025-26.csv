@@ -1,5 +1,599 @@
 league,season,team,player,nation,pos,age,born,90s,Total,Total,Total,Total,Total,Short,Short,Short,Medium,Medium,Medium,Long,Long,Long,Ast,xAG,Expected,Expected,KP,1/3,PPA,CrsPA,PrgP
 ,,,,,,,,,Cmp,Att,Cmp%,TotDist,PrgDist,Cmp,Att,Cmp%,Cmp,Att,Cmp%,Cmp,Att,Cmp%,,,xA,A-xAG,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Abubakr Barry,GAM,MF,25-070,2000,4.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Aleksandar Dragović,AUT,DF,34-188,1991,2.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Dejan Radonjic,AUT,DF,19-350,2005,2.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Dominik Fitz,AUT,MF,26-086,1999,3.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Hakim Guenouche,FRA,MF,25-103,2000,1.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Johannes Eggestein,GER,"FW,MF",27-125,1998,3.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Johannes Handl,AUT,DF,27-126,1998,0.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Lee Kanghee,KOR,DF,24-017,2001,2.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Lee Taeseok,KOR,MF,23-044,2002,3.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Luca Pazourek,AUT,DF,20-218,2005,0.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Manfred Fischer,AUT,MF,30-035,1995,4.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Manprit Sarkaria,AUT,MF,29-015,1996,2.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Maurice Malone,GER,"FW,MF",25-024,2000,3.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Noah Botić,AUS,FW,23-242,2002,1.4,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Philipp Maybach,AUT,MF,17-270,2007,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Philipp Wiesinger,AUT,DF,31-110,1994,4.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Reinhold Ranftl,AUT,MF,33-229,1992,4.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Samuel Şahin-Radlinger,AUT,GK,32-307,1992,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Sanel Saljic,AUT,MF,19-287,2005,1.6,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,Austria Wien,Tin Plavotic,AUT,DF,28-072,1997,3.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Alem Pašić,SVN,"MF,DF",28-018,1997,4.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Alexander Briedl,AUT,MF,23-142,2002,0.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Anderson,BRA,MF,27-250,1998,2.9,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Christopher Cvetko,AUT,MF,28-161,1997,2.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Elias Bakatukanda,GER,DF,21-150,2004,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Fabio Strauss,AUT,DF,31-035,1994,1.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Jakob Knollmüller,AUT,FW,22-046,2003,2.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Joao Luiz,BRA,FW,26-206,1999,0.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Mamadou Fofana,FRA,MF,24-358,2000,0.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Manuel Maranda,AUT,DF,28-063,1997,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Martin Moormann,AUT,DF,24-133,2001,2.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Muharem Huskovic,AUT,FW,22-189,2003,0.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Nico Maier,SUI,MF,25-070,2000,1.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Oliver Wähling,ENG,MF,26-004,1999,2.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Paul Mensah,GHA,MF,25-332,1999,2.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Ronivaldo,BRA,FW,36-170,1989,2.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Simon Pirkl,AUT,MF,28-160,1997,4.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Simon Seidl,AUT,MF,23-006,2002,4.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Thomas Goiginger,AUT,"MF,FW",32-179,1993,3.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Viktor Baier,CZE,GK,20-237,2005,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Alexander Hofleitner,AUT,FW,25-130,2000,1.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Beres Owusu,FRA,DF,21-356,2003,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Christian Lichtenberger,AUT,MF,29-272,1995,0.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Daniel Maderner,AUT,FW,29-333,1995,3.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Dominik Frieser,AUT,MF,32-001,1993,4.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Donovan Pines,USA,DF,27-187,1998,2.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Jacob Italiano,AUS,MF,24-042,2001,4.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Jakob Meierhofer,AUT,GK,27-308,1997,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Ludwig Vraa-Jensen,DEN,DF,20-079,2005,4.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Lukas Graf,AUT,DF,31-029,1994,2.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Martin Kreuzriegler,AUT,DF,31-243,1994,1.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Murat Satin,,MF,29-011,1996,2.3,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Ramiz Harakaté,FRA,"MF,FW",23-150,2002,4.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Sadik Fofana,TOG,MF,22-117,2003,2.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Thomas Schiestl,AUT,MF,23-010,2002,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Thorsten Schriebl,AUT,MF,26-290,1998,0.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Tio Cipot,SVN,"MF,FW",22-143,2003,3.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Tobias Koch,AUT,MF,24-159,2001,4.7,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Yannick Oberleitner,GER,DF,23-106,2002,0.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Grazer AK,Zeteny Jano,AUT,MF,20-181,2005,1.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Benjamin Markuš,SVN,MF,24-223,2001,5.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Damjan Kovacevic,AUT,"DF,MF",21-013,2004,3.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,David Korherr,AUT,FW,23-078,2002,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Dominic Vincze,AUT,DF,21-193,2004,4.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Dominik Prokop,AUT,MF,28-100,1997,0.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Elias Havel,AUT,"FW,MF",22-147,2003,4.2,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Fabian Wilfinger,AUT,DF,22-014,2003,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Habib Coulibaly,CIV,DF,21-303,2003,1.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Jed Drew,AUS,"MF,FW",22-012,2003,3.7,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Julian Gölles,AUT,MF,25-353,1999,1.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Jürgen Heil,AUT,DF,28-159,1997,1.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Lukas Fridrikas,AUT,FW,27-254,1997,0.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Lukas Spendlhofer,AUT,DF,32-100,1993,4.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Marco Hoffmnann,AUT,,17-270,2007,1.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Maximilian Fillafer,AUT,MF,20-258,2004,0.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Maximilian Hennig,GER,"DF,MF",18-333,2006,4.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Patrik Mijić,CRO,FW,26-310,1998,2.6,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Paul Bratschko,AUT,MF,19-331,2005,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Tobias Kainz,AUT,MF,32-314,1992,4.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Tom Hülsmann,GER,GK,21-152,2004,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Hartberg,Youba Diarra,MLI,MF,27-170,1998,0.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Alemão,BRA,DF,22-308,2002,1.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Andrés Andrade Cedeño,PAN,DF,26-329,1998,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Art Smakaj,KVX,MF,22-218,2003,1.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Christoph Lang,AUT,MF,23-246,2002,1.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Emmanuel Michael,NGA,DF,19-086,2006,0.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Florian Flecker,AUT,"FW,MF",29-316,1995,0.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,George Bello,USA,DF,23-231,2002,4.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Ismaila Cheick Coulibaly,MLI,MF,24-259,2000,3.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Kasper Mølgaard Jørgensen,DEN,DF,25-307,1999,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Kryštof Daněk,CZE,MF,22-248,2003,2.3,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Lenny Pintor,FRA,FW,25-036,2000,0.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Lukas Jungwirth,AUT,GK,21-133,2004,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Lukas Kačavenda,CRO,MF,22-192,2003,2.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Maximilian Entrup,AUT,"MF,FW",28-047,1997,1.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Melayro Bogarde,NED,DF,23-105,2002,1.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Modou Cissé,SEN,DF,20-037,2005,2.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Moses Usor,NGA,MF,23-217,2002,4.8,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Samuel Adeniran,USA,FW,26-345,1998,4.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Sascha Horvath,AUT,MF,29-019,1996,3.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,LASK,Valon Berisha,KVX,MF,32-215,1993,3.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Adam Daghim,DEN,FW,19-347,2005,0.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Aleksa Terzić,SRB,DF,26-024,1999,2.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Alexander Schlager,AUT,GK,29-221,1996,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Edmund Baidoo,GHA,FW,19-223,2006,1.6,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Enrique Aguilar,SUI,FW,18-226,2007,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Frans Krätzig,GER,DF,22-239,2003,1.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Jacob Rasmussen,DEN,DF,28-105,1997,4.5,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Jannik Schuster,AUT,DF,19-117,2006,2.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Karim Onisiwo,AUT,FW,33-177,1992,0.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Kerim Alajbegović,BIH,MF,17-354,2007,3.1,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Kouakou Gadou,FRA,DF,18-236,2007,3.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Mads Bidstrup,DEN,MF,24-197,2001,4.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Mamady Diambou,MLI,MF,22-303,2002,1.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Maurits Kjærgaard,DEN,MF,22-076,2003,4.2,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Moussa Kounfolo Yeo,MLI,MF,21-101,2004,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Nene Dorgeles,MLI,"FW,MF",22-261,2002,1.1,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Petar Ratkov,SRB,FW,22-023,2003,3.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Sota Kitano,JPN,MF,21-028,2004,2.4,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Soumaïla Diabaté,MLI,MF,20-292,2004,2.7,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Stefan Lainer,AUT,DF,33-014,1992,4.7,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Tim Trummer,AUT,DF,19-304,2005,1.7,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,RB Salzburg,Yorbe Vertessen,BEL,FW,24-245,2001,3.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Andrija Radulović,MNE,MF,23-069,2002,2.7,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Ange Ahoussou,CIV,DF,21-262,2003,1.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Bendegúz Bolla,HUN,DF,25-292,1999,4.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Claudy M'Buyi,FRA,FW,26-099,1999,2.5,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Dominik Weixelbraun,AUT,MF,21-267,2003,1.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Ercan Kara,AUT,FW,29-250,1996,1.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Furkan Demir,,DF,20-285,2004,1.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Janis Antiste,FRA,"FW,MF",23-023,2002,4.6,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Jannes Horn,GER,DF,28-216,1997,3.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Jean Harisson Marcelin,MAD,DF,25-210,2000,1.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Louis Schaub,AUT,"FW,MF",30-255,1994,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Lukas Grgic,AUT,MF,30-024,1995,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Mamadou Sangare,MLI,MF,23-076,2002,3.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Marco Tilio,AUS,MF,24-018,2001,0.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Martin Atemengue,CMR,MF,22-237,2003,0.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Matthias Seidl,AUT,"MF,FW",24-229,2001,2.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Nenad N. Cvetković,SRB,DF,29-247,1996,2.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Niklas Hedl,AUT,GK,24-177,2001,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Nikolaus Wurmbrand,AUT,MF,19-248,2006,1.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Petter Nosa Dahl,NOR,MF,22-231,2003,4.3,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Romeo Amane,CIV,MF,22-202,2003,4.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Rapid Wien,Serge Raux Yao,FRA,DF,26-103,1999,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Andreas Leitner,AUT,GK,31-169,1994,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Ante Bajic,AUT,MF,30-019,1995,4.6,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Antonio Van Wyk,RSA,FW,23-164,2002,2.6,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Christopher Wernitznig,AUT,MF,35-198,1990,1.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Ekain Azkune,ESP,FW,24-227,2001,0.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Fabian Rossdorfer,AUT,MF,19-305,2005,0.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Jonas Mayer,AUT,MF,21-073,2004,1.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Jonathan Scherzer,AUT,"DF,MF",30-050,1995,0.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Joris Boguo,AUT,FW,17-328,2007,0.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Kingstone Mutandwa,ZAM,FW,22-248,2003,4.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Mark Große,AUT,MF,26-221,1999,4.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Martin Rasner,AUT,MF,30-115,1995,2.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Michael Sollbauer,AUT,DF,35-118,1990,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Nikki Havenaar,JPN,DF,30-206,1995,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Oliver Steurer,GER,DF,30-247,1995,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Peter Kiedl,AUT,FW,21-240,2004,2.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Philipp Pomer,AUT,MF,28-029,1997,4.4,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Ried,Yusuf Maart,RSA,MF,30-055,1995,4.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Alexander Gorgon,AUT,FW,36-317,1988,1.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Anteo Fetahu,KVX,FW,23-062,2002,0.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Benedikt Zech,AUT,DF,34-311,1990,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Dejan Stojanović,AUT,GK,32-053,1993,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Erkin Yalcin,AUT,MF,21-088,2004,1.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Filip Milojević,AUT,MF,20-213,2005,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Luca Kronberger,AUT,MF,23-207,2002,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Lukas Fridrikas,AUT,FW,27-254,1997,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Lukas Gugganig,AUT,"DF,MF",30-208,1995,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Lukas Jäger,AUT,DF,31-210,1994,2.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Marlon Mustapha,AUT,"FW,MF",24-109,2001,3.9,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Mike-Steven Bähre,GER,MF,30-031,1995,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Mohamed Ouédraogo,BFA,"MF,DF",22-251,2003,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Ousmane Diawara,SWE,FW,25-335,1999,3.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Pascal Juan Estrada,AUT,DF,23-182,2002,2.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Patrick Greil,AUT,"MF,FW",29-002,1996,4.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Paul Koller,AUT,DF,23-200,2002,5.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Sandro Ingolitsch,AUT,"MF,DF",28-145,1997,5.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Vesel Demaku,KVX,MF,25-217,2000,3.4,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,SCR Altach,Yann Massombo,,MF,25-210,2000,3.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Arjan Malic,BIH,DF,20-013,2005,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Belmin Beganovic,BIH,FW,21-001,2004,0.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Dimitri Lavalée,BEL,DF,28-240,1997,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Emanuel Aiwum,AUT,DF,24-259,2000,2.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Emir Karic,AUT,DF,28-093,1997,3.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Filip Rózga,POL,MF,19-034,2006,0.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Gabriel Haider,AUT,DF,23-084,2002,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Jacob Hodl,AUT,MF,18-222,2007,1.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Jon Gorenc Stanković,SVN,MF,29-239,1996,3.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Leon Grgic,AUT,FW,19-231,2006,3.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Matteo Bignetti,AUT,GK,21-127,2004,1.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Max Johnston,SCO,DF,21-258,2003,3.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Oliver Christensen,DEN,GK,26-172,1999,3.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Otar Kiteishvili,GEO,"FW,MF",29-168,1996,3.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Seedy Jatta,NOR,FW,22-176,2003,1.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Stefan Hierländer,AUT,MF,34-219,1991,0.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Tim Oermann,GER,DF,21-339,2003,2.3,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Tochi Chukwuani,DEN,MF,22-170,2003,3.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,Tomi Horvat,SVN,MF,26-170,1999,3.6,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Sturm Graz,William Bøving,DEN,FW,22-193,2003,2.4,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Adam Stejskal,CZE,GK,22-352,2002,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Ademola Ola-Adebomi,ENG,FW,21-200,2004,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Benjamin Böckle,AUT,MF,23-085,2002,4.0,,,,,,,,,,,,,,,2,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,David Gugganig,AUT,DF,28-212,1997,3.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,David Jaunegg,AUT,DF,22-194,2003,0.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Jamie Lawrence,GER,DF,22-304,2002,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Johannes Naschberger,AUT,MF,25-228,2000,0.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Lukas Hinterseer,AUT,"FW,MF",34-166,1991,0.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Mahamadou Diarra,MLI,FW,21-284,2003,0.1,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Marco Boras,GER,DF,23-347,2001,3.7,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Matthäus Taferner,AUT,MF,24-223,2001,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Moritz Wels,AUT,"MF,FW",20-350,2004,3.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Quincy Butler,USA,MF,24-009,2001,3.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Thomas Sabitzer,AUT,"MF,FW",24-333,2000,3.3,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Tobias Anselm,AUT,FW,25-198,2000,3.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Valentino Müller,AUT,MF,26-234,1999,4.0,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,WSG Tirol,Yannick Vötter,AUT,FW,20-267,2004,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Adama Drame,CIV,DF,20-248,2005,0.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Alessandro Schöpf,AUT,MF,31-215,1994,3.8,,,,,,,,,,,,,,,1,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Angelo Gattermayer,AUT,FW,23-096,2002,2.2,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Boris Matić,SRB,MF,21-022,2004,1.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Cheikh Mamadou Diabaté,CIV,DF,21-252,2004,4.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Chibuike Nwaiwu,NGA,DF,22-049,2003,1.4,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,David Atanga,GHA,FW,28-259,1996,2.7,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Dejan Zukić,SRB,"MF,FW",24-126,2001,4.0,,,,,,,,,,,,,,,3,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Dominik Baumgartner,AUT,DF,29-052,1996,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Donis Avdijaj,KVX,"FW,MF",29-016,1996,0.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Emmanuel Ofori Agyemang,GHA,MF,21-250,2004,1.9,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Erik Kojzek,SVN,FW,19-251,2006,0.3,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Fabian Wohlmuth,AUT,MF,23-077,2002,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Florent Hajdini,AUT,MF,19-008,2006,0.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Lukas Gütlbauer,AUT,GK,24-278,2000,1.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Marco Sulzner,AUT,MF,22-070,2003,3.6,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Markus Pink,AUT,FW,34-198,1991,2.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Nicolas Wimmer,AUT,DF,30-179,1995,3.5,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Nikolas Polster,AUT,GK,23-065,2002,4.0,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,René Renner,AUT,MF,31-285,1993,4.8,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Simon Piesinger,AUT,"DF,MF",33-120,1992,1.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Thierno Ballo,AUT,FW,23-251,2002,2.1,,,,,,,,,,,,,,,0,,,,,,,,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Tobias Gruber,AUT,DF,20-243,2005,1.3,,,,,,,,,,,,,,,0,,,,,,,,
+BEL-Belgian Pro League,2025-26,Anderlecht,Adriano Bertaccini,BEL,FW,25-028,2000,1.5,18,29,62.1,193,52,13,17,76.5,3,7,42.9,0,2,0.0,0,0.2,0.0,-0.2,1,1,1,0,2
+BEL-Belgian Pro League,2025-26,Anderlecht,Ali Maamar,MAR,DF,20-171,2005,2.7,102,132,77.3,1531,359,60,66,90.9,36,43,83.7,3,15,20.0,0,0.0,0.4,0.0,1,5,2,0,7
+BEL-Belgian Pro League,2025-26,Anderlecht,Basile Vroninks,BEL,DF,18-294,2006,0.5,15,20,75.0,229,67,9,9,100.0,5,6,83.3,1,4,25.0,0,0.1,0.1,-0.1,1,2,0,0,2
+BEL-Belgian Pro League,2025-26,Anderlecht,Colin Coosemans,BEL,GK,33-038,1992,5.0,124,152,81.6,3399,2399,17,17,100.0,68,68,100.0,39,67,58.2,0,0.0,0.0,0.0,0,10,0,0,2
+BEL-Belgian Pro League,2025-26,Anderlecht,César Huerta,MEX,FW,24-281,2000,1.1,37,54,68.5,531,190,24,28,85.7,12,14,85.7,1,6,16.7,0,0.1,0.2,-0.1,2,2,4,0,10
+BEL-Belgian Pro League,2025-26,Anderlecht,Enric Llansana,NED,MF,24-151,2001,3.5,170,201,84.6,2992,946,78,91,85.7,68,77,88.3,20,26,76.9,0,0.3,0.5,-0.3,5,21,11,0,28
+BEL-Belgian Pro League,2025-26,Anderlecht,Ibrahim Kanaté,MLI,FW,18-322,2006,0.2,7,7,100.0,99,11,3,3,100.0,4,4,100.0,0,0,,0,0.1,0.1,-0.1,1,0,0,0,1
+BEL-Belgian Pro League,2025-26,Anderlecht,Ilay Camara,SEN,DF,22-235,2003,0.3,13,16,81.3,165,77,10,11,90.9,3,4,75.0,0,1,0.0,1,0.6,0.5,0.4,2,0,0,0,0
+BEL-Belgian Pro League,2025-26,Anderlecht,Jan-Carlo Simic,SRB,DF,20-131,2005,2.0,85,101,84.2,1603,465,29,31,93.5,48,52,92.3,8,16,50.0,0,0.0,0.0,0.0,0,7,0,0,5
+BEL-Belgian Pro League,2025-26,Anderlecht,Kasper Dolberg,DEN,FW,27-339,1997,1.4,25,29,86.2,278,24,15,17,88.2,7,9,77.8,0,0,,0,0.3,0.1,-0.3,1,1,0,0,2
+BEL-Belgian Pro League,2025-26,Anderlecht,Killian Sardella,BEL,DF,23-131,2002,0.1,3,3,100.0,49,12,1,1,100.0,0,0,,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Anderlecht,Lucas Hey,DEN,DF,22-150,2003,4.0,170,206,82.5,3476,1496,55,63,87.3,87,96,90.6,26,40,65.0,0,0.0,0.1,0.0,0,24,0,0,22
+BEL-Belgian Pro League,2025-26,Anderlecht,Ludwig Augustinsson,SWE,DF,31-142,1994,4.2,248,308,80.5,4070,1468,128,137,93.4,101,117,86.3,15,41,36.6,1,1.6,1.4,-0.6,8,45,2,1,44
+BEL-Belgian Pro League,2025-26,Anderlecht,Luis Vázquez,ARG,FW,24-229,2001,2.6,32,41,78.0,360,85,24,29,82.8,5,7,71.4,1,1,100.0,0,0.2,0.1,-0.2,1,1,1,0,4
+BEL-Belgian Pro League,2025-26,Anderlecht,Marco Kana,BEL,DF,23-033,2002,4.0,221,240,92.1,4587,1676,56,59,94.9,137,143,95.8,27,35,77.1,0,0.1,0.1,-0.1,1,6,2,0,6
+BEL-Belgian Pro League,2025-26,Anderlecht,Mario Stroeykens,BEL,"MF,FW",20-346,2004,0.5,30,34,88.2,386,94,19,21,90.5,8,8,100.0,1,1,100.0,0,0.0,0.1,0.0,1,2,0,0,1
+BEL-Belgian Pro League,2025-26,Anderlecht,Moussa N'Diaye,SEN,DF,23-084,2002,1.0,47,69,68.1,821,396,25,28,89.3,18,28,64.3,4,9,44.4,0,0.0,0.0,0.0,0,7,1,0,3
+BEL-Belgian Pro League,2025-26,Anderlecht,Nathan De Cat,BEL,MF,17-053,2008,3.9,116,157,73.9,2257,500,50,62,80.6,43,50,86.0,18,33,54.5,1,0.4,0.3,0.6,2,15,4,0,22
+BEL-Belgian Pro League,2025-26,Anderlecht,Nathan Saliba,CAN,MF,21-012,2004,1.9,75,99,75.8,1296,431,39,48,81.3,20,25,80.0,11,14,78.6,0,0.6,0.2,-0.6,3,11,1,0,11
+BEL-Belgian Pro League,2025-26,Anderlecht,Nilson Angulo,ECU,"FW,MF",22-083,2003,4.5,142,185,76.8,2135,631,83,103,80.6,47,57,82.5,8,17,47.1,3,1.6,1.5,1.4,11,3,14,2,20
+BEL-Belgian Pro League,2025-26,Anderlecht,Thorgan Hazard,BEL,"MF,FW",32-165,1993,4.8,150,206,72.8,2254,585,94,118,79.7,38,53,71.7,13,21,61.9,0,1.0,2.0,-1.0,10,14,6,2,17
+BEL-Belgian Pro League,2025-26,Anderlecht,Tristan Degreef,BEL,"DF,FW",20-234,2005,2.3,61,80,76.3,887,265,35,42,83.3,19,24,79.2,4,5,80.0,0,0.1,0.2,-0.1,2,5,4,0,10
+BEL-Belgian Pro League,2025-26,Anderlecht,Yari Verschaeren,BEL,"FW,MF",24-060,2001,2.8,93,113,82.3,1542,298,44,47,93.6,33,40,82.5,13,16,81.3,0,0.1,0.1,-0.1,3,9,3,2,6
+BEL-Belgian Pro League,2025-26,Antwerp,Andreas Verstraeten,BEL,"DF,MF",19-243,2006,4.1,150,185,81.1,2858,851,50,55,90.9,89,97,91.8,10,27,37.0,1,0.5,0.2,0.5,4,11,0,0,9
+BEL-Belgian Pro League,2025-26,Antwerp,Boubakar Kouyaté,MLI,DF,28-148,1997,0.8,20,24,83.3,340,122,8,9,88.9,10,12,83.3,2,2,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Antwerp,Daam Foulon,BEL,"DF,FW",26-171,1999,4.4,129,174,74.1,2269,739,61,74,82.4,54,69,78.3,12,22,54.5,1,0.2,0.2,0.8,2,7,4,3,7
+BEL-Belgian Pro League,2025-26,Antwerp,Dennis Praet,BEL,MF,31-119,1994,4.5,133,172,77.3,2513,822,48,55,87.3,70,74,94.6,14,30,46.7,0,0.1,0.2,-0.1,4,15,2,0,16
+BEL-Belgian Pro League,2025-26,Antwerp,Farouck Adekami,CIV,FW,19-034,2006,1.6,15,24,62.5,269,40,5,10,50.0,9,11,81.8,1,1,100.0,0,0.0,0.0,0.0,0,2,1,0,2
+BEL-Belgian Pro League,2025-26,Antwerp,Gabriel David,NGA,"FW,MF",18-251,2007,0.9,7,12,58.3,118,18,3,6,50.0,3,4,75.0,1,2,50.0,0,0.0,0.0,0.0,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Antwerp,Glenn Bijl,NED,"MF,DF",30-059,1995,1.2,24,35,68.6,321,33,16,17,94.1,8,14,57.1,0,3,0.0,0,0.0,0.0,0.0,1,0,0,0,2
+BEL-Belgian Pro League,2025-26,Antwerp,Gyrano Kerk,SUR,"FW,DF",29-282,1995,3.2,31,47,66.0,477,180,18,26,69.2,11,16,68.8,2,3,66.7,1,0.3,0.4,0.7,5,6,3,1,8
+BEL-Belgian Pro League,2025-26,Antwerp,Mahamadou Doumbia,MLI,MF,21-118,2004,5.8,161,187,86.1,3001,908,69,75,92.0,70,74,94.6,20,29,69.0,1,0.5,0.4,0.5,7,35,5,1,44
+BEL-Belgian Pro League,2025-26,Antwerp,Marwan Al Sahafi,KSA,"FW,DF",21-205,2004,1.5,19,22,86.4,291,44,12,13,92.3,6,7,85.7,1,1,100.0,0,0.0,0.0,0.0,0,1,1,0,4
+BEL-Belgian Pro League,2025-26,Antwerp,Mauricio Benítez,ARG,MF,21-219,2004,0.7,18,26,69.2,237,53,12,15,80.0,3,5,60.0,1,1,100.0,0,0.0,0.0,0.0,0,3,0,0,2
+BEL-Belgian Pro League,2025-26,Antwerp,Michel-Ange Balikwisha,BEL,MF,24-123,2001,3.8,85,112,75.9,1330,291,39,45,86.7,35,41,85.4,6,11,54.5,0,0.2,0.1,-0.2,4,7,3,1,11
+BEL-Belgian Pro League,2025-26,Antwerp,Muhammadali Oʻrinboyev,UZB,"FW,MF",20-139,2005,0.3,15,27,55.6,346,138,3,4,75.0,7,13,53.8,4,8,50.0,0,0.0,0.0,0.0,0,2,1,0,4
+BEL-Belgian Pro League,2025-26,Antwerp,Rosen Bozhinov,BUL,DF,20-230,2005,6.0,277,297,93.3,5229,1509,71,79,89.9,190,193,98.4,13,17,76.5,0,0.1,0.3,-0.1,1,7,0,0,16
+BEL-Belgian Pro League,2025-26,Antwerp,Semm Renders,BEL,DF,17-267,2007,0.6,6,9,66.7,176,116,1,2,50.0,2,3,66.7,3,4,75.0,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Antwerp,Senne Lammens,BEL,GK,23-065,2002,4.0,118,200,59.0,3816,2770,13,13,100.0,60,62,96.8,45,123,36.6,0,0.0,0.0,0.0,0,9,0,0,0
+BEL-Belgian Pro League,2025-26,Antwerp,Thibo Somers,BEL,"DF,FW",26-178,1999,6.0,111,166,66.9,1830,687,47,59,79.7,51,73,69.9,8,16,50.0,0,0.4,0.7,-0.4,3,7,5,4,7
+BEL-Belgian Pro League,2025-26,Antwerp,Vincent Janssen,NED,FW,31-087,1994,5.9,95,128,74.2,1682,349,44,55,80.0,34,41,82.9,13,19,68.4,1,0.8,0.2,0.2,3,10,5,0,13
+BEL-Belgian Pro League,2025-26,Antwerp,Yannick Thoelen,BEL,GK,35-054,1990,2.0,51,70,72.9,1490,1220,14,14,100.0,19,19,100.0,18,37,48.6,0,0.0,0.0,0.0,0,2,0,0,0
+BEL-Belgian Pro League,2025-26,Antwerp,Youssef Hamdaoui,BEL,MF,17-174,2008,0.1,5,5,100.0,73,24,3,3,100.0,2,2,100.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,2
+BEL-Belgian Pro League,2025-26,Antwerp,Yuto Tsunashima,JPN,DF,25-026,2000,1.9,91,109,83.5,1849,636,24,28,85.7,61,65,93.8,6,14,42.9,0,0.0,0.0,0.0,2,8,0,0,9
+BEL-Belgian Pro League,2025-26,Antwerp,Zeno Van den Bosch,BEL,DF,22-066,2003,6.0,289,339,85.3,5484,1901,88,94,93.6,172,185,93.0,26,52,50.0,0,0.2,0.2,-0.2,2,17,5,1,24
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Alama Bayo,GUI,FW,19-220,2006,0.1,1,2,50.0,23,7,0,0,,1,2,50.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Alan Minda,ECU,FW,22-119,2003,5.2,81,106,76.4,1195,219,48,54,88.9,28,35,80.0,2,5,40.0,0,0.2,0.5,-0.2,3,5,4,0,14
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Christiaan Ravych,BEL,DF,23-042,2002,6.0,193,221,87.3,3556,1255,65,74,87.8,108,112,96.4,15,24,62.5,0,0.6,0.0,-0.6,2,9,1,0,15
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Edan Diop,FRA,MF,21-013,2004,4.7,135,173,78.0,1971,519,85,95,89.5,37,47,78.7,8,17,47.1,1,0.3,0.4,0.7,9,10,6,0,20
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Edgaras Utkus,LTU,DF,25-080,2000,4.2,129,176,73.3,2647,1043,39,51,76.5,68,78,87.2,20,37,54.1,0,0.0,0.0,0.0,0,12,0,0,12
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Emmanuel Kakou,CIV,DF,20-072,2005,1.7,80,97,82.5,1455,636,31,33,93.9,43,48,89.6,6,15,40.0,0,0.0,0.0,0.0,0,5,1,0,5
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Erick Nunes,BRA,"MF,DF",21-193,2004,0.8,24,39,61.5,351,121,16,18,88.9,6,12,50.0,1,2,50.0,1,0.6,0.0,0.4,2,2,1,0,4
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Flávio Nazinho,POR,DF,22-052,2003,5.9,245,340,72.1,4189,1956,121,139,87.1,90,124,72.6,30,62,48.4,2,1.4,1.7,0.6,13,19,9,6,27
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Gary Magnée,BEL,DF,25-333,1999,5.0,135,223,60.5,2101,1055,76,85,89.4,44,74,59.5,11,48,22.9,1,0.5,0.3,0.5,6,11,0,0,17
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Hannes Van der Bruggen,BEL,MF,32-162,1993,5.5,219,281,77.9,3748,1638,100,117,85.5,94,113,83.2,20,40,50.0,0,0.2,0.5,-0.2,2,36,7,0,49
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Ibrahim Diakité,GUI,DF,21-314,2003,1.0,29,42,69.0,378,175,19,23,82.6,7,13,53.8,1,2,50.0,0,0.0,0.0,0.0,0,0,0,0,4
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Ibrahima Diaby,GUI,MF,18-177,2007,1.7,47,66,71.2,764,199,22,31,71.0,21,25,84.0,1,2,50.0,0,0.5,0.0,-0.5,1,2,0,0,1
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Krys Kouassi,FRA,FW,18-186,2007,0.2,3,3,100.0,56,1,0,0,,3,3,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Lawrence Agyekum,GHA,MF,21-291,2003,5.6,85,124,68.5,1235,504,46,58,79.3,29,44,65.9,3,8,37.5,1,0.5,0.5,0.5,4,9,3,2,17
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Maxime Delanghe,BEL,GK,24-110,2001,6.0,109,181,60.2,3148,2466,19,19,100.0,56,56,100.0,32,102,31.4,0,0.0,0.0,0.0,0,3,0,0,0
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Nils De Wilde,BEL,"FW,MF",22-226,2003,0.3,12,19,63.2,152,45,7,10,70.0,2,4,50.0,1,2,50.0,0,0.3,0.1,-0.3,2,0,2,1,3
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Oluwaseun Adewumi,AUT,FW,20-199,2005,0.7,10,15,66.7,127,13,7,10,70.0,3,3,100.0,0,0,,0,0.1,0.2,-0.1,1,0,0,0,1
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Pieter Gerkens,BEL,MF,30-028,1995,6.0,151,199,75.9,2088,623,96,112,85.7,39,48,81.3,7,17,41.2,0,0.9,0.8,-0.9,8,12,2,0,16
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Steve Ngoura,FRA,FW,20-200,2005,4.9,49,84,58.3,518,202,24,37,64.9,11,18,61.1,1,3,33.3,1,1.0,0.4,0.0,8,4,4,1,8
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Valy Konaté,CIV,DF,18-300,2006,0.1,3,5,60.0,49,21,2,3,66.7,1,2,50.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Charleroi,Aiham Ousou,SYR,DF,25-244,2000,4.5,213,243,87.7,4944,1789,47,51,92.2,122,130,93.8,44,61,72.1,0,0.1,0.1,-0.1,1,23,1,0,19
+BEL-Belgian Pro League,2025-26,Charleroi,Amine Boukamir,MAR,MF,18-322,2006,1.0,29,36,80.6,465,58,12,14,85.7,14,17,82.4,3,4,75.0,0,0.0,0.0,0.0,0,3,0,0,3
+BEL-Belgian Pro League,2025-26,Charleroi,Anthony Descotte,BEL,FW,22-038,2003,1.0,7,12,58.3,101,15,4,5,80.0,3,6,50.0,0,0,,0,0.0,0.0,0.0,0,1,1,0,1
+BEL-Belgian Pro League,2025-26,Charleroi,Antoine Bernier,BEL,FW,28-000,1997,2.6,47,62,75.8,736,174,24,28,85.7,19,21,90.5,3,5,60.0,0,0.2,0.1,-0.2,3,4,4,0,10
+BEL-Belgian Pro League,2025-26,Charleroi,Antoine Colassin,BEL,"MF,FW",24-196,2001,1.3,22,30,73.3,326,36,12,15,80.0,7,10,70.0,2,2,100.0,0,0.1,0.1,-0.1,3,0,3,0,4
+BEL-Belgian Pro League,2025-26,Charleroi,Aurélien Scheidler,FRA,FW,27-098,1998,0.9,7,17,41.2,134,12,3,8,37.5,1,3,33.3,3,4,75.0,0,0.0,0.1,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Charleroi,Check Keita,FRA,DF,22-161,2003,4.2,171,187,91.4,3657,1376,42,46,91.3,100,103,97.1,27,31,87.1,0,0.1,0.0,-0.1,1,14,0,0,19
+BEL-Belgian Pro League,2025-26,Charleroi,Etienne Camara,FRA,MF,22-164,2003,4.7,167,210,79.5,3243,777,68,81,84.0,71,84,84.5,25,36,69.4,1,0.4,0.2,0.6,3,20,0,0,15
+BEL-Belgian Pro League,2025-26,Charleroi,Freddy Mbemba,FRA,FW,22-268,2002,0.2,10,14,71.4,160,44,6,6,100.0,4,4,100.0,0,3,0.0,0,0.0,0.0,0.0,1,2,0,0,1
+BEL-Belgian Pro League,2025-26,Charleroi,Isaac Mbenza,BEL,FW,29-186,1996,2.0,55,86,64.0,1198,426,22,27,81.5,17,26,65.4,14,25,56.0,0,0.7,0.9,-0.7,7,3,5,5,7
+BEL-Belgian Pro League,2025-26,Charleroi,Jakob Romsaas,NOR,MF,21-117,2004,3.3,67,88,76.1,1034,174,39,46,84.8,18,27,66.7,7,8,87.5,1,0.2,0.2,0.8,3,6,2,0,8
+BEL-Belgian Pro League,2025-26,Charleroi,Jules Gaudin,FRA,DF,25-124,2000,0.3,18,26,69.2,265,104,13,16,81.3,3,3,100.0,1,6,16.7,0,0.0,0.0,0.0,0,3,0,0,0
+BEL-Belgian Pro League,2025-26,Charleroi,Jérémy Pétris,FRA,DF,27-225,1998,4.2,144,202,71.3,3066,916,40,50,80.0,84,106,79.2,20,35,57.1,0,0.2,0.3,-0.2,2,11,4,2,18
+BEL-Belgian Pro League,2025-26,Charleroi,Kévin Van Den Kerkhof,ALG,FW,29-180,1996,0.2,13,16,81.3,159,45,9,9,100.0,3,3,100.0,0,2,0.0,0,0.2,0.1,-0.2,1,0,2,0,2
+BEL-Belgian Pro League,2025-26,Charleroi,Mardochee Nzita,BEL,DF,25-198,2000,3.7,144,205,70.2,2708,1278,54,60,90.0,72,89,80.9,17,48,35.4,0,0.2,0.2,-0.2,1,15,1,0,17
+BEL-Belgian Pro League,2025-26,Charleroi,Martin Delavallée,BEL,GK,21-176,2004,5.0,115,165,69.7,3355,2434,15,15,100.0,66,67,98.5,34,83,41.0,0,0.0,0.0,0.0,0,3,0,0,0
+BEL-Belgian Pro League,2025-26,Charleroi,Massamba Sow,FRA,DF,21-089,2004,1.8,40,50,80.0,743,219,12,14,85.7,25,28,89.3,3,7,42.9,0,0.0,0.0,0.0,0,0,0,0,1
+BEL-Belgian Pro League,2025-26,Charleroi,Nikola Štulić,SRB,FW,24-002,2001,2.4,31,40,77.5,400,64,19,22,86.4,12,16,75.0,0,0,,0,0.1,0.1,-0.1,1,0,3,0,4
+BEL-Belgian Pro League,2025-26,Charleroi,Parfait Guiagon,CIV,FW,24-200,2001,4.1,150,198,75.8,2391,626,84,98,85.7,41,53,77.4,18,26,69.2,1,1.0,1.2,0.0,9,13,10,2,25
+BEL-Belgian Pro League,2025-26,Charleroi,Vetle Dragsnes,NOR,DF,31-216,1994,1.0,47,74,63.5,739,211,21,27,77.8,24,36,66.7,1,5,20.0,0,0.0,0.0,0.0,0,2,1,0,4
+BEL-Belgian Pro League,2025-26,Charleroi,Yassine Khalifi,MAR,"MF,FW",20-032,2005,0.4,40,46,87.0,754,292,16,18,88.9,16,19,84.2,7,7,100.0,0,0.2,0.0,-0.2,1,5,0,0,5
+BEL-Belgian Pro League,2025-26,Charleroi,Yassine Titraoui,ALG,MF,22-046,2003,4.2,154,189,81.5,2914,814,66,76,86.8,64,72,88.9,21,28,75.0,0,0.3,0.6,-0.3,3,24,5,0,24
+BEL-Belgian Pro League,2025-26,Charleroi,Žan Rogelj,SVN,"FW,DF",25-289,1999,1.7,31,43,72.1,709,248,7,8,87.5,16,22,72.7,7,9,77.8,0,0.1,0.3,-0.1,1,5,1,1,4
+BEL-Belgian Pro League,2025-26,Club Brugge,Aleksandar Stanković,SRB,MF,20-038,2005,2.9,157,182,86.3,3296,939,48,52,92.3,87,97,89.7,21,31,67.7,0,0.7,0.7,-0.7,3,23,2,0,25
+BEL-Belgian Pro League,2025-26,Club Brugge,Bjorn Meijer,NED,DF,22-176,2003,2.1,102,123,82.9,1548,510,53,63,84.1,40,47,85.1,4,5,80.0,0,0.7,0.4,-0.7,4,6,4,1,12
+BEL-Belgian Pro League,2025-26,Club Brugge,Brandon Mechele,BEL,DF,32-225,1993,5.0,378,409,92.4,7674,3109,100,101,99.0,235,245,95.9,40,54,74.1,0,0.6,0.4,-0.6,4,33,2,0,34
+BEL-Belgian Pro League,2025-26,Club Brugge,Carlos Forbs,POR,FW,21-175,2004,1.6,63,80,78.8,968,313,34,41,82.9,25,31,80.6,4,6,66.7,1,0.3,0.4,0.7,4,4,8,4,8
+BEL-Belgian Pro League,2025-26,Club Brugge,Christos Tzolis,GRE,"FW,MF",23-223,2002,5.0,142,214,66.4,2551,753,60,74,81.1,61,80,76.3,16,39,41.0,1,1.4,1.9,-0.4,13,8,15,2,23
+BEL-Belgian Pro League,2025-26,Club Brugge,Cisse Sandra,BEL,FW,21-268,2003,1.9,57,69,82.6,884,154,30,34,88.2,25,27,92.6,2,3,66.7,0,0.3,0.2,-0.3,4,6,1,0,7
+BEL-Belgian Pro League,2025-26,Club Brugge,Hans Vanaken,BEL,MF,33-017,1992,5.0,258,310,83.2,4912,1602,111,129,86.0,103,117,88.0,37,47,78.7,0,1.1,0.8,-1.1,12,38,11,2,47
+BEL-Belgian Pro League,2025-26,Club Brugge,Hugo Siquet,BEL,DF,23-063,2002,1.4,75,95,78.9,1465,529,23,27,85.2,41,46,89.1,11,19,57.9,0,0.1,0.2,-0.1,3,6,1,1,4
+BEL-Belgian Pro League,2025-26,Club Brugge,Hugo Vetlesen,NOR,"FW,MF",25-193,2000,1.7,52,68,76.5,855,224,25,32,78.1,22,24,91.7,4,8,50.0,0,0.3,0.4,-0.3,2,1,2,1,6
+BEL-Belgian Pro League,2025-26,Club Brugge,Joaquin Seys,BEL,DF,20-166,2005,3.6,220,249,88.4,3573,1258,105,116,90.5,101,111,91.0,9,13,69.2,0,0.2,0.3,-0.2,6,21,9,2,41
+BEL-Belgian Pro League,2025-26,Club Brugge,Joel Ordóñez,ECU,DF,21-142,2004,1.0,64,73,87.7,1416,538,14,17,82.4,46,51,90.2,4,5,80.0,0,0.0,0.0,0.0,0,11,0,0,6
+BEL-Belgian Pro League,2025-26,Club Brugge,Jorne Spileers,BEL,DF,20-232,2005,4.7,343,374,91.7,6927,2210,91,96,94.8,211,225,93.8,40,49,81.6,0,0.0,0.1,0.0,0,62,1,0,48
+BEL-Belgian Pro League,2025-26,Club Brugge,Kaye Furo,BEL,FW,18-216,2007,0.2,7,11,63.6,71,34,4,5,80.0,2,4,50.0,0,0,,0,0.1,0.1,-0.1,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Club Brugge,Kyriani Sabbe,BEL,DF,20-232,2005,1.6,82,114,71.9,1435,449,35,40,87.5,41,54,75.9,5,13,38.5,0,0.1,0.2,-0.1,1,9,3,0,5
+BEL-Belgian Pro League,2025-26,Club Brugge,Ludovit Reis,NED,MF,25-101,2000,2.4,140,162,86.4,2267,408,67,77,87.0,66,73,90.4,5,7,71.4,0,0.3,0.1,-0.3,2,9,0,0,15
+BEL-Belgian Pro League,2025-26,Club Brugge,Lynnt Audoor,BEL,MF,21-332,2003,0.0,0,2,0.0,0,0,0,1,0.0,0,1,0.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Club Brugge,Mamadou Diakhon,FRA,FW,19-353,2005,0.2,1,1,100.0,15,7,1,1,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Club Brugge,Michał Skóraś,POL,"FW,MF",25-207,2000,0.8,35,39,89.7,515,180,22,22,100.0,11,13,84.6,1,2,50.0,0,0.7,0.5,-0.7,5,2,6,1,9
+BEL-Belgian Pro League,2025-26,Club Brugge,Nicolo Tresoldi,GER,FW,21-021,2004,2.3,27,37,73.0,334,62,17,20,85.0,6,10,60.0,1,1,100.0,0,0.2,0.4,-0.2,2,4,0,0,3
+BEL-Belgian Pro League,2025-26,Club Brugge,Nordin Jackers,BEL,GK,28-005,1997,4.0,122,143,85.3,3146,2396,28,28,100.0,59,59,100.0,35,54,64.8,0,0.0,0.0,0.0,0,6,0,0,1
+BEL-Belgian Pro League,2025-26,Club Brugge,Raphael Onyedika,NGA,MF,24-144,2001,3.3,150,170,88.2,2828,736,54,57,94.7,82,88,93.2,12,18,66.7,0,0.0,0.1,0.0,0,14,2,0,15
+BEL-Belgian Pro League,2025-26,Club Brugge,Romeo Vermant,BEL,FW,21-229,2004,2.6,27,43,62.8,399,58,18,25,72.0,8,12,66.7,1,1,100.0,2,0.8,0.1,1.2,5,3,0,0,3
+BEL-Belgian Pro League,2025-26,Club Brugge,Shandre Campbell,RSA,FW,20-057,2005,0.1,3,4,75.0,65,21,2,2,100.0,0,0,,1,2,50.0,0,0.0,0.0,0.0,0,0,1,1,1
+BEL-Belgian Pro League,2025-26,Club Brugge,Simon Mignolet,BEL,GK,37-188,1988,1.0,39,46,84.8,914,598,13,13,100.0,19,19,100.0,7,14,50.0,0,0.0,0.0,0.0,0,2,0,0,0
+BEL-Belgian Pro League,2025-26,Club Brugge,Zaid Romero,ARG,DF,25-269,1999,0.6,44,47,93.6,777,294,17,19,89.5,26,27,96.3,1,1,100.0,0,0.0,0.0,0.0,0,7,0,0,7
+BEL-Belgian Pro League,2025-26,Dender,Aurélien Scheidler,FRA,FW,27-098,1998,3.7,59,102,57.8,734,226,39,60,65.0,13,26,50.0,3,5,60.0,0,0.0,0.3,0.0,0,3,3,0,9
+BEL-Belgian Pro League,2025-26,Dender,Benjamin Fredrick,NGA,"DF,FW",20-105,2005,4.7,170,215,79.1,2594,885,88,102,86.3,62,78,79.5,13,22,59.1,0,0.4,0.4,-0.4,1,12,2,2,15
+BEL-Belgian Pro League,2025-26,Dender,Bruny Nsimba,BEL,"FW,MF",25-158,2000,2.0,16,33,48.5,218,47,10,16,62.5,4,11,36.4,1,3,33.3,0,0.1,0.1,-0.1,1,2,1,1,1
+BEL-Belgian Pro League,2025-26,Dender,Bryan Goncalves,FRA,DF,29-053,1996,1.4,79,109,72.5,1719,774,28,30,93.3,35,44,79.5,16,32,50.0,0,0.2,0.2,-0.2,2,11,0,0,11
+BEL-Belgian Pro League,2025-26,Dender,David Hrnčár,SVK,"FW,MF",27-274,1997,1.6,37,54,68.5,668,275,16,20,80.0,15,22,68.2,5,9,55.6,0,0.1,0.1,-0.1,1,2,1,1,4
+BEL-Belgian Pro League,2025-26,Dender,Desmond Acquah,BEL,MF,23-049,2002,0.2,6,10,60.0,105,61,4,4,100.0,2,5,40.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,2
+BEL-Belgian Pro League,2025-26,Dender,Fabio Ferraro,BEL,"DF,FW",23-007,2002,5.9,206,288,71.5,3418,1211,106,123,86.2,77,113,68.1,18,35,51.4,1,0.7,1.1,0.3,10,15,8,5,13
+BEL-Belgian Pro League,2025-26,Dender,Joedrick Pupe,BEL,DF,28-098,1997,3.5,221,269,82.2,3946,1866,101,112,90.2,95,105,90.5,23,41,56.1,0,0.0,0.1,0.0,0,21,1,1,18
+BEL-Belgian Pro League,2025-26,Dender,Jordan Kadiri,NGA,FW,25-183,2000,0.7,10,16,62.5,136,24,8,10,80.0,1,4,25.0,1,1,100.0,0,0.1,0.0,-0.1,2,2,1,0,3
+BEL-Belgian Pro League,2025-26,Dender,Kobe Cools,BEL,DF,28-047,1997,2.2,89,103,86.4,1601,359,29,30,96.7,56,63,88.9,4,9,44.4,0,0.0,0.0,0.0,0,1,0,0,1
+BEL-Belgian Pro League,2025-26,Dender,Krzysztof Kotoń,POL,"MF,DF",22-116,2003,1.0,22,30,73.3,323,81,12,15,80.0,9,12,75.0,1,1,100.0,0,0.0,0.0,0.0,0,1,0,0,3
+BEL-Belgian Pro League,2025-26,Dender,Luc De Fougerolles,CAN,DF,19-333,2005,4.2,200,233,85.8,3818,1143,55,59,93.2,134,149,89.9,9,21,42.9,1,0.2,0.0,0.8,3,6,0,0,10
+BEL-Belgian Pro League,2025-26,Dender,Luc Marijnissen,NED,DF,22-244,2003,6.0,245,295,83.1,4619,1918,99,109,90.8,117,128,91.4,26,39,66.7,0,0.1,0.3,-0.1,1,20,1,0,18
+BEL-Belgian Pro League,2025-26,Dender,Malcolm Viltard,FRA,MF,22-321,2002,4.4,147,195,75.4,2782,711,57,73,78.1,77,90,85.6,11,21,52.4,0,0.0,0.1,0.0,1,12,1,0,18
+BEL-Belgian Pro League,2025-26,Dender,Michael Verrips,NED,GK,28-281,1996,6.0,175,269,65.1,4469,3237,42,42,100.0,92,93,98.9,41,132,31.1,0,0.0,0.0,0.0,0,4,0,0,0
+BEL-Belgian Pro League,2025-26,Dender,Moïse Sahi Dion,CIV,"FW,MF",23-264,2001,0.7,22,24,91.7,295,94,12,12,100.0,8,10,80.0,0,0,,0,0.0,0.0,0.0,0,3,0,0,3
+BEL-Belgian Pro League,2025-26,Dender,Nathan Rôdes,BEL,"MF,FW",27-273,1997,5.5,139,196,70.9,2134,689,64,91,70.3,66,75,88.0,4,10,40.0,0,0.4,0.2,-0.4,3,12,2,0,15
+BEL-Belgian Pro League,2025-26,Dender,Naïl Moutha-Sebtaoui,BEL,DF,19-297,2005,0.3,15,24,62.5,214,95,6,10,60.0,9,10,90.0,0,2,0.0,0,0.0,0.0,0.0,0,1,0,0,1
+BEL-Belgian Pro League,2025-26,Dender,Noah Mbamba,BEL,MF,20-248,2005,4.6,119,145,82.1,1528,293,83,98,84.7,28,33,84.8,3,4,75.0,0,0.0,0.1,0.0,1,7,3,0,10
+BEL-Belgian Pro League,2025-26,Dender,Ragnar Oratmangoen,IDN,"MF,FW",27-232,1998,1.2,43,50,86.0,631,199,23,27,85.2,15,17,88.2,3,4,75.0,0,0.1,0.2,-0.1,1,1,2,1,6
+BEL-Belgian Pro League,2025-26,Dender,Roman Květ,CZE,"FW,MF",27-267,1997,5.6,173,232,74.6,2479,604,93,108,86.1,53,67,79.1,10,24,41.7,0,0.4,0.5,-0.4,4,11,4,1,19
+BEL-Belgian Pro League,2025-26,Dender,Ryan Adewusi,BEL,FW,20-218,2005,0.3,6,8,75.0,68,36,5,6,83.3,1,2,50.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,1
+BEL-Belgian Pro League,2025-26,Genk,Adrián Palacios,VEN,MF,21-095,2004,0.0,0,1,0.0,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Genk,Bryan Heynen,BEL,MF,28-216,1997,5.0,318,352,90.3,5353,1940,161,170,94.7,131,141,92.9,22,29,75.9,0,0.3,0.3,-0.3,5,60,7,1,55
+BEL-Belgian Pro League,2025-26,Genk,Daan Heymans,BEL,MF,26-087,1999,0.4,26,32,81.3,337,48,17,20,85.0,7,8,87.5,1,2,50.0,0,0.0,0.0,0.0,0,2,0,0,3
+BEL-Belgian Pro League,2025-26,Genk,Hendrik Van Crombrugge,BEL,GK,32-133,1993,1.0,30,43,69.8,830,671,3,3,100.0,18,19,94.7,9,21,42.9,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,Genk,Ibrahima Sory Bangoura,GUI,MF,21-248,2004,1.3,50,55,90.9,935,199,24,26,92.3,16,17,94.1,8,8,100.0,0,0.0,0.0,0.0,0,5,0,0,3
+BEL-Belgian Pro League,2025-26,Genk,Jarne Steuckers,BEL,FW,23-218,2002,4.4,174,243,71.6,3605,1220,63,72,87.5,73,96,76.0,33,60,55.0,3,1.5,1.9,1.5,15,28,17,4,35
+BEL-Belgian Pro League,2025-26,Genk,Joris Kayembe,COD,DF,31-033,1994,4.6,309,356,86.8,4780,1554,164,176,93.2,124,141,87.9,16,29,55.2,0,0.1,0.2,-0.1,1,20,2,1,24
+BEL-Belgian Pro League,2025-26,Genk,Josué Kongolo,BEL,DF,19-150,2006,0.6,16,16,100.0,331,17,3,3,100.0,11,11,100.0,2,2,100.0,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,Genk,Junya Ito,JPN,FW,32-185,1993,1.0,26,37,70.3,362,121,13,16,81.3,7,10,70.0,2,6,33.3,0,0.0,0.0,0.0,0,1,1,0,4
+BEL-Belgian Pro League,2025-26,Genk,Ken Nkuba,BEL,"DF,FW",23-232,2002,0.2,15,20,75.0,297,116,7,8,87.5,6,8,75.0,2,4,50.0,0,0.0,0.1,0.0,0,2,1,0,2
+BEL-Belgian Pro League,2025-26,Genk,Konstantinos Karetsas,GRE,MF,17-295,2007,4.4,132,179,73.7,2140,544,66,77,85.7,53,67,79.1,11,26,42.3,1,0.5,0.4,0.5,8,12,7,1,20
+BEL-Belgian Pro League,2025-26,Genk,Matte Smets,BEL,DF,21-249,2004,5.0,381,405,94.1,8211,2860,82,86,95.3,240,244,98.4,58,72,80.6,1,0.7,0.7,0.3,3,18,4,0,27
+BEL-Belgian Pro League,2025-26,Genk,Mujaid Sadick,ESP,DF,25-180,2000,4.4,279,294,94.9,4778,1332,96,99,97.0,166,170,97.6,12,15,80.0,0,0.0,0.0,0.0,0,9,0,0,10
+BEL-Belgian Pro League,2025-26,Genk,Nikolas Sattlberger,AUT,MF,21-235,2004,2.8,92,102,90.2,1537,422,42,46,91.3,45,46,97.8,4,6,66.7,1,0.6,0.3,0.4,2,12,4,0,10
+BEL-Belgian Pro League,2025-26,Genk,Noah Adedeji,BEL,FW,20-083,2005,2.7,91,117,77.8,1136,249,63,74,85.1,24,29,82.8,0,8,0.0,0,0.6,0.4,-0.6,4,8,5,0,10
+BEL-Belgian Pro League,2025-26,Genk,Oh Hyeon-gyu,KOR,FW,24-151,2001,3.3,32,42,76.2,418,57,23,26,88.5,7,10,70.0,1,2,50.0,1,0.5,0.4,0.5,6,3,1,0,2
+BEL-Belgian Pro League,2025-26,Genk,Patrik Hrošovský,SVK,MF,33-141,1992,0.2,6,8,75.0,110,15,2,4,50.0,3,3,100.0,1,1,100.0,0,0.0,0.0,0.0,0,2,0,0,1
+BEL-Belgian Pro League,2025-26,Genk,Robin Mirisola,BEL,FW,18-276,2006,1.0,9,17,52.9,169,13,4,7,57.1,3,7,42.9,1,1,100.0,0,0.0,0.0,0.0,1,0,0,0,0
+BEL-Belgian Pro League,2025-26,Genk,Tobias Lawal,AUT,GK,25-095,2000,4.0,137,166,82.5,3533,2574,29,30,96.7,69,71,97.2,39,65,60.0,0,0.0,0.0,0.0,0,3,0,0,1
+BEL-Belgian Pro League,2025-26,Genk,Tolu Arokodare,NGA,FW,24-291,2000,0.9,21,35,60.0,321,36,12,20,60.0,8,9,88.9,1,1,100.0,0,0.0,0.1,0.0,0,0,1,0,2
+BEL-Belgian Pro League,2025-26,Genk,Yaimar Medina,ECU,"DF,FW",20-309,2004,0.5,34,45,75.6,558,277,21,24,87.5,10,15,66.7,3,5,60.0,0,0.0,0.1,0.0,1,7,3,1,8
+BEL-Belgian Pro League,2025-26,Genk,Yira Sor,NGA,"FW,MF",25-048,2000,1.7,41,54,75.9,626,181,25,27,92.6,13,18,72.2,3,7,42.9,0,0.4,0.3,-0.4,4,3,4,1,6
+BEL-Belgian Pro League,2025-26,Genk,Zakaria El Ouahdi,MAR,DF,23-253,2001,4.8,176,200,88.0,2972,744,91,96,94.8,70,78,89.7,13,20,65.0,1,1.3,0.8,-0.3,6,8,5,2,19
+BEL-Belgian Pro League,2025-26,Gent,Abdelkahar Kadri,ALG,MF,25-078,2000,1.3,75,88,85.2,1261,259,34,37,91.9,35,40,87.5,6,8,75.0,1,0.4,0.3,0.6,4,5,1,1,9
+BEL-Belgian Pro League,2025-26,Gent,Aimé Omgba,NED,"MF,FW",22-323,2002,0.6,28,30,93.3,389,70,17,17,100.0,10,12,83.3,1,1,100.0,0,0.3,0.2,-0.3,1,3,2,1,3
+BEL-Belgian Pro League,2025-26,Gent,Andri Guðjohnsen,ISL,FW,23-224,2002,0.1,1,3,33.3,20,0,0,1,0.0,1,1,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Gent,Atsuki Ito,JPN,MF,27-030,1998,5.0,187,226,82.7,3023,759,97,109,89.0,70,81,86.4,15,23,65.2,0,0.4,0.7,-0.4,6,19,5,3,24
+BEL-Belgian Pro League,2025-26,Gent,Dante Vanzeir,BEL,"FW,MF",27-147,1998,0.8,9,16,56.3,144,8,4,6,66.7,2,3,66.7,1,1,100.0,0,0.0,0.1,0.0,0,0,1,0,1
+BEL-Belgian Pro League,2025-26,Gent,Davy Roef,BEL,GK,31-216,1994,5.0,112,155,72.3,2852,2312,28,29,96.6,54,55,98.2,30,70,42.9,0,0.0,0.0,0.0,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Gent,Franck Surdez,SUI,"MF,DF",23-128,2002,1.9,56,84,66.7,859,148,28,40,70.0,22,27,81.5,3,10,30.0,0,0.0,0.1,0.0,1,3,0,0,5
+BEL-Belgian Pro League,2025-26,Gent,Hatim Es-Saoubi,MAR,DF,24-271,2000,0.7,34,37,91.9,564,223,19,19,100.0,14,15,93.3,1,3,33.3,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Gent,Hyllarion Goore,CIV,FW,20-017,2005,2.8,33,52,63.5,439,123,21,25,84.0,12,15,80.0,0,2,0.0,0,0.0,0.1,0.0,1,4,4,0,7
+BEL-Belgian Pro League,2025-26,Gent,Hélio Varela,CPV,"MF,DF",23-130,2002,1.8,54,78,69.2,741,238,38,43,88.4,10,18,55.6,4,10,40.0,0,0.1,0.2,-0.1,1,0,3,1,5
+BEL-Belgian Pro League,2025-26,Gent,Leonardo da Silva Lopes,POR,"DF,MF",26-284,1998,4.3,249,303,82.2,4840,1480,82,94,87.2,127,146,87.0,35,53,66.0,0,0.3,0.6,-0.3,4,31,5,1,30
+BEL-Belgian Pro League,2025-26,Gent,Maksim Paskotši,EST,DF,22-234,2003,3.0,165,183,90.2,3037,1364,64,67,95.5,92,99,92.9,9,15,60.0,0,0.0,0.0,0.0,0,10,0,0,14
+BEL-Belgian Pro League,2025-26,Gent,Mathias Delorge,BEL,MF,21-041,2004,3.4,183,212,86.3,3777,1113,53,64,82.8,99,105,94.3,28,36,77.8,0,0.1,0.1,-0.1,2,20,0,0,27
+BEL-Belgian Pro League,2025-26,Gent,Matisse Samoise,BEL,DF,23-293,2001,4.9,211,282,74.8,3595,1201,106,121,87.6,72,95,75.8,26,50,52.0,0,1.0,1.0,-1.0,13,10,7,6,16
+BEL-Belgian Pro League,2025-26,Gent,Mohammed El Âdfaoui,BEL,"MF,DF",17-194,2008,0.3,24,29,82.8,428,100,9,9,100.0,12,14,85.7,2,5,40.0,1,0.0,0.1,1.0,1,4,0,0,2
+BEL-Belgian Pro League,2025-26,Gent,Momodou Sonko,SWE,"DF,MF",20-222,2005,1.6,76,101,75.2,1108,335,46,51,90.2,25,34,73.5,4,12,33.3,0,0.4,0.5,-0.4,5,1,3,2,3
+BEL-Belgian Pro League,2025-26,Gent,Omri Gandelman,ISR,MF,25-117,2000,2.2,52,68,76.5,642,141,37,39,94.9,11,13,84.6,1,5,20.0,0,0.1,0.1,-0.1,2,5,0,0,2
+BEL-Belgian Pro League,2025-26,Gent,Samuel Kotto,CMR,DF,22-007,2003,3.0,221,244,90.6,4396,1644,56,62,90.3,150,157,95.5,15,25,60.0,0,0.0,0.0,0.0,0,9,0,0,12
+BEL-Belgian Pro League,2025-26,Gent,Siebe Van Der Heyden,BEL,DF,27-103,1998,2.9,145,169,85.8,2509,911,63,70,90.0,67,75,89.3,13,20,65.0,0,0.1,0.2,-0.1,1,16,4,1,18
+BEL-Belgian Pro League,2025-26,Gent,Tiago Araújo,POR,DF,24-167,2001,3.5,205,281,73.0,4236,1611,64,76,84.2,107,138,77.5,31,55,56.4,1,0.6,0.7,0.4,7,22,4,4,36
+BEL-Belgian Pro League,2025-26,Gent,Tibe De Vlieger,BEL,"MF,DF",19-309,2005,1.0,26,33,78.8,404,110,11,16,68.8,14,15,93.3,1,1,100.0,0,0.1,0.0,-0.1,1,3,0,0,7
+BEL-Belgian Pro League,2025-26,Gent,Wilfried Kanga,CIV,FW,27-201,1998,4.9,74,92,80.4,1032,122,47,56,83.9,22,27,81.5,4,5,80.0,1,0.4,0.3,0.6,7,8,1,1,6
+BEL-Belgian Pro League,2025-26,La Louvière,Darío Fuentes,ESP,"MF,DF",22-241,2003,1.6,26,42,61.9,441,247,11,14,78.6,12,22,54.5,2,2,100.0,0,0.1,0.2,-0.1,1,3,0,0,4
+BEL-Belgian Pro League,2025-26,La Louvière,Djibril Lamego,FRA,DF,22-197,2003,6.0,149,199,74.9,3071,1237,41,57,71.9,89,102,87.3,19,36,52.8,0,0.0,0.1,0.0,0,24,2,0,28
+BEL-Belgian Pro League,2025-26,La Louvière,Jerry Afriyie,GHA,FW,18-274,2006,1.5,15,19,78.9,327,74,5,6,83.3,7,9,77.8,3,4,75.0,0,0.2,0.0,-0.2,2,3,1,0,3
+BEL-Belgian Pro League,2025-26,La Louvière,Jordi Liongola,BDI,"DF,MF",25-116,2000,5.6,109,189,57.7,1944,899,56,67,83.6,39,71,54.9,14,37,37.8,0,0.3,0.5,-0.3,5,8,8,2,15
+BEL-Belgian Pro League,2025-26,La Louvière,Joël Ito,BEL,MF,27-167,1998,3.3,60,73,82.2,1077,502,22,27,81.5,25,30,83.3,9,11,81.8,0,0.3,0.2,-0.3,4,10,3,0,15
+BEL-Belgian Pro League,2025-26,La Louvière,Marcos Peano,ARG,GK,26-330,1998,6.0,139,225,61.8,5187,4151,7,8,87.5,60,61,98.4,72,155,46.5,0,0.0,0.0,0.0,0,9,0,0,1
+BEL-Belgian Pro League,2025-26,La Louvière,Matthis Riou,FRA,MF,24-234,2001,0.0,1,1,100.0,10,0,1,1,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,La Louvière,Maxence Maisonneuve,FRA,DF,26-211,1999,6.0,148,191,77.5,3397,1456,33,39,84.6,87,100,87.0,27,50,54.0,0,0.1,0.2,-0.1,1,15,0,0,16
+BEL-Belgian Pro League,2025-26,La Louvière,Maxime Pau,FRA,"MF,FW",25-163,2000,4.9,95,170,55.9,1897,682,38,50,76.0,33,54,61.1,21,54,38.9,0,1.0,1.3,-1.0,12,5,5,1,16
+BEL-Belgian Pro League,2025-26,La Louvière,Mo Guindo,MLI,FW,22-040,2003,4.8,24,49,49.0,328,84,14,22,63.6,6,12,50.0,1,6,16.7,0,0.0,0.0,0.0,0,3,1,0,3
+BEL-Belgian Pro League,2025-26,La Louvière,Mouhamed Belkheir,FRA,FW,26-251,1999,1.0,8,11,72.7,179,19,3,6,50.0,3,3,100.0,2,2,100.0,0,0.0,0.0,0.0,0,0,1,0,1
+BEL-Belgian Pro League,2025-26,La Louvière,Nolan Gillot,FRA,MF,22-314,2002,0.3,5,12,41.7,100,99,3,4,75.0,1,4,25.0,1,3,33.3,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,La Louvière,Oucasse Mendy,FRA,FW,24-101,2001,3.1,24,36,66.7,331,79,11,15,73.3,10,13,76.9,0,2,0.0,0,0.1,0.3,-0.1,2,3,3,0,3
+BEL-Belgian Pro League,2025-26,La Louvière,Owen Maes,FRA,MF,26-351,1998,2.3,21,47,44.7,331,79,9,14,64.3,10,13,76.9,1,16,6.3,0,0.1,0.1,-0.1,1,2,2,0,5
+BEL-Belgian Pro League,2025-26,La Louvière,Sami Lahssaini,BEL,MF,26-357,1998,6.0,129,179,72.1,2599,645,50,60,83.3,52,60,86.7,25,52,48.1,0,0.1,0.3,-0.1,3,14,2,1,22
+BEL-Belgian Pro League,2025-26,La Louvière,Samuel Gueulette,RWA,MF,25-114,2000,1.4,23,32,71.9,368,147,12,14,85.7,9,13,69.2,1,3,33.3,0,0.0,0.0,0.0,0,4,0,0,5
+BEL-Belgian Pro League,2025-26,La Louvière,Sekou Sidibe,BEL,"FW,DF",24-128,2001,1.4,16,32,50.0,248,88,9,11,81.8,4,8,50.0,2,8,25.0,0,0.0,0.0,0.0,0,1,1,1,1
+BEL-Belgian Pro League,2025-26,La Louvière,Theo Epailly,FRA,FW,26-212,1999,1.0,8,20,40.0,111,29,5,12,41.7,2,5,40.0,1,2,50.0,0,0.0,0.0,0.0,1,1,0,0,1
+BEL-Belgian Pro League,2025-26,La Louvière,Thierry Lutonda,BEL,DF,24-318,2000,3.6,72,107,67.3,1079,379,40,46,87.0,28,40,70.0,3,9,33.3,0,0.1,0.1,-0.1,2,5,3,2,8
+BEL-Belgian Pro League,2025-26,La Louvière,Wagane Faye,SEN,DF,31-294,1993,6.0,138,213,64.8,2868,1145,40,48,83.3,80,111,72.1,17,46,37.0,1,0.3,0.6,0.7,2,20,4,3,20
+BEL-Belgian Pro League,2025-26,La Louvière,Yllan Okou,FRA,DF,22-261,2002,0.1,0,8,0.0,0,0,0,3,0.0,0,1,0.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Mechelen,Benito Raman,BEL,FW,30-307,1994,2.3,27,39,69.2,589,163,7,10,70.0,15,17,88.2,5,7,71.4,1,0.9,0.4,0.1,3,1,4,0,5
+BEL-Belgian Pro League,2025-26,Mechelen,Bilal Bafdili,BEL,"MF,FW",21-038,2004,4.6,118,160,73.8,1977,652,55,69,79.7,53,64,82.8,7,19,36.8,2,1.1,1.1,0.9,8,12,7,2,18
+BEL-Belgian Pro League,2025-26,Mechelen,Bill Antonio,ZIM,"FW,DF",23-007,2002,1.2,22,34,64.7,273,124,16,18,88.9,6,12,50.0,0,1,0.0,0,0.2,0.1,-0.2,2,1,2,1,2
+BEL-Belgian Pro League,2025-26,Mechelen,Fredrik Hammer,SWE,MF,24-196,2001,6.0,197,237,83.1,3406,881,90,101,89.1,92,100,92.0,13,25,52.0,0,0.2,0.1,-0.2,4,21,2,0,24
+BEL-Belgian Pro League,2025-26,Mechelen,Gora Diouf,SEN,DF,21-355,2003,2.0,112,127,88.2,2272,733,28,31,90.3,72,76,94.7,12,19,63.2,0,0.0,0.0,0.0,1,8,0,0,7
+BEL-Belgian Pro League,2025-26,Mechelen,Halil Özdemir,TUR,"FW,MF",20-023,2005,1.0,19,27,70.4,251,62,13,14,92.9,5,8,62.5,1,2,50.0,0,0.0,0.0,0.0,1,3,1,1,1
+BEL-Belgian Pro League,2025-26,Mechelen,Ian Struyf,BEL,DF,18-019,2007,0.4,7,8,87.5,147,72,1,1,100.0,5,5,100.0,1,2,50.0,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,Mechelen,José Marsà,ESP,DF,23-190,2002,4.0,153,195,78.5,3470,1284,33,39,84.6,100,113,88.5,20,40,50.0,0,0.3,0.2,-0.3,1,14,1,0,8
+BEL-Belgian Pro League,2025-26,Mechelen,Kerim Mrabti,SWE,"FW,MF",31-113,1994,4.2,86,107,80.4,1378,288,50,57,87.7,27,30,90.0,7,10,70.0,1,0.7,0.5,0.3,5,13,1,0,12
+BEL-Belgian Pro League,2025-26,Mechelen,Lion Lauberbach,GER,FW,27-207,1998,5.0,74,107,69.2,1063,110,45,63,71.4,24,32,75.0,3,4,75.0,0,0.2,0.1,-0.2,3,5,2,0,9
+BEL-Belgian Pro League,2025-26,Mechelen,Moncef Zekri,MAR,"DF,FW",16-355,2008,3.7,107,134,79.9,1810,527,49,52,94.2,51,66,77.3,6,11,54.5,0,0.1,0.3,-0.1,1,4,2,1,12
+BEL-Belgian Pro League,2025-26,Mechelen,Mory Konaté,GUI,DF,31-299,1993,2.2,112,117,95.7,2377,745,23,24,95.8,78,79,98.7,11,14,78.6,1,0.2,0.2,0.8,2,3,0,0,3
+BEL-Belgian Pro League,2025-26,Mechelen,Nacho Miras,ESP,GK,28-053,1997,1.0,29,43,67.4,958,801,2,2,100.0,12,12,100.0,15,29,51.7,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,Mechelen,Nikola Storm,BEL,FW,30-345,1994,0.8,18,29,62.1,334,72,10,16,62.5,7,9,77.8,1,1,100.0,0,0.0,0.0,0.0,1,1,0,0,2
+BEL-Belgian Pro League,2025-26,Mechelen,Ortwin De Wolf,BEL,GK,28-140,1997,5.0,139,181,76.8,4037,2715,18,18,100.0,74,74,100.0,47,89,52.8,0,0.0,0.0,0.0,0,2,0,0,0
+BEL-Belgian Pro League,2025-26,Mechelen,Patrick Pflücke,GER,"DF,FW",28-284,1996,3.2,86,120,71.7,1777,549,33,38,86.8,39,52,75.0,14,29,48.3,1,1.2,0.5,-0.2,4,3,5,2,7
+BEL-Belgian Pro League,2025-26,Mechelen,Rafik Belghali,ALG,DF,23-095,2002,2.7,132,156,84.6,2333,998,62,70,88.6,58,66,87.9,10,17,58.8,0,0.2,0.0,-0.2,2,14,0,0,9
+BEL-Belgian Pro League,2025-26,Mechelen,Redouane Halhal,MAR,DF,22-189,2003,6.0,350,378,92.6,6781,2181,113,116,97.4,213,220,96.8,23,37,62.2,1,0.7,0.4,0.3,1,13,0,0,22
+BEL-Belgian Pro League,2025-26,Mechelen,Rob Schoofs,BEL,MF,31-171,1994,5.9,191,235,81.3,3569,912,78,87,89.7,89,99,89.9,22,40,55.0,0,1.5,1.0,-1.5,8,17,2,1,24
+BEL-Belgian Pro League,2025-26,Mechelen,Ryan Teague,AUS,MF,23-229,2002,0.4,14,16,87.5,196,32,9,9,100.0,5,5,100.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,2
+BEL-Belgian Pro League,2025-26,Mechelen,Therence Koudou,FRA,DF,20-271,2004,3.1,134,176,76.1,2554,842,49,56,87.5,69,81,85.2,14,32,43.8,0,0.5,0.9,-0.5,4,13,7,5,18
+BEL-Belgian Pro League,2025-26,Mechelen,Tommy St. Jago,NED,DF,25-250,2000,1.3,60,75,80.0,1017,320,27,30,90.0,27,30,90.0,5,13,38.5,0,0.0,0.0,0.0,0,4,1,1,5
+BEL-Belgian Pro League,2025-26,OH Leuven,Abdoul Karim Traoré,GUI,FW,18-241,2007,4.7,38,60,63.3,550,141,16,21,76.2,19,23,82.6,0,6,0.0,0,0.3,0.1,-0.3,5,3,1,0,8
+BEL-Belgian Pro League,2025-26,OH Leuven,Birger Verstraete,BEL,MF,31-147,1994,3.7,100,117,85.5,1916,462,34,38,89.5,50,52,96.2,13,19,68.4,0,0.1,0.3,-0.1,2,8,3,0,18
+BEL-Belgian Pro League,2025-26,OH Leuven,Casper Terho,FIN,"MF,FW",22-078,2003,3.6,43,79,54.4,834,274,21,28,75.0,13,22,59.1,9,22,40.9,0,0.5,0.4,-0.5,6,4,2,2,8
+BEL-Belgian Pro League,2025-26,OH Leuven,Chukwubuikem Ikwuemesi,NGA,FW,24-036,2001,0.2,3,6,50.0,49,5,1,2,50.0,2,4,50.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,OH Leuven,Davis Opoku,BEL,DF,17-316,2007,0.3,4,7,57.1,63,0,2,3,66.7,2,2,100.0,0,0,,0,0.0,0.0,0.0,1,0,0,0,0
+BEL-Belgian Pro League,2025-26,OH Leuven,Ewoud Pletinckx,BEL,DF,24-335,2000,6.0,198,256,77.3,3873,1291,58,70,82.9,116,127,91.3,20,48,41.7,0,0.3,0.2,-0.3,3,11,2,1,12
+BEL-Belgian Pro League,2025-26,OH Leuven,Jovan Mijatović,SRB,FW,20-061,2005,4.9,56,98,57.1,1025,335,25,37,67.6,17,31,54.8,11,21,52.4,1,0.7,0.4,0.3,8,5,2,1,11
+BEL-Belgian Pro League,2025-26,OH Leuven,Mathieu Maertens,BEL,MF,30-167,1995,1.1,15,24,62.5,258,89,9,12,75.0,4,5,80.0,2,3,66.7,0,0.0,0.0,0.0,0,1,0,0,4
+BEL-Belgian Pro League,2025-26,OH Leuven,Nachon Nsingi,BEL,FW,24-139,2001,0.4,5,7,71.4,50,9,5,6,83.3,0,1,0.0,0,0,,0,0.1,0.0,-0.1,1,0,0,0,0
+BEL-Belgian Pro League,2025-26,OH Leuven,Noë Dussenne,BEL,DF,33-156,1992,2.0,82,115,71.3,1585,545,26,33,78.8,47,56,83.9,9,24,37.5,0,0.0,0.0,0.0,0,2,0,0,5
+BEL-Belgian Pro League,2025-26,OH Leuven,Roggerio Nyakossi,SUI,DF,21-240,2004,1.9,79,86,91.9,1636,703,24,25,96.0,50,52,96.2,5,9,55.6,0,0.0,0.0,0.0,0,3,0,0,6
+BEL-Belgian Pro League,2025-26,OH Leuven,Sebastian Murru,BEL,MF,18-178,2007,0.0,4,6,66.7,59,21,3,5,60.0,1,1,100.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,OH Leuven,Siebe Schrijvers,BEL,MF,29-054,1996,5.8,131,187,70.1,2605,764,49,67,73.1,59,73,80.8,22,42,52.4,1,1.0,0.9,0.0,7,14,12,3,25
+BEL-Belgian Pro League,2025-26,OH Leuven,Takahiro Akimoto,JPN,DF,27-222,1998,6.0,158,211,74.9,2859,1038,68,77,88.3,75,97,77.3,14,30,46.7,0,0.0,0.1,0.0,0,15,5,0,21
+BEL-Belgian Pro League,2025-26,OH Leuven,Takuma Ominami,JPN,DF,27-271,1997,6.0,190,230,82.6,4131,1499,48,56,85.7,107,118,90.7,34,50,68.0,0,0.0,0.0,0.0,0,13,0,0,17
+BEL-Belgian Pro League,2025-26,OH Leuven,Thibaud Verlinden,BEL,"FW,MF",26-063,1999,1.5,29,41,70.7,494,86,9,11,81.8,16,19,84.2,3,4,75.0,1,0.8,0.3,0.2,3,1,2,1,2
+BEL-Belgian Pro League,2025-26,OH Leuven,Thibault Vlietinck,BEL,DF,28-022,1997,1.8,39,60,65.0,663,184,19,30,63.3,19,24,79.2,1,2,50.0,0,0.1,0.0,-0.1,1,5,1,1,6
+BEL-Belgian Pro League,2025-26,OH Leuven,Tobe Leysen,BEL,GK,23-185,2002,6.0,161,262,61.5,4425,2961,17,17,100.0,95,95,100.0,49,148,33.1,0,0.0,0.0,0.0,0,4,0,0,0
+BEL-Belgian Pro League,2025-26,OH Leuven,William Balikwisha,COD,"FW,MF",26-121,1999,1.9,29,43,67.4,545,96,13,15,86.7,10,13,76.9,5,7,71.4,0,0.0,0.0,0.0,0,2,1,0,4
+BEL-Belgian Pro League,2025-26,OH Leuven,Wouter George,BEL,MF,23-191,2002,1.7,37,52,71.2,825,279,12,19,63.2,17,23,73.9,8,9,88.9,1,0.2,0.2,0.8,3,6,1,0,6
+BEL-Belgian Pro League,2025-26,OH Leuven,Youssef Maziz,FRA,MF,27-078,1998,1.5,38,56,67.9,851,284,14,17,82.4,15,19,78.9,9,15,60.0,0,0.3,0.3,-0.3,4,4,1,1,6
+BEL-Belgian Pro League,2025-26,OH Leuven,Óscar Gil,ESP,DF,28-137,1997,3.8,71,95,74.7,1244,455,34,41,82.9,31,41,75.6,6,10,60.0,0,0.0,0.0,0.0,1,5,0,0,4
+BEL-Belgian Pro League,2025-26,OH Leuven,Łukasz Łakomy,POL,MF,24-235,2001,0.8,13,22,59.1,224,54,6,8,75.0,6,12,50.0,1,2,50.0,0,0.0,0.0,0.0,0,2,0,0,3
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Abdoulaye Sissako,FRA,MF,27-107,1998,5.4,212,258,82.2,3697,771,102,112,91.1,79,91,86.8,27,38,71.1,1,0.2,0.1,0.8,4,20,3,0,27
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Adriano Bertaccini,BEL,FW,25-028,2000,0.3,5,5,100.0,75,39,3,3,100.0,2,2,100.0,0,0,,1,0.2,0.1,0.8,2,1,0,0,1
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Alouis Diriken,BEL,MF,21-249,2004,0.4,23,25,92.0,471,126,6,6,100.0,14,14,100.0,3,5,60.0,0,0.0,0.0,0.0,0,6,1,1,7
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Andrés Ferrari,URU,FW,22-250,2003,4.8,30,44,68.2,383,150,20,28,71.4,8,8,100.0,0,2,0.0,1,0.6,0.2,0.4,5,1,3,0,5
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Ilias Sebaoui,BEL,FW,23-341,2001,5.7,125,163,76.7,2173,440,63,73,86.3,43,51,84.3,16,21,76.2,1,0.8,0.9,0.2,6,11,6,0,20
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Jay-David Mbalanda,FRA,FW,18-130,2007,0.0,4,7,57.1,45,1,3,3,100.0,1,3,33.3,0,1,0.0,0,0.0,0.0,0.0,0,0,1,0,1
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Kaito Matsuzawa,JPN,MF,24-217,2001,0.1,8,11,72.7,107,34,5,6,83.3,3,3,100.0,0,0,,0,0.2,0.2,-0.2,2,0,0,0,1
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Keisuke Goto,JPN,FW,20-099,2005,0.9,16,22,72.7,240,60,10,11,90.9,4,7,57.1,1,1,100.0,0,0.2,0.1,-0.2,1,2,1,0,2
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Leo Kokubo,JPN,GK,24-230,2001,6.0,134,185,72.4,3549,2438,29,30,96.7,62,62,100.0,43,92,46.7,0,0.0,0.0,0.0,0,3,0,0,0
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Louis Patris,BEL,DF,24-095,2001,5.7,231,339,68.1,3841,1395,113,138,81.9,102,139,73.4,14,46,30.4,1,1.1,1.2,-0.1,8,14,17,5,28
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Rein Van Helden,BEL,DF,23-048,2002,5.9,310,345,89.9,6750,2275,69,79,87.3,200,211,94.8,39,53,73.6,0,0.0,0.0,0.0,1,25,0,0,15
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Rihito Yamamoto,JPN,MF,23-272,2001,5.6,136,179,76.0,1911,707,83,98,84.7,36,46,78.3,8,18,44.4,1,0.7,1.1,0.3,9,11,3,1,20
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Robert-Jan Vanwesemael,BEL,FW,23-168,2002,5.2,144,201,71.6,2419,623,76,89,85.4,50,71,70.4,15,27,55.6,0,0.3,0.4,-0.3,5,6,6,4,14
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Ryan Merlen,FRA,"MF,FW",23-122,2002,1.1,69,84,82.1,1391,462,21,24,87.5,40,46,87.0,8,11,72.7,0,1.0,0.5,-1.0,3,8,2,0,17
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Ryotaro Ito,JPN,MF,27-216,1998,5.8,263,344,76.5,4887,1430,113,127,89.0,109,128,85.2,36,63,57.1,1,2.0,2.4,-1.0,22,28,15,4,38
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Shogo Taniguchi,JPN,DF,34-057,1991,1.0,77,87,88.5,1580,538,22,24,91.7,46,47,97.9,9,15,60.0,0,0.1,0.3,-0.1,1,6,0,0,8
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Taiga Hata,JPN,DF,23-233,2002,6.0,262,329,79.6,4228,1753,129,146,88.4,110,132,83.3,17,28,60.7,1,0.2,0.4,0.8,3,25,8,4,35
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Visar Musliu,MKD,DF,30-301,1994,6.0,314,363,86.5,6345,2625,105,116,90.5,158,171,92.4,47,67,70.1,0,0.0,0.1,0.0,0,26,0,0,24
+BEL-Belgian Pro League,2025-26,Standard Liège,Adnane Abid,BEL,FW,22-018,2003,1.6,47,67,70.1,728,186,25,33,75.8,20,27,74.1,2,2,100.0,0,0.5,0.3,-0.5,7,3,2,0,7
+BEL-Belgian Pro League,2025-26,Standard Liège,Alexandro Calut,BEL,DF,22-141,2003,3.7,131,168,78.0,2136,620,75,80,93.8,46,63,73.0,9,22,40.9,0,0.0,0.0,0.0,1,12,1,0,8
+BEL-Belgian Pro League,2025-26,Standard Liège,Boli Bolingoli-Mbombo,BEL,DF,30-071,1995,1.0,36,44,81.8,508,239,22,23,95.7,13,13,100.0,1,4,25.0,0,0.0,0.0,0.0,0,5,0,0,5
+BEL-Belgian Pro League,2025-26,Standard Liège,Casper Nielsen,DEN,MF,31-134,1994,2.9,63,100,63.0,1149,331,23,36,63.9,26,36,72.2,9,18,50.0,0,0.0,0.2,0.0,1,5,2,1,3
+BEL-Belgian Pro League,2025-26,Standard Liège,Daan Dierckx,BEL,DF,22-198,2003,4.8,179,209,85.6,3738,1169,52,57,91.2,104,113,92.0,23,37,62.2,0,0.0,0.0,0.0,0,5,0,0,9
+BEL-Belgian Pro League,2025-26,Standard Liège,Dennis Eckert,GER,"MF,FW",28-244,1997,2.2,39,57,68.4,713,129,22,26,84.6,8,16,50.0,8,12,66.7,0,0.0,0.1,0.0,0,2,1,0,2
+BEL-Belgian Pro League,2025-26,Standard Liège,Hakim Sahabo,RWA,MF,20-086,2005,2.1,96,112,85.7,1858,430,39,43,90.7,41,47,87.2,13,17,76.5,0,0.0,0.1,0.0,1,11,2,0,12
+BEL-Belgian Pro League,2025-26,Standard Liège,Henry Lawrence,ENG,DF,23-354,2001,0.8,35,40,87.5,480,186,21,21,100.0,11,13,84.6,1,3,33.3,0,0.0,0.0,0.0,1,1,0,0,2
+BEL-Belgian Pro League,2025-26,Standard Liège,Ibe Hautekiet,BEL,DF,23-150,2002,2.8,95,111,85.6,1709,502,24,30,80.0,62,66,93.9,4,8,50.0,0,0.1,0.1,-0.1,1,2,0,0,5
+BEL-Belgian Pro League,2025-26,Standard Liège,Ibrahim Karamoko,FRA,MF,24-049,2001,0.9,24,33,72.7,530,86,4,6,66.7,17,20,85.0,3,6,50.0,0,0.0,0.0,0.0,0,1,0,0,1
+BEL-Belgian Pro League,2025-26,Standard Liège,James Nam,BEL,FW,19-008,2006,0.0,0,1,0.0,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Standard Liège,Josué Homawoo,TOG,DF,27-302,1997,5.7,247,280,88.2,4913,2199,69,72,95.8,152,166,91.6,24,37,64.9,0,0.2,0.1,-0.2,1,7,0,0,13
+BEL-Belgian Pro League,2025-26,Standard Liège,Léandre Kuavita,BEL,"MF,FW",21-102,2004,0.3,6,7,85.7,67,23,5,5,100.0,1,1,100.0,0,0,,0,0.3,0.0,-0.3,1,0,0,0,0
+BEL-Belgian Pro League,2025-26,Standard Liège,Marco Ilaimaharitra,MAD,MF,30-046,1995,6.0,252,302,83.4,4582,1503,111,122,91.0,110,130,84.6,25,37,67.6,0,0.2,0.2,-0.2,4,23,3,0,29
+BEL-Belgian Pro League,2025-26,Standard Liège,Marlon Fossey,USA,DF,27-001,1998,6.0,192,270,71.1,3076,1356,118,141,83.7,56,82,68.3,14,33,42.4,0,0.2,0.2,-0.2,4,16,4,3,10
+BEL-Belgian Pro League,2025-26,Standard Liège,Matthieu Epolo,BEL,GK,21-238,2004,6.0,135,197,68.5,3745,2794,26,26,100.0,64,65,98.5,45,106,42.5,0,0.4,0.0,-0.4,1,3,0,0,0
+BEL-Belgian Pro League,2025-26,Standard Liège,Mohamed El Hankouri,MAR,MF,28-071,1997,0.5,19,22,86.4,364,131,10,12,83.3,5,6,83.3,4,4,100.0,0,0.0,0.0,0.0,0,6,0,0,5
+BEL-Belgian Pro League,2025-26,Standard Liège,Nayel Mehssatou,CHI,"MF,FW",23-152,2002,3.0,83,104,79.8,1160,229,48,54,88.9,25,34,73.5,3,7,42.9,0,0.0,0.1,0.0,2,7,1,0,10
+BEL-Belgian Pro League,2025-26,Standard Liège,Rafiki Said,COM,FW,25-179,2000,4.2,74,94,78.7,1451,300,35,41,85.4,26,31,83.9,12,16,75.0,1,1.2,1.0,-0.2,5,3,6,1,11
+BEL-Belgian Pro League,2025-26,Standard Liège,René Mitongo,BEL,FW,17-235,2008,0.6,6,9,66.7,110,38,4,5,80.0,1,2,50.0,1,1,100.0,0,0.2,0.0,-0.2,1,1,0,0,1
+BEL-Belgian Pro League,2025-26,Standard Liège,Thomas Henry,FRA,FW,30-355,1994,4.0,46,69,66.7,662,162,23,37,62.2,17,19,89.5,3,6,50.0,1,0.3,0.1,0.7,3,3,2,0,7
+BEL-Belgian Pro League,2025-26,Standard Liège,Timothée Nkada,FRA,FW,26-052,1999,0.7,8,12,66.7,85,16,7,9,77.8,1,3,33.3,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Standard Liège,Tobias Mohr,GER,"FW,MF",30-017,1995,5.6,144,215,67.0,2644,947,69,82,84.1,52,77,67.5,20,38,52.6,0,0.4,0.7,-0.4,3,14,3,1,17
+BEL-Belgian Pro League,2025-26,Union SG,Adem Zorgane,ALG,MF,25-247,2000,5.0,224,265,84.5,3261,1063,123,140,87.9,65,78,83.3,16,21,76.2,2,2.4,1.8,-0.4,12,29,11,0,36
+BEL-Belgian Pro League,2025-26,Union SG,Alessio Castro-Montes,BEL,DF,28-116,1997,1.6,46,64,71.9,668,240,27,32,84.4,12,19,63.2,4,5,80.0,0,0.0,0.1,0.0,1,5,1,0,7
+BEL-Belgian Pro League,2025-26,Union SG,Anan Khalaili,ISR,DF,21-007,2004,5.1,215,281,76.5,3600,1020,104,123,84.6,85,110,77.3,19,32,59.4,0,0.9,1.0,-0.9,5,15,6,2,28
+BEL-Belgian Pro League,2025-26,Union SG,Anouar Ait El Hadj,BEL,"MF,FW",23-143,2002,4.9,163,203,80.3,2656,582,73,81,90.1,65,76,85.5,15,28,53.6,1,0.9,1.7,0.1,9,10,12,2,28
+BEL-Belgian Pro League,2025-26,Union SG,Charles Vanhoutte,BEL,MF,26-359,1998,5.0,262,337,77.7,4632,1619,134,150,89.3,87,103,84.5,31,64,48.4,1,1.3,1.7,-0.3,11,30,7,1,36
+BEL-Belgian Pro League,2025-26,Union SG,Christian Burgess,ENG,DF,33-338,1991,5.0,326,364,89.6,7119,3373,64,71,90.1,200,212,94.3,61,76,80.3,1,0.3,0.5,0.7,2,20,1,0,26
+BEL-Belgian Pro League,2025-26,Union SG,Cristian Makate,EQG,FW,22-354,2002,0.5,10,11,90.9,130,0,3,4,75.0,3,3,100.0,1,1,100.0,0,0.1,0.0,-0.1,1,0,0,0,0
+BEL-Belgian Pro League,2025-26,Union SG,Fedde Leysen,BEL,DF,22-063,2003,6.0,355,414,85.7,6654,2568,112,122,91.8,203,222,91.4,31,52,59.6,1,0.2,0.2,0.8,5,39,4,1,43
+BEL-Belgian Pro League,2025-26,Union SG,Guillaume François,BEL,DF,35-099,1990,0.1,0,1,0.0,0,0,0,0,,0,0,,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Union SG,Kamiel Van De Perre,BEL,MF,21-210,2004,0.9,19,25,76.0,324,79,9,13,69.2,9,9,100.0,1,1,100.0,0,0.0,0.0,0.0,0,0,1,0,3
+BEL-Belgian Pro League,2025-26,Union SG,Kevin Mac Allister,ARG,DF,27-307,1997,4.9,260,307,84.7,4919,1743,83,94,88.3,150,168,89.3,22,34,64.7,0,0.1,0.2,-0.1,1,30,2,1,29
+BEL-Belgian Pro League,2025-26,Union SG,Kevin Rodríguez,ECU,"FW,MF",25-190,2000,4.7,68,106,64.2,656,102,49,70,70.0,6,15,40.0,1,2,50.0,0,0.2,0.4,-0.2,3,2,1,0,3
+BEL-Belgian Pro League,2025-26,Union SG,Kjell Scherpen,NED,GK,25-230,2000,3.0,58,69,84.1,1296,857,16,16,100.0,32,32,100.0,9,20,45.0,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,Union SG,Mamadou Thierno Barry,SEN,DF,20-174,2005,0.1,3,3,100.0,53,11,1,1,100.0,2,2,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Union SG,Marc Giger,SUI,FW,21-167,2004,0.2,4,6,66.7,56,36,2,4,50.0,2,2,100.0,0,0,,0,0.0,0.0,0.0,1,1,1,0,2
+BEL-Belgian Pro League,2025-26,Union SG,Mathias Rasmussen,NOR,"MF,FW",27-289,1997,1.2,36,48,75.0,768,276,17,19,89.5,9,14,64.3,10,15,66.7,0,0.0,0.1,0.0,1,5,3,0,6
+BEL-Belgian Pro League,2025-26,Union SG,Mohammed Fuseini,GHA,FW,23-117,2002,0.3,2,3,66.7,15,2,2,2,100.0,0,1,0.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Union SG,Ousseynou Niang,SEN,DF,23-333,2001,5.3,148,198,74.7,2553,690,68,85,80.0,56,69,81.2,18,27,66.7,1,0.5,0.5,0.5,3,12,5,1,12
+BEL-Belgian Pro League,2025-26,Union SG,Promise David,CAN,"FW,MF",24-069,2001,1.5,16,27,59.3,271,54,9,15,60.0,4,6,66.7,3,5,60.0,0,0.0,0.0,0.0,0,2,0,0,3
+BEL-Belgian Pro League,2025-26,Union SG,Raul Florucz,AUT,"FW,MF",24-092,2001,4.5,50,79,63.3,592,188,37,50,74.0,10,15,66.7,1,4,25.0,1,0.5,0.3,0.5,4,2,9,1,12
+BEL-Belgian Pro League,2025-26,Union SG,Ross Sykes,ENG,DF,26-168,1999,2.0,75,91,82.4,1432,634,30,33,90.9,34,38,89.5,10,16,62.5,0,0.2,0.1,-0.2,2,8,1,1,13
+BEL-Belgian Pro League,2025-26,Union SG,Sofiane Boufal,MAR,"MF,FW",31-358,1993,1.3,39,51,76.5,674,199,20,20,100.0,13,16,81.3,4,7,57.1,1,1.1,0.6,-0.1,5,3,4,1,8
+BEL-Belgian Pro League,2025-26,Union SG,Vic Chambaere,BEL,GK,22-243,2003,3.0,51,77,66.2,1379,1008,10,10,100.0,25,25,100.0,16,40,40.0,0,0.0,0.0,0.0,1,3,0,0,0
+BEL-Belgian Pro League,2025-26,Westerlo,Allahyar Sayyadmanesh,IRN,FW,24-073,2001,0.2,6,9,66.7,101,40,3,4,75.0,2,3,66.7,1,1,100.0,0,0.0,0.0,0.0,0,0,2,0,2
+BEL-Belgian Pro League,2025-26,Westerlo,Amando Lapage,BEL,DF,20-306,2004,0.5,31,32,96.9,563,143,7,7,100.0,24,25,96.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,1
+BEL-Belgian Pro League,2025-26,Westerlo,Andreas Jungdal,DEN,GK,23-200,2002,5.0,108,170,63.5,3307,2463,28,28,100.0,32,34,94.1,47,107,43.9,0,0.0,0.0,0.0,0,7,0,0,0
+BEL-Belgian Pro League,2025-26,Westerlo,Antonio Cordero,ESP,"FW,MF",18-300,2006,0.4,8,11,72.7,149,77,5,5,100.0,1,1,100.0,2,5,40.0,0,0.1,0.1,-0.1,1,0,0,0,1
+BEL-Belgian Pro League,2025-26,Westerlo,Arthur Piedfort,BEL,MF,20-221,2005,1.3,26,33,78.8,424,134,14,17,82.4,11,14,78.6,1,1,100.0,0,0.1,0.0,-0.1,1,2,2,0,6
+BEL-Belgian Pro League,2025-26,Westerlo,Bryan Reynolds,USA,DF,24-074,2001,4.8,133,184,72.3,2308,873,62,78,79.5,58,77,75.3,10,20,50.0,0,0.8,0.5,-0.8,3,8,4,1,19
+BEL-Belgian Pro League,2025-26,Westerlo,Dire Mebude,SCO,"FW,MF",21-105,2004,1.2,22,29,75.9,295,100,16,20,80.0,5,7,71.4,1,1,100.0,0,0.0,0.0,0.0,0,2,0,0,4
+BEL-Belgian Pro League,2025-26,Westerlo,Dogucan Haspolat,TUR,MF,25-211,2000,5.0,176,246,71.5,3661,1155,67,77,87.0,74,96,77.1,33,67,49.3,0,0.7,0.4,-0.7,8,26,1,0,29
+BEL-Belgian Pro League,2025-26,Westerlo,Emin Bayram,TUR,DF,22-161,2003,5.0,226,282,80.1,4527,1974,80,87,92.0,111,125,88.8,32,64,50.0,2,0.4,0.4,1.6,3,22,3,1,14
+BEL-Belgian Pro League,2025-26,Westerlo,Griffin Yow,USA,"FW,MF",22-350,2002,1.9,19,36,52.8,281,72,12,16,75.0,3,9,33.3,3,4,75.0,0,0.2,0.1,-0.2,2,3,3,0,4
+BEL-Belgian Pro League,2025-26,Westerlo,Isa Sakamoto,JPN,MF,22-015,2003,4.1,73,85,85.9,991,148,41,46,89.1,27,27,100.0,1,2,50.0,0,0.7,0.5,-0.7,6,5,2,0,6
+BEL-Belgian Pro League,2025-26,Westerlo,Josimar Alcocer,CRC,FW,21-065,2004,4.6,86,107,80.4,1269,372,56,65,86.2,25,29,86.2,4,7,57.1,2,1.2,0.9,0.8,9,5,7,2,11
+BEL-Belgian Pro League,2025-26,Westerlo,Kyan Vaesen,BEL,FW,24-150,2001,1.1,12,21,57.1,211,86,3,6,50.0,6,10,60.0,1,1,100.0,1,0.2,0.1,0.8,2,1,1,0,3
+BEL-Belgian Pro League,2025-26,Westerlo,Mathias Fixelles,BEL,FW,29-030,1996,0.2,6,6,100.0,107,9,3,3,100.0,2,2,100.0,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+BEL-Belgian Pro League,2025-26,Westerlo,Matija Frigan,CRO,FW,22-211,2003,1.9,17,24,70.8,255,41,10,12,83.3,6,10,60.0,1,2,50.0,0,0.0,0.0,0.0,0,0,0,0,2
+BEL-Belgian Pro League,2025-26,Westerlo,Nacho Ferri,ESP,FW,20-340,2004,3.3,49,75,65.3,674,258,33,43,76.7,15,25,60.0,0,2,0.0,1,0.5,0.2,0.5,6,9,3,0,15
+BEL-Belgian Pro League,2025-26,Westerlo,Roman Neustädter,RUS,DF,37-204,1988,3.0,191,200,95.5,3776,1032,66,67,98.5,94,97,96.9,28,33,84.8,0,0.2,0.3,-0.2,1,6,2,0,4
+BEL-Belgian Pro League,2025-26,Westerlo,Seiji Kimura,JPN,DF,24-017,2001,1.5,48,55,87.3,823,301,18,20,90.0,27,30,90.0,3,5,60.0,0,0.0,0.0,0.0,0,3,0,0,5
+BEL-Belgian Pro League,2025-26,Westerlo,Serhiy Sydorchuk,UKR,MF,34-131,1991,0.6,21,23,91.3,368,64,12,13,92.3,7,7,100.0,2,3,66.7,0,0.0,0.0,0.0,1,2,1,0,2
+BEL-Belgian Pro League,2025-26,Westerlo,Thomas Van den Keybus,BEL,"MF,FW",24-138,2001,4.5,127,156,81.4,2074,502,60,70,85.7,60,67,89.6,4,10,40.0,0,0.3,0.2,-0.3,5,9,5,2,14
+BEL-Belgian Pro League,2025-26,Westerlo,Tuur Rommens,BEL,DF,22-168,2003,5.0,213,275,77.5,3736,1586,97,112,86.6,101,127,79.5,13,26,50.0,0,0.8,0.7,-0.8,6,19,8,6,28
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Abdoulaye Traoré,CIV,FW,22-074,2003,1.6,33,50,66.0,371,105,24,31,77.4,5,10,50.0,1,4,25.0,0,0.1,0.2,-0.1,1,1,4,1,4
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Anosike Ementa,DEN,FW,23-130,2002,0.3,4,13,30.8,61,12,2,7,28.6,2,3,66.7,0,0,,0,0.1,0.1,-0.1,2,0,1,0,2
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Anton Tanghe,BEL,DF,26-225,1999,6.0,237,278,85.3,4956,1769,51,61,83.6,156,165,94.5,29,44,65.9,0,0.3,0.4,-0.3,2,19,2,1,24
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Benoit Nyssen,BEL,DF,27-363,1997,2.0,99,122,81.1,1655,548,53,57,93.0,39,49,79.6,7,14,50.0,0,0.3,1.0,-0.3,3,15,4,1,15
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Brent Gabriël,BEL,GK,26-226,1999,6.0,127,181,70.2,3972,3294,17,17,100.0,65,67,97.0,45,97,46.4,0,0.0,0.1,0.0,0,8,3,0,2
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Enrique Lofolomo,GER,"DF,MF",25-149,2000,1.0,33,42,78.6,716,269,9,12,75.0,19,21,90.5,5,8,62.5,0,0.0,0.0,0.0,0,3,0,0,2
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Jakob Kiilerich,DEN,DF,25-123,2000,1.0,57,66,86.4,1122,412,16,18,88.9,37,41,90.2,4,6,66.7,0,0.0,0.0,0.0,0,12,0,0,6
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Jelle Vossen,BEL,FW,36-172,1989,2.1,41,57,71.9,524,112,21,28,75.0,14,17,82.4,1,2,50.0,0,0.6,0.2,-0.6,3,2,3,0,5
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Jeppe Erenbjerg,DEN,"MF,FW",25-134,2000,3.9,94,112,83.9,1551,404,52,56,92.9,32,38,84.2,7,8,87.5,0,0.2,0.3,-0.2,5,11,4,0,16
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Joseph Opoku,GHA,FW,20-033,2005,5.9,110,145,75.9,1887,359,53,63,84.1,42,55,76.4,11,14,78.6,2,1.2,0.5,0.8,7,11,3,1,13
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Laurent Lemoine,BEL,DF,27-139,1998,5.0,199,232,85.8,3789,1234,76,80,95.0,106,112,94.6,17,34,50.0,0,0.0,0.1,0.0,0,17,1,0,18
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Lukas Willen,BEL,DF,22-138,2003,2.9,98,111,88.3,1919,673,26,27,96.3,65,70,92.9,7,11,63.6,0,0.1,0.0,-0.1,2,5,1,0,9
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Nikola Mituljikić,SRB,"MF,FW",22-233,2003,0.3,9,10,90.0,151,4,5,5,100.0,4,4,100.0,0,1,0.0,0,0.0,0.0,0.0,0,1,0,0,0
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Serxho Ujka,ALB,"MF,FW",27-014,1998,3.2,42,78,53.8,766,227,20,30,66.7,20,36,55.6,2,9,22.2,0,0.1,0.0,-0.1,2,1,0,0,1
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Stavros Gavriel,CYP,"MF,FW",23-224,2002,0.6,16,22,72.7,317,115,5,6,83.3,9,10,90.0,2,5,40.0,0,0.1,0.2,-0.1,2,1,1,1,2
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Thomas Claes,BEL,MF,21-168,2004,5.5,192,223,86.1,3142,853,100,106,94.3,76,90,84.4,12,18,66.7,1,0.4,0.5,0.6,7,19,3,1,22
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Tobias Hedl,AUT,FW,22-238,2003,2.5,27,45,60.0,424,43,15,19,78.9,9,15,60.0,3,5,60.0,0,0.0,0.1,0.0,0,3,0,0,1
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Tochukwu Nnadi,NGA,MF,22-072,2003,6.0,241,284,84.9,4784,1397,78,87,89.7,131,146,89.7,31,45,68.9,0,0.1,0.1,-0.1,2,34,2,1,34
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Wilguens Paugain,HAI,"DF,MF",24-017,2001,4.0,112,158,70.9,2026,835,46,61,75.4,54,68,79.4,11,22,50.0,0,0.0,0.1,0.0,0,7,2,0,7
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Yannick Cappelle,BEL,"DF,MF",22-065,2003,5.9,213,283,75.3,3755,1136,80,92,87.0,117,140,83.6,13,40,32.5,1,0.3,0.5,0.7,6,8,6,4,19
 ENG-Premier League,2025-26,Arsenal,Ben White,ENG,DF,27-327,1997,0.8,21,27,77.8,353,131,10,11,90.9,10,12,83.3,1,3,33.3,0,0.0,0.0,0.0,1,5,0,0,4
 ENG-Premier League,2025-26,Arsenal,Bukayo Saka,ENG,FW,23-360,2001,1.6,33,40,82.5,541,70,19,20,95.0,9,13,69.2,4,6,66.7,0,0.1,0.1,-0.1,3,0,1,0,2
 ENG-Premier League,2025-26,Arsenal,Cristhian Mosquera,ESP,DF,21-065,2004,0.3,13,14,92.9,211,43,5,5,100.0,8,8,100.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,1
@@ -1722,3 +2316,729 @@ ITA-Serie A,2025-26,Udinese,Razvan Sava,ROU,GK,23-071,2002,1.0,28,29,96.6,596,35
 ITA-Serie A,2025-26,Udinese,Sandi Lovrić,SVN,MF,27-156,1998,0.7,37,45,82.2,660,209,15,16,93.8,17,19,89.5,3,8,37.5,1,0.2,0.4,0.8,1,6,0,0,7
 ITA-Serie A,2025-26,Udinese,Thomas Kristensen,DEN,DF,23-226,2002,1.0,66,73,90.4,1632,575,6,7,85.7,42,44,95.5,18,20,90.0,0,0.0,0.0,0.0,1,3,0,0,4
 ITA-Serie A,2025-26,Udinese,Vakoun Issouf Bayo,CIV,FW,28-233,1997,0.3,6,9,66.7,64,5,5,6,83.3,1,2,50.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,AZ Alkmaar,Alexandre Penetra,POR,DF,24-001,2001,3.0,184,196,93.9,3479,1183,69,72,95.8,97,102,95.1,17,21,81.0,0,0.0,0.1,0.0,1,15,0,0,15
+NED-Eredivisie,2025-26,AZ Alkmaar,Denso Kasius,NED,DF,22-339,2002,2.9,129,161,80.1,2379,701,60,70,85.7,52,60,86.7,17,25,68.0,0,1.1,0.7,-1.1,7,4,3,2,3
+NED-Eredivisie,2025-26,AZ Alkmaar,Ernest Poku,NED,FW,21-225,2004,0.8,15,19,78.9,228,26,7,8,87.5,6,8,75.0,1,1,100.0,1,0.0,0.0,1.0,1,0,0,0,1
+NED-Eredivisie,2025-26,AZ Alkmaar,Ibrahim Sadiq,GHA,"FW,MF",25-126,2000,1.4,32,39,82.1,599,92,14,17,82.4,13,15,86.7,4,4,100.0,0,0.0,0.1,0.0,1,2,4,0,5
+NED-Eredivisie,2025-26,AZ Alkmaar,Isak Jensen,DEN,"MF,FW",21-261,2003,0.7,25,31,80.6,409,130,13,15,86.7,10,12,83.3,1,2,50.0,0,0.0,0.2,0.0,0,1,5,1,5
+NED-Eredivisie,2025-26,AZ Alkmaar,Jeroen Zoet,NED,GK,34-247,1991,1.0,14,28,50.0,511,454,2,3,66.7,3,3,100.0,9,22,40.9,0,0.0,0.0,0.0,0,3,0,0,0
+NED-Eredivisie,2025-26,AZ Alkmaar,Jordy Clasie,NED,MF,34-075,1991,2.8,153,171,89.5,2348,664,85,91,93.4,53,56,94.6,13,18,72.2,0,0.3,0.2,-0.3,6,21,4,0,17
+NED-Eredivisie,2025-26,AZ Alkmaar,Kees Smit,NED,MF,19-233,2006,2.8,125,141,88.7,1939,481,71,75,94.7,36,42,85.7,11,14,78.6,1,1.0,1.3,0.0,9,10,14,0,20
+NED-Eredivisie,2025-26,AZ Alkmaar,Lequincio Zeefuik,NED,DF,20-288,2004,0.1,0,1,0.0,0,0,0,0,,0,1,0.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,AZ Alkmaar,Matej Sin,CZE,MF,21-100,2004,0.1,3,3,100.0,94,13,0,0,,2,2,100.0,1,1,100.0,1,0.5,0.3,0.5,1,1,0,0,2
+NED-Eredivisie,2025-26,AZ Alkmaar,Mateo Chávez,MEX,DF,21-121,2004,0.3,17,19,89.5,269,132,8,9,88.9,4,5,80.0,2,2,100.0,1,0.2,0.1,0.8,2,1,1,0,2
+NED-Eredivisie,2025-26,AZ Alkmaar,Mees de Wit,NED,DF,27-146,1998,2.3,141,167,84.4,2214,678,69,80,86.3,60,64,93.8,7,13,53.8,0,0.3,0.7,-0.3,3,6,4,0,18
+NED-Eredivisie,2025-26,AZ Alkmaar,Mexx Meerdink,NED,FW,22-048,2003,1.7,17,31,54.8,275,73,11,13,84.6,4,7,57.1,2,2,100.0,0,0.0,0.1,0.0,0,2,1,0,3
+NED-Eredivisie,2025-26,AZ Alkmaar,Peer Koopmeiners,NED,"MF,DF",25-129,2000,1.4,50,62,80.6,882,292,27,30,90.0,19,24,79.2,4,6,66.7,0,0.0,0.1,0.0,1,6,1,1,8
+NED-Eredivisie,2025-26,AZ Alkmaar,Ro-Zangelo Daal,NED,"FW,MF",21-212,2004,2.3,71,85,83.5,1131,241,40,45,88.9,24,27,88.9,5,6,83.3,0,0.6,0.4,-0.6,5,1,9,0,10
+NED-Eredivisie,2025-26,AZ Alkmaar,Rome-Jayden Owusu-Oduro,NED,GK,21-070,2004,2.0,36,48,75.0,785,534,10,10,100.0,20,21,95.2,6,17,35.3,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,AZ Alkmaar,Sven Mijnans,NED,MF,25-185,2000,1.8,63,88,71.6,909,297,39,47,83.0,15,23,65.2,5,8,62.5,1,0.3,0.8,0.7,3,3,3,0,8
+NED-Eredivisie,2025-26,AZ Alkmaar,Troy Parrott,IRL,FW,23-218,2002,2.0,29,41,70.7,452,112,17,26,65.4,8,8,100.0,3,4,75.0,0,0.0,0.1,0.0,0,3,2,0,8
+NED-Eredivisie,2025-26,AZ Alkmaar,Weslley Patati,BRA,MF,21-344,2003,0.3,10,12,83.3,185,30,5,6,83.3,4,5,80.0,1,1,100.0,0,0.2,0.2,-0.2,2,0,1,1,0
+NED-Eredivisie,2025-26,AZ Alkmaar,Wouter Goes,NED,DF,21-092,2004,3.0,198,217,91.2,3591,1327,82,84,97.6,92,95,96.8,22,34,64.7,0,0.0,0.3,0.0,2,19,4,0,26
+NED-Eredivisie,2025-26,AZ Alkmaar,Zico Buurmeester,NED,MF,23-095,2002,0.4,13,16,81.3,150,53,9,10,90.0,4,5,80.0,0,1,0.0,0,0.0,0.2,0.0,0,2,0,0,2
+NED-Eredivisie,2025-26,Ajax,Aaron Bouwman,NED,DF,18-013,2007,1.0,59,61,96.7,1063,341,23,23,100.0,29,30,96.7,6,6,100.0,0,0.0,0.0,0.0,0,4,0,0,1
+NED-Eredivisie,2025-26,Ajax,Anton Gaaei,DEN,DF,22-295,2002,1.9,88,105,83.8,1547,537,41,43,95.3,32,41,78.0,12,16,75.0,0,0.2,0.4,-0.2,2,6,6,2,13
+NED-Eredivisie,2025-26,Ajax,Bertrand Traoré,BFA,FW,30-004,1995,0.7,17,21,81.0,197,70,11,12,91.7,4,5,80.0,0,0,,0,0.0,0.1,0.0,0,0,2,0,3
+NED-Eredivisie,2025-26,Ajax,Davy Klaassen,NED,MF,32-201,1993,2.3,88,102,86.3,1377,367,46,49,93.9,34,38,89.5,5,7,71.4,1,0.2,0.1,0.8,2,11,1,0,13
+NED-Eredivisie,2025-26,Ajax,Jorthy Mokio,BEL,MF,17-193,2008,0.7,23,24,95.8,376,74,10,10,100.0,12,12,100.0,0,1,0.0,0,0.0,0.0,0.0,0,3,0,0,2
+NED-Eredivisie,2025-26,Ajax,Josip Šutalo,CRO,DF,25-194,2000,0.5,59,64,92.2,1054,397,21,21,100.0,33,35,94.3,4,6,66.7,0,0.0,0.0,0.0,0,4,0,0,4
+NED-Eredivisie,2025-26,Ajax,Kenneth Taylor,NED,MF,23-117,2002,4.0,186,208,89.4,2618,674,108,120,90.0,64,69,92.8,7,10,70.0,0,0.6,0.9,-0.6,8,20,5,0,20
+NED-Eredivisie,2025-26,Ajax,Kian Fitz-Jim,NED,MF,22-067,2003,1.8,138,144,95.8,2204,598,70,71,98.6,60,61,98.4,5,8,62.5,0,0.0,0.2,0.0,0,14,1,0,15
+NED-Eredivisie,2025-26,Ajax,Ko Itakura,JPN,DF,28-226,1997,1.5,84,93,90.3,1636,544,29,29,100.0,48,51,94.1,7,12,58.3,0,0.0,0.0,0.0,0,6,0,0,4
+NED-Eredivisie,2025-26,Ajax,Lucas Oliveira Rosa,BRA,DF,25-160,2000,2.2,155,179,86.6,2805,701,66,70,94.3,71,82,86.6,16,21,76.2,0,0.0,0.1,0.0,1,11,0,0,5
+NED-Eredivisie,2025-26,Ajax,Mika Godts,BEL,FW,20-095,2005,0.6,31,39,79.5,475,56,17,19,89.5,8,9,88.9,3,5,60.0,0,0.1,0.2,-0.1,1,0,3,0,5
+NED-Eredivisie,2025-26,Ajax,Oliver Edvardsen,NOR,FW,26-175,1999,1.3,55,65,84.6,740,122,32,35,91.4,19,23,82.6,2,3,66.7,0,0.0,0.1,0.0,1,2,2,0,4
+NED-Eredivisie,2025-26,Ajax,Oscar Gloukh,ISR,FW,21-162,2004,2.0,106,128,82.8,1469,366,71,74,95.9,27,33,81.8,4,10,40.0,0,0.1,0.6,-0.1,2,11,3,0,15
+NED-Eredivisie,2025-26,Ajax,Owen Wijndal,NED,DF,25-286,1999,4.0,209,240,87.1,2882,829,132,139,95.0,70,83,84.3,2,8,25.0,0,0.7,0.8,-0.7,5,14,4,3,20
+NED-Eredivisie,2025-26,Ajax,Rayane Bounida,BEL,MF,19-191,2006,0.0,1,2,50.0,6,0,1,1,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Ajax,Raúl Moro,ESP,FW,22-279,2002,2.7,68,101,67.3,1037,389,34,43,79.1,28,40,70.0,3,9,33.3,0,0.7,1.2,-0.7,5,6,6,1,14
+NED-Eredivisie,2025-26,Ajax,Steven Berghuis,NED,"MF,FW",33-265,1991,3.7,233,277,84.1,4140,1226,111,121,91.7,89,101,88.1,28,40,70.0,2,1.1,2.1,0.9,14,29,14,2,35
+NED-Eredivisie,2025-26,Ajax,Vitezslav Jaros,CZE,GK,24-049,2001,4.0,134,154,87.0,3096,2104,35,35,100.0,76,78,97.4,23,41,56.1,0,0.0,0.0,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,Ajax,Wout Weghorst,NED,FW,33-034,1992,4.0,82,110,74.5,1020,260,56,64,87.5,14,26,53.8,4,5,80.0,1,1.5,0.7,-0.5,13,7,3,0,12
+NED-Eredivisie,2025-26,Ajax,Youri Baas,NED,DF,22-177,2003,4.0,375,401,93.5,6278,2136,173,179,96.6,176,182,96.7,20,27,74.1,0,0.4,0.4,-0.4,3,27,3,0,27
+NED-Eredivisie,2025-26,Ajax,Youri Regeer,NED,"DF,MF",22-023,2003,1.0,52,56,92.9,799,240,27,28,96.4,22,24,91.7,2,2,100.0,0,0.0,0.0,0.0,1,1,0,0,2
+NED-Eredivisie,2025-26,Excelsior,Adam Carlén,SWE,MF,25-075,2000,4.0,103,129,79.8,1787,398,43,57,75.4,55,59,93.2,4,7,57.1,1,0.2,0.1,0.8,5,15,1,0,14
+NED-Eredivisie,2025-26,Excelsior,Arthur Zagre,FRA,DF,23-341,2001,4.0,116,152,76.3,1971,495,54,59,91.5,53,61,86.9,9,23,39.1,0,0.2,0.2,-0.2,3,7,0,0,9
+NED-Eredivisie,2025-26,Excelsior,Calvin Raatsie,NED,GK,23-213,2002,2.0,94,121,77.7,2393,1412,13,13,100.0,63,64,98.4,18,44,40.9,0,0.0,0.0,0.0,0,3,0,0,0
+NED-Eredivisie,2025-26,Excelsior,Casper Widell,SWE,DF,22-128,2003,4.0,153,181,84.5,3650,1318,26,29,89.7,96,104,92.3,30,45,66.7,0,0.0,0.5,0.0,0,19,1,0,24
+NED-Eredivisie,2025-26,Excelsior,Derensili Fernandes,NED,"FW,MF",24-105,2001,3.2,75,100,75.0,1255,265,33,47,70.2,32,36,88.9,7,8,87.5,0,0.2,0.4,-0.2,2,7,2,0,9
+NED-Eredivisie,2025-26,Excelsior,Gyan de Regt,NED,"FW,MF",23-027,2002,3.7,56,97,57.7,1152,300,24,33,72.7,19,32,59.4,10,22,45.5,0,0.3,0.5,-0.3,6,1,4,2,4
+NED-Eredivisie,2025-26,Excelsior,Ilias Bronkhorst,NED,DF,28-123,1997,2.4,68,115,59.1,1433,634,22,28,78.6,36,54,66.7,9,27,33.3,0,0.3,0.3,-0.3,4,8,5,3,14
+NED-Eredivisie,2025-26,Excelsior,Irakli Yegoian,GEO,MF,21-175,2004,1.8,25,34,73.5,416,107,10,11,90.9,13,15,86.7,1,5,20.0,0,0.0,0.0,0.0,1,3,0,0,2
+NED-Eredivisie,2025-26,Excelsior,Jerolldino Bergraaf,NED,"MF,FW",19-067,2006,0.5,3,4,75.0,56,5,2,3,66.7,0,0,,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Excelsior,Mike van Duinen,NED,FW,33-308,1991,2.7,19,40,47.5,311,61,11,24,45.8,5,9,55.6,3,4,75.0,0,0.1,0.0,-0.1,1,2,0,0,3
+NED-Eredivisie,2025-26,Excelsior,Nesto Groen,NED,FW,21-050,2004,0.2,2,5,40.0,14,2,1,1,100.0,0,2,0.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Excelsior,Noah Naujoks,NED,MF,23-131,2002,2.3,42,57,73.7,833,230,14,21,66.7,21,25,84.0,5,8,62.5,0,0.2,0.2,-0.2,1,9,0,0,6
+NED-Eredivisie,2025-26,Excelsior,Nolan Martens,BEL,DF,21-065,2004,1.6,57,72,79.2,948,344,26,28,92.9,29,36,80.6,2,6,33.3,1,0.0,0.0,1.0,1,3,0,0,5
+NED-Eredivisie,2025-26,Excelsior,Rick Meissen,NED,"MF,DF",23-198,2002,1.7,20,33,60.6,398,99,6,11,54.5,12,18,66.7,2,4,50.0,0,0.0,0.0,0.0,0,2,0,0,3
+NED-Eredivisie,2025-26,Excelsior,Stan Henderikx,NED,DF,22-064,2003,3.2,142,164,86.6,3005,751,33,36,91.7,94,97,96.9,15,29,51.7,0,0.0,0.1,0.0,0,13,2,1,13
+NED-Eredivisie,2025-26,Excelsior,Stijn Middendorp,,MF,,,1.1,19,27,70.4,350,93,10,11,90.9,8,13,61.5,1,3,33.3,0,0.0,0.0,0.0,0,3,0,0,4
+NED-Eredivisie,2025-26,Excelsior,Stijn van Gassel,NED,GK,28-327,1996,1.3,29,64,45.3,1414,1214,0,0,,6,6,100.0,23,58,39.7,0,0.0,0.0,0.0,0,3,0,0,0
+NED-Eredivisie,2025-26,Excelsior,Szymon Włodarczyk,POL,FW,22-248,2003,0.8,9,12,75.0,152,30,5,6,83.3,3,4,75.0,1,1,100.0,0,0.0,0.0,0.0,0,1,0,0,2
+NED-Eredivisie,2025-26,Excelsior,Tijmen Holla,,GK,,,0.7,28,43,65.1,1157,928,0,0,,13,13,100.0,15,30,50.0,0,0.1,0.0,-0.1,1,6,0,0,0
+NED-Eredivisie,2025-26,Excelsior,Yoon Doyong,KOR,FW,18-317,2006,0.8,9,12,75.0,122,40,7,7,100.0,2,5,40.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Excelsior,Zach Booth,USA,MF,21-205,2004,1.2,22,29,75.9,324,25,15,17,88.2,5,8,62.5,1,2,50.0,0,0.0,0.0,0.0,0,1,1,0,4
+NED-Eredivisie,2025-26,Feyenoord,Anel Ahmedhodžić,BIH,DF,26-168,1999,3.0,160,178,89.9,2894,887,52,58,89.7,98,106,92.5,8,11,72.7,0,0.1,0.3,-0.1,2,15,1,0,11
+NED-Eredivisie,2025-26,Feyenoord,Anis Hadj Moussa,ALG,FW,23-211,2002,2.8,63,97,64.9,981,320,35,43,81.4,17,28,60.7,7,15,46.7,0,0.3,0.6,-0.3,3,4,7,1,14
+NED-Eredivisie,2025-26,Feyenoord,Ayase Ueda,JPN,FW,27-000,1998,2.7,28,34,82.4,358,70,14,18,77.8,7,8,87.5,1,1,100.0,0,0.5,0.3,-0.5,2,1,0,0,3
+NED-Eredivisie,2025-26,Feyenoord,Bart Nieuwkoop,NED,DF,29-187,1996,1.3,44,63,69.8,648,289,23,26,88.5,18,29,62.1,1,5,20.0,0,0.2,0.6,-0.2,2,5,1,0,6
+NED-Eredivisie,2025-26,Feyenoord,Casper Tengstedt,DEN,FW,25-101,2000,0.3,6,7,85.7,142,31,3,4,75.0,0,0,,3,3,100.0,0,0.2,0.0,-0.2,1,1,0,0,1
+NED-Eredivisie,2025-26,Feyenoord,Gaoussou Diarra,MLI,FW,22-293,2002,0.8,20,28,71.4,235,64,14,16,87.5,5,8,62.5,0,1,0.0,0,0.0,0.1,0.0,0,1,1,0,2
+NED-Eredivisie,2025-26,Feyenoord,Gijs Smal,NED,DF,28-010,1997,0.4,14,21,66.7,264,87,5,6,83.3,7,9,77.8,2,5,40.0,0,0.0,0.0,0.0,1,2,1,0,2
+NED-Eredivisie,2025-26,Feyenoord,Givairo Read,NED,DF,19-100,2006,1.0,57,68,83.8,880,203,26,31,83.9,26,30,86.7,3,5,60.0,0,0.2,0.3,-0.2,2,2,1,1,4
+NED-Eredivisie,2025-26,Feyenoord,Gonçalo Borges,POR,FW,24-165,2001,0.2,5,5,100.0,54,15,4,4,100.0,1,1,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Feyenoord,Hwang In-beom,KOR,MF,28-355,1996,0.5,22,31,71.0,346,97,10,14,71.4,9,9,100.0,2,5,40.0,0,0.1,0.1,-0.1,1,0,0,0,1
+NED-Eredivisie,2025-26,Feyenoord,Jaden Slory,NED,FW,20-124,2005,0.8,22,31,71.0,314,94,14,18,77.8,4,5,80.0,3,5,60.0,0,0.5,0.4,-0.5,4,1,3,0,4
+NED-Eredivisie,2025-26,Feyenoord,Jordan Bos,AUS,DF,22-316,2002,1.9,124,148,83.8,1991,644,60,67,89.6,62,72,86.1,2,5,40.0,0,0.2,0.1,-0.2,1,10,0,0,14
+NED-Eredivisie,2025-26,Feyenoord,Jordan Lotomba,SUI,DF,26-346,1998,1.3,68,78,87.2,1005,287,36,37,97.3,30,32,93.8,1,5,20.0,0,0.0,0.1,0.0,1,5,0,0,8
+NED-Eredivisie,2025-26,Feyenoord,Leo Sauer,SVK,FW,19-268,2005,1.4,43,58,74.1,617,112,28,31,90.3,13,16,81.3,2,4,50.0,1,0.2,0.2,0.8,2,1,2,1,3
+NED-Eredivisie,2025-26,Feyenoord,Luciano Valente,NED,MF,21-341,2003,1.6,89,109,81.7,1623,525,35,38,92.1,37,46,80.4,13,19,68.4,1,0.4,1.3,0.6,5,14,8,0,23
+NED-Eredivisie,2025-26,Feyenoord,Oussama Targhalline,MAR,MF,23-113,2002,1.5,55,60,91.7,893,155,27,27,100.0,27,30,90.0,0,1,0.0,0,0.0,0.0,0.0,0,3,0,0,6
+NED-Eredivisie,2025-26,Feyenoord,Quinten Timber,NED,MF,24-085,2001,2.3,81,95,85.3,1333,410,39,46,84.8,34,38,89.5,6,7,85.7,0,0.3,0.7,-0.3,5,11,9,0,21
+NED-Eredivisie,2025-26,Feyenoord,Sem Steijn,NED,MF,23-297,2001,3.0,67,77,87.0,951,268,41,46,89.1,21,22,95.5,3,6,50.0,0,1.4,0.8,-1.4,9,9,2,0,12
+NED-Eredivisie,2025-26,Feyenoord,Thijs Kraaijeveld,NED,MF,18-130,2007,0.1,6,11,54.5,105,16,4,5,80.0,1,4,25.0,1,2,50.0,0,0.0,0.0,0.0,0,3,0,0,0
+NED-Eredivisie,2025-26,Feyenoord,Timon Wellenreuther,GER,GK,29-281,1995,3.0,88,127,69.3,2057,1331,26,26,100.0,42,43,97.7,20,57,35.1,0,0.0,0.0,0.0,0,1,1,0,0
+NED-Eredivisie,2025-26,Feyenoord,Tsuyoshi Watanabe,JPN,DF,28-217,1997,3.0,204,221,92.3,3800,1094,67,69,97.1,116,122,95.1,19,26,73.1,0,0.0,0.2,0.0,1,13,1,0,14
+NED-Eredivisie,2025-26,Fortuna Sittard,Dimitris Limnios,GRE,"FW,DF",27-106,1998,2.8,66,88,75.0,933,310,43,51,84.3,17,23,73.9,5,9,55.6,0,0.4,0.6,-0.4,7,3,8,4,10
+NED-Eredivisie,2025-26,Fortuna Sittard,Edouard Michut,FRA,MF,22-190,2003,2.0,126,137,92.0,1900,354,68,70,97.1,51,55,92.7,5,6,83.3,0,0.1,0.3,-0.1,4,15,3,0,11
+NED-Eredivisie,2025-26,Fortuna Sittard,Houboulang Mendes,GNB,"DF,FW",27-129,1998,0.1,9,16,56.3,108,28,6,8,75.0,2,5,40.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Fortuna Sittard,Ivo Pinto,POR,DF,35-246,1990,2.6,123,155,79.4,1822,678,63,68,92.6,52,65,80.0,2,12,16.7,0,0.2,0.4,-0.2,3,10,6,3,10
+NED-Eredivisie,2025-26,Fortuna Sittard,Iván Márquez,ESP,DF,31-093,1994,1.4,49,54,90.7,984,416,15,16,93.8,30,33,90.9,4,5,80.0,0,0.0,0.0,0.0,0,5,0,0,4
+NED-Eredivisie,2025-26,Fortuna Sittard,Jasper Dahlhaus,NED,DF,23-287,2001,2.9,103,134,76.9,1693,344,62,68,91.2,31,38,81.6,8,23,34.8,0,0.3,0.2,-0.3,3,11,1,1,10
+NED-Eredivisie,2025-26,Fortuna Sittard,Justin Hubner,IDN,DF,21-361,2003,2.2,104,121,86.0,1773,443,49,52,94.2,46,50,92.0,8,17,47.1,0,0.1,0.1,-0.1,2,8,2,1,8
+NED-Eredivisie,2025-26,Fortuna Sittard,Justin Lonwijk,SUR,"MF,FW",25-263,1999,1.3,10,26,38.5,181,92,5,11,45.5,4,9,44.4,1,1,100.0,0,0.0,0.0,0.0,0,2,1,0,4
+NED-Eredivisie,2025-26,Fortuna Sittard,Kristoffer Peterson,SWE,"FW,MF",30-286,1994,2.6,62,83,74.7,927,182,29,33,87.9,22,29,75.9,5,9,55.6,1,0.2,0.3,0.8,5,1,3,0,7
+NED-Eredivisie,2025-26,Fortuna Sittard,Luka Tunjić,CRO,"MF,FW",19-295,2005,0.6,16,23,69.6,248,90,9,11,81.8,5,6,83.3,2,2,100.0,0,0.1,0.2,-0.1,2,0,1,0,2
+NED-Eredivisie,2025-26,Fortuna Sittard,Makan Aiko,FRA,FW,24-246,2001,0.4,10,12,83.3,175,42,6,6,100.0,3,4,75.0,1,1,100.0,1,0.1,0.2,0.9,1,0,1,1,2
+NED-Eredivisie,2025-26,Fortuna Sittard,Marko Kerkez,SRB,FW,25-076,2000,0.0,0,3,0.0,0,0,0,3,0.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Fortuna Sittard,Mattijs Branderhorst,NED,GK,31-253,1993,3.0,67,114,58.8,2141,1887,16,17,94.1,25,25,100.0,24,68,35.3,0,0.0,0.0,0.0,1,3,0,0,0
+NED-Eredivisie,2025-26,Fortuna Sittard,Mohammed Ihattaren,NED,FW,23-210,2002,1.2,47,70,67.1,749,250,24,30,80.0,17,23,73.9,5,12,41.7,1,0.2,0.4,0.8,2,5,5,1,11
+NED-Eredivisie,2025-26,Fortuna Sittard,Paul Gladon,NED,FW,33-176,1992,1.3,10,18,55.6,149,37,7,11,63.6,3,6,50.0,0,0,,0,0.0,0.0,0.0,0,2,0,0,3
+NED-Eredivisie,2025-26,Fortuna Sittard,Philip Brittijn,NED,"MF,DF",21-154,2004,3.0,64,83,77.1,1001,277,30,38,78.9,24,26,92.3,6,10,60.0,1,0.2,0.1,0.8,3,12,1,0,6
+NED-Eredivisie,2025-26,Fortuna Sittard,Ryan Fosso,SUI,"MF,DF",23-085,2002,3.0,133,148,89.9,2205,644,62,65,95.4,62,69,89.9,5,9,55.6,0,0.1,0.3,-0.1,3,9,2,0,9
+NED-Eredivisie,2025-26,Fortuna Sittard,Shawn Adewoye,BEL,DF,25-073,2000,2.6,112,131,85.5,1940,648,47,48,97.9,52,57,91.2,10,21,47.6,0,0.0,0.0,0.0,0,8,0,0,3
+NED-Eredivisie,2025-26,Fortuna Sittard,Tristan Schenkhuizen,NED,MF,21-060,2004,0.0,1,1,100.0,12,12,1,1,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,1,0,0,1
+NED-Eredivisie,2025-26,Go Ahead Eag,Aske Adelgaard,DEN,"DF,FW",21-304,2003,0.6,37,42,88.1,618,183,18,19,94.7,16,17,94.1,2,2,100.0,0,0.3,0.1,-0.3,1,2,1,0,4
+NED-Eredivisie,2025-26,Go Ahead Eag,Calvin Twigt,NED,MF,22-223,2003,1.1,49,59,83.1,987,285,16,17,94.1,25,29,86.2,7,12,58.3,0,0.0,0.0,0.0,0,6,0,0,6
+NED-Eredivisie,2025-26,Go Ahead Eag,Dean James,IDN,DF,25-133,2000,3.5,96,143,67.1,1726,465,45,49,91.8,39,52,75.0,11,36,30.6,1,0.9,0.7,0.1,5,2,1,0,6
+NED-Eredivisie,2025-26,Go Ahead Eag,Evert Linthorst,NED,MF,25-191,2000,3.6,136,160,85.0,2258,514,61,65,93.8,59,66,89.4,11,18,61.1,0,0.0,0.1,0.0,1,13,4,0,20
+NED-Eredivisie,2025-26,Go Ahead Eag,Finn Stokkers,NED,"FW,MF",29-145,1996,0.3,5,11,45.5,70,14,1,5,20.0,3,4,75.0,0,0,,0,0.0,0.0,0.0,0,1,1,0,1
+NED-Eredivisie,2025-26,Go Ahead Eag,Gerrit Nauber,GER,DF,33-150,1992,4.0,195,224,87.1,4013,1333,51,54,94.4,120,129,93.0,22,37,59.5,0,0.1,0.1,-0.1,1,11,0,0,12
+NED-Eredivisie,2025-26,Go Ahead Eag,Jakob Breum,DEN,"MF,FW",21-297,2003,2.7,86,110,78.2,1715,536,33,38,86.8,35,39,89.7,16,25,64.0,1,0.5,0.6,0.5,8,13,9,0,21
+NED-Eredivisie,2025-26,Go Ahead Eag,Jari De Busser,BEL,GK,25-324,1999,4.0,114,172,66.3,2848,1987,25,25,100.0,62,62,100.0,27,84,32.1,0,0.0,0.0,0.0,0,2,0,0,0
+NED-Eredivisie,2025-26,Go Ahead Eag,Joris Kramer,NED,DF,29-039,1996,4.0,243,274,88.7,4582,1269,78,92,84.8,138,146,94.5,25,33,75.8,0,0.1,0.4,-0.1,1,23,5,1,23
+NED-Eredivisie,2025-26,Go Ahead Eag,Julius Dirksen,NED,DF,22-220,2003,0.2,4,5,80.0,59,24,2,2,100.0,2,2,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,2
+NED-Eredivisie,2025-26,Go Ahead Eag,Mathis Suray,BEL,FW,24-046,2001,3.1,57,75,76.0,947,220,27,32,84.4,23,27,85.2,6,11,54.5,0,0.3,0.2,-0.3,1,4,5,2,10
+NED-Eredivisie,2025-26,Go Ahead Eag,Mats Deijl,NED,DF,28-057,1997,4.0,140,176,79.5,2786,1068,61,69,88.4,58,64,90.6,19,38,50.0,0,0.1,0.2,-0.1,2,17,3,1,14
+NED-Eredivisie,2025-26,Go Ahead Eag,Melle Meulensteen,NED,MF,26-068,1999,2.1,101,116,87.1,1879,620,39,40,97.5,48,54,88.9,12,17,70.6,0,0.0,0.1,0.0,0,16,0,0,16
+NED-Eredivisie,2025-26,Go Ahead Eag,Milan Smit,NED,FW,22-209,2003,1.8,18,22,81.8,242,71,9,10,90.0,6,7,85.7,0,1,0.0,0,0.1,0.1,-0.1,1,1,1,0,4
+NED-Eredivisie,2025-26,Go Ahead Eag,Oscar Pettersson,SWE,FW,25-221,2000,0.3,2,3,66.7,37,19,0,0,,2,2,100.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Go Ahead Eag,Oskar Siira Sivertsen,NOR,"MF,FW",21-207,2004,0.3,11,16,68.8,170,70,5,7,71.4,6,6,100.0,0,2,0.0,0,0.2,0.3,-0.2,1,1,3,2,3
+NED-Eredivisie,2025-26,Go Ahead Eag,Richonell Margaret,SUR,FW,25-003,2000,2.7,46,74,62.2,742,263,28,36,77.8,13,24,54.2,5,7,71.4,0,0.1,0.1,-0.1,1,6,4,2,8
+NED-Eredivisie,2025-26,Go Ahead Eag,Thibo Baeten,BEL,"MF,FW",23-098,2002,0.5,4,6,66.7,82,20,0,0,,4,4,100.0,0,2,0.0,0,0.0,0.0,0.0,1,0,0,0,0
+NED-Eredivisie,2025-26,Go Ahead Eag,Victor Edvardsen,SWE,"FW,MF",29-239,1996,3.8,54,83,65.1,847,237,28,37,75.7,21,29,72.4,3,8,37.5,2,1.3,1.4,0.7,6,4,5,0,11
+NED-Eredivisie,2025-26,Go Ahead Eag,Yassir Salah Rahmouni,NED,MF,19-089,2006,1.0,38,46,82.6,620,179,18,21,85.7,19,21,90.5,1,3,33.3,0,0.0,0.1,0.0,0,3,1,0,5
+NED-Eredivisie,2025-26,Groningen,Brynjolfur Darri Willumsson,ISL,FW,25-029,2000,3.9,41,60,68.3,592,66,18,25,72.0,15,20,75.0,4,6,66.7,0,0.2,0.2,-0.2,4,0,1,0,2
+NED-Eredivisie,2025-26,Groningen,David van der Werff,NED,FW,21-010,2004,1.0,29,37,78.4,503,164,12,14,85.7,13,16,81.3,2,3,66.7,0,0.3,0.4,-0.3,3,5,3,1,5
+NED-Eredivisie,2025-26,Groningen,Dies Janse,NED,DF,19-236,2006,2.0,68,77,88.3,1144,441,27,28,96.4,34,39,87.2,5,6,83.3,0,0.0,0.0,0.0,1,3,0,0,8
+NED-Eredivisie,2025-26,Groningen,Etienne Vaessen,SUR,GK,30-046,1995,1.0,19,40,47.5,523,400,4,4,100.0,8,9,88.9,7,27,25.9,0,0.0,0.0,0.0,0,1,0,0,1
+NED-Eredivisie,2025-26,Groningen,Hidde Jurjus,NED,GK,31-213,1994,3.0,71,115,61.7,1940,1474,24,24,100.0,24,24,100.0,23,67,34.3,0,0.0,0.0,0.0,0,5,0,0,0
+NED-Eredivisie,2025-26,Groningen,Jorg Schreuders,NED,FW,21-001,2004,3.2,68,83,81.9,1127,256,36,41,87.8,21,24,87.5,9,12,75.0,0,0.1,0.2,-0.1,2,2,2,0,6
+NED-Eredivisie,2025-26,Groningen,Marco Rente,GER,DF,28-197,1997,3.6,118,158,74.7,2176,772,44,48,91.7,63,81,77.8,10,19,52.6,2,0.7,0.9,1.3,10,10,8,5,12
+NED-Eredivisie,2025-26,Groningen,Mark Hoekstra,NED,FW,19-212,2006,0.1,1,1,100.0,20,12,0,0,,1,1,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,1
+NED-Eredivisie,2025-26,Groningen,Marvin Peersman,BEL,DF,34-212,1991,4.0,176,229,76.9,3382,1373,69,80,86.3,83,101,82.2,22,41,53.7,0,0.0,0.2,0.0,0,10,2,0,20
+NED-Eredivisie,2025-26,Groningen,Mats Seuntjens,NED,"MF,FW",33-146,1992,0.3,7,10,70.0,146,68,1,1,100.0,4,4,100.0,1,4,25.0,0,0.0,0.2,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,Groningen,Noam Emeran,FRA,DF,22-351,2002,0.2,2,5,40.0,45,0,0,0,,2,3,66.7,0,2,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Groningen,Oskar Zawada,POL,"MF,FW",29-221,1996,0.4,6,10,60.0,92,14,4,6,66.7,1,2,50.0,1,1,100.0,0,0.0,0.0,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,Groningen,Stije Resink,NED,MF,22-105,2003,4.0,134,169,79.3,2481,584,53,65,81.5,64,73,87.7,12,19,63.2,2,0.2,0.4,1.8,4,20,3,1,21
+NED-Eredivisie,2025-26,Groningen,Thijmen Blokzijl,NED,DF,20-197,2005,4.0,176,205,85.9,3254,1203,68,72,94.4,92,102,90.2,16,29,55.2,0,0.0,0.0,0.0,0,11,0,0,18
+NED-Eredivisie,2025-26,Groningen,Thom van Bergen,NED,"FW,MF",21-247,2004,3.8,46,64,71.9,710,121,18,25,72.0,20,25,80.0,3,3,100.0,1,0.4,0.2,0.6,3,2,4,0,8
+NED-Eredivisie,2025-26,Groningen,Tika de Jonge,NED,MF,22-183,2003,3.5,108,142,76.1,1931,411,43,54,79.6,57,68,83.8,8,15,53.3,0,0.1,0.3,-0.1,2,16,3,1,15
+NED-Eredivisie,2025-26,Groningen,Tygo Land,NED,MF,19-242,2006,0.2,4,4,100.0,71,9,2,2,100.0,2,2,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Groningen,Tyrique Mercera,CUW,DF,21-265,2003,0.7,27,38,71.1,533,119,12,17,70.6,10,15,66.7,5,5,100.0,0,0.0,0.0,0.0,0,0,0,0,1
+NED-Eredivisie,2025-26,Groningen,Wouter Prins,NED,DF,21-216,2004,1.6,52,78,66.7,944,262,23,28,82.1,26,33,78.8,3,14,21.4,0,0.0,0.0,0.0,0,2,0,0,2
+NED-Eredivisie,2025-26,Groningen,Younes Taha El Idrissi,MAR,"FW,MF",,,3.5,55,99,55.6,1028,325,26,37,70.3,16,28,57.1,10,18,55.6,2,0.8,0.9,1.2,6,2,3,0,5
+NED-Eredivisie,2025-26,Heerenveen,Andries Noppert,NED,GK,31-156,1994,4.0,115,164,70.1,3001,2187,27,27,100.0,56,56,100.0,32,80,40.0,0,0.0,0.0,0.0,0,3,0,0,1
+NED-Eredivisie,2025-26,Heerenveen,Dylan Vente,NED,FW,26-124,1999,2.9,42,62,67.7,670,160,17,26,65.4,16,22,72.7,4,5,80.0,0,0.2,0.1,-0.2,4,9,2,0,9
+NED-Eredivisie,2025-26,Heerenveen,Eser Gürbüz,NED,FW,18-188,2007,0.5,7,18,38.9,110,37,4,7,57.1,3,3,100.0,0,7,0.0,0,0.0,0.3,0.0,1,0,0,0,0
+NED-Eredivisie,2025-26,Heerenveen,Espen van Ee,NED,MF,22-067,2003,0.6,16,18,88.9,240,39,9,10,90.0,5,6,83.3,1,1,100.0,0,0.0,0.0,0.0,0,3,0,0,2
+NED-Eredivisie,2025-26,Heerenveen,Hristiyan Petrov,BUL,DF,23-078,2002,1.2,38,57,66.7,612,243,20,25,80.0,15,23,65.2,3,7,42.9,0,0.1,0.0,-0.1,2,4,0,0,1
+NED-Eredivisie,2025-26,Heerenveen,Jacob Trenskow,DEN,FW,24-288,2000,3.3,97,130,74.6,1503,434,56,63,88.9,26,38,68.4,12,21,57.1,0,1.2,1.4,-1.2,9,6,8,3,17
+NED-Eredivisie,2025-26,Heerenveen,Joris van Overeem,NED,MF,31-101,1994,4.0,176,230,76.5,3199,1224,81,97,83.5,70,87,80.5,21,33,63.6,1,0.3,0.8,0.7,7,32,8,1,40
+NED-Eredivisie,2025-26,Heerenveen,Levi Smans,NED,MF,21-169,2004,0.6,14,20,70.0,234,86,7,10,70.0,6,7,85.7,1,2,50.0,1,0.2,0.6,0.8,2,1,0,0,2
+NED-Eredivisie,2025-26,Heerenveen,Luuk Brouwers,NED,MF,27-130,1998,2.4,88,110,80.0,1417,422,47,60,78.3,29,33,87.9,9,12,75.0,1,0.6,0.3,0.4,3,7,1,0,7
+NED-Eredivisie,2025-26,Heerenveen,Marcus Linday,SWE,MF,22-100,2003,2.9,87,110,79.1,1272,362,45,52,86.5,34,42,81.0,4,7,57.1,0,0.2,0.1,-0.2,2,12,2,0,16
+NED-Eredivisie,2025-26,Heerenveen,Maxence Rivera,FRA,FW,23-103,2002,3.7,80,118,67.8,1038,392,50,56,89.3,24,35,68.6,1,11,9.1,0,0.7,1.0,-0.7,5,9,10,2,18
+NED-Eredivisie,2025-26,Heerenveen,Nikolai Hopland,NOR,DF,21-048,2004,3.9,221,240,92.1,4146,1290,84,87,96.6,115,123,93.5,18,24,75.0,0,0.1,0.1,-0.1,1,21,1,0,21
+NED-Eredivisie,2025-26,Heerenveen,Oliver Braude,NOR,DF,21-201,2004,3.0,141,183,77.0,2845,991,57,62,91.9,56,68,82.4,26,45,57.8,0,0.4,0.3,-0.4,4,9,3,2,9
+NED-Eredivisie,2025-26,Heerenveen,Ringo Meerveld,NED,"MF,FW",24-263,2000,1.8,40,51,78.4,613,146,21,23,91.3,17,21,81.0,1,4,25.0,0,0.4,0.6,-0.4,4,2,2,0,6
+NED-Eredivisie,2025-26,Heerenveen,Sam Kersten,NED,DF,27-223,1998,4.0,197,226,87.2,3681,1190,74,78,94.9,98,111,88.3,20,31,64.5,0,0.4,0.1,-0.4,2,13,2,0,13
+NED-Eredivisie,2025-26,Heerenveen,Vasilios Zagaritis,GRE,DF,24-129,2001,3.9,169,217,77.9,2898,927,81,93,87.1,71,92,77.2,12,19,63.2,1,1.2,1.3,-0.2,8,15,6,4,17
+NED-Eredivisie,2025-26,Heerenveen,Václav Sejk,CZE,"FW,MF",23-115,2002,1.2,15,30,50.0,208,40,5,9,55.6,7,12,58.3,1,2,50.0,0,0.5,0.1,-0.5,2,0,2,0,2
+NED-Eredivisie,2025-26,Heracles Almelo,Ajdin Hrustic,AUS,MF,29-067,1996,1.2,28,42,66.7,525,193,14,16,87.5,7,10,70.0,5,11,45.5,0,0.2,0.3,-0.2,4,2,0,0,4
+NED-Eredivisie,2025-26,Heracles Almelo,Antonio Satriano,ITA,MF,21-315,2003,0.1,0,0,,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Heracles Almelo,Bryan Limbombe,BEL,FW,24-119,2001,3.7,47,74,63.5,650,257,27,37,73.0,12,16,75.0,5,10,50.0,0,0.7,0.6,-0.7,7,3,3,2,3
+NED-Eredivisie,2025-26,Heracles Almelo,Damon Mirani,NED,DF,29-120,1996,3.9,163,185,88.1,3426,893,40,43,93.0,103,108,95.4,19,32,59.4,0,0.0,0.0,0.0,1,11,0,0,7
+NED-Eredivisie,2025-26,Heracles Almelo,Djevencio van der Kust,SUR,DF,24-133,2001,3.7,84,117,71.8,1502,276,37,41,90.2,38,55,69.1,8,17,47.1,0,0.1,0.1,-0.1,2,1,2,1,4
+NED-Eredivisie,2025-26,Heracles Almelo,Fabian de Keijzer,NED,GK,25-123,2000,4.0,83,168,49.4,3324,2865,13,13,100.0,25,26,96.2,44,128,34.4,0,0.0,0.1,0.0,0,17,1,0,0
+NED-Eredivisie,2025-26,Heracles Almelo,Ivan Mesík,SVK,DF,24-101,2001,4.0,146,174,83.9,2973,893,44,53,83.0,76,84,90.5,24,35,68.6,0,0.0,0.0,0.0,0,8,0,0,8
+NED-Eredivisie,2025-26,Heracles Almelo,Jan Žambůrek,CZE,MF,24-209,2001,3.2,59,84,70.2,899,314,31,40,77.5,20,25,80.0,4,12,33.3,0,0.4,0.2,-0.4,5,4,2,2,6
+NED-Eredivisie,2025-26,Heracles Almelo,Jannes Wieckhoff,GER,DF,25-039,2000,2.3,62,85,72.9,1122,329,24,29,82.8,29,40,72.5,7,12,58.3,0,0.1,0.1,-0.1,2,5,2,1,6
+NED-Eredivisie,2025-26,Heracles Almelo,Jeff Reine-Adélaïde,FRA,MF,27-236,1998,0.4,12,14,85.7,233,80,5,5,100.0,5,5,100.0,2,3,66.7,0,0.4,0.3,-0.4,2,2,4,0,5
+NED-Eredivisie,2025-26,Heracles Almelo,Jizz Hornkamp,NED,FW,27-187,1998,1.1,16,18,88.9,317,35,5,5,100.0,9,10,90.0,2,2,100.0,0,0.0,0.0,0.0,1,0,2,0,3
+NED-Eredivisie,2025-26,Heracles Almelo,Luka Kulenović,BIH,"FW,MF",25-346,1999,2.8,31,65,47.7,453,100,16,30,53.3,11,23,47.8,2,3,66.7,0,0.1,0.1,-0.1,1,5,1,0,6
+NED-Eredivisie,2025-26,Heracles Almelo,Mario Engels,GER,FW,31-323,1993,0.1,0,0,,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Heracles Almelo,Mike te Wierik,NED,DF,33-094,1992,0.4,2,4,50.0,50,0,0,0,,2,2,100.0,0,2,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Heracles Almelo,Mimeirhel Benita,NED,DF,21-297,2003,1.7,39,55,70.9,701,328,13,14,92.9,22,29,75.9,3,8,37.5,0,0.0,0.0,0.0,0,5,0,0,4
+NED-Eredivisie,2025-26,Heracles Almelo,Sem Scheperman,NED,MF,23-078,2002,3.9,118,137,86.1,2339,473,38,42,90.5,65,73,89.0,14,17,82.4,1,0.3,0.1,0.7,2,7,2,2,11
+NED-Eredivisie,2025-26,Heracles Almelo,Thomas Bruns,NED,"MF,FW",33-246,1992,2.3,45,61,73.8,892,226,15,21,71.4,20,22,90.9,8,11,72.7,0,0.1,0.3,-0.1,2,5,2,0,6
+NED-Eredivisie,2025-26,Heracles Almelo,Tristan van Gilst,NED,"FW,MF",22-204,2003,3.2,19,33,57.6,318,26,8,14,57.1,10,11,90.9,1,2,50.0,0,0.0,0.0,0.0,0,1,0,0,1
+NED-Eredivisie,2025-26,Heracles Almelo,Yvandro Borges Sanches,LUX,"FW,DF",21-109,2004,1.1,15,18,83.3,220,5,9,10,90.0,6,6,100.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,NAC Breda,Boy Kemper,NED,DF,26-081,1999,4.0,95,149,63.8,1693,646,44,49,89.8,39,68,57.4,10,24,41.7,0,0.3,0.3,-0.3,4,8,1,0,9
+NED-Eredivisie,2025-26,NAC Breda,Boyd Lucassen,NED,"MF,DF",27-071,1998,2.3,42,58,72.4,785,239,14,18,77.8,24,30,80.0,4,9,44.4,0,0.0,0.0,0.0,0,1,0,0,2
+NED-Eredivisie,2025-26,NAC Breda,Charles-Andréas Brym,CAN,FW,27-033,1998,0.5,6,6,100.0,65,7,5,5,100.0,1,1,100.0,0,0,,0,0.0,0.1,0.0,1,0,0,0,0
+NED-Eredivisie,2025-26,NAC Breda,Cherrion Valerius,CUW,DF,19-353,2005,3.0,68,96,70.8,1294,494,26,33,78.8,32,41,78.0,9,18,50.0,0,0.1,0.4,-0.1,1,6,2,0,5
+NED-Eredivisie,2025-26,NAC Breda,Clint Leemans,NED,MF,29-360,1995,0.5,18,24,75.0,323,145,9,12,75.0,7,7,100.0,2,4,50.0,0,0.7,0.3,-0.7,2,0,0,0,3
+NED-Eredivisie,2025-26,NAC Breda,Daniel Bielica,POL,GK,26-133,1999,4.0,100,143,69.9,2996,2137,19,21,90.5,46,47,97.9,35,75,46.7,0,0.0,0.0,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,NAC Breda,Dion Versluis,NED,"FW,MF",22-205,2003,0.2,1,5,20.0,33,25,0,1,0.0,0,2,0.0,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,1
+NED-Eredivisie,2025-26,NAC Breda,Enes Mahmutovic,LUX,DF,28-111,1997,3.3,110,128,85.9,2227,1203,31,33,93.9,63,68,92.6,14,21,66.7,0,0.0,0.0,0.0,2,5,0,0,4
+NED-Eredivisie,2025-26,NAC Breda,Jayden Candelaria,NED,FW,21-192,2004,0.1,8,11,72.7,150,66,3,3,100.0,4,7,57.1,1,1,100.0,0,0.0,0.0,0.0,0,1,1,0,2
+NED-Eredivisie,2025-26,NAC Breda,Juho Talvitie,FIN,FW,20-174,2005,3.4,54,90,60.0,907,294,23,36,63.9,26,40,65.0,3,8,37.5,0,1.0,0.9,-1.0,7,2,6,3,5
+NED-Eredivisie,2025-26,NAC Breda,Kamal Sowah,GHA,"FW,MF",25-244,2000,3.9,103,131,78.6,1531,413,57,65,87.7,37,43,86.0,6,8,75.0,0,0.1,0.1,-0.1,2,4,3,0,12
+NED-Eredivisie,2025-26,NAC Breda,Leo Greiml,AUT,DF,24-069,2001,0.7,30,34,88.2,612,231,7,8,87.5,20,21,95.2,3,4,75.0,0,0.2,0.1,-0.2,1,3,0,0,2
+NED-Eredivisie,2025-26,NAC Breda,Lewis Holtby,GER,MF,34-357,1990,2.6,77,92,83.7,1304,400,37,39,94.9,31,34,91.2,6,14,42.9,1,0.1,0.2,0.9,1,9,2,0,10
+NED-Eredivisie,2025-26,NAC Breda,Max Balard,AUS,MF,24-294,2000,3.9,118,144,81.9,1906,715,56,62,90.3,53,62,85.5,6,11,54.5,0,0.0,0.1,0.0,1,12,1,0,14
+NED-Eredivisie,2025-26,NAC Breda,Mohamed Nassoh,NED,"MF,FW",22-227,2003,3.3,78,108,72.2,1271,423,44,55,80.0,24,30,80.0,8,9,88.9,0,0.5,0.2,-0.5,7,13,0,0,12
+NED-Eredivisie,2025-26,NAC Breda,Pepijn Reulen,NED,"FW,DF",17-101,2008,0.3,2,3,66.7,24,0,1,1,100.0,1,2,50.0,0,0,,0,0.1,0.0,-0.1,1,0,0,0,0
+NED-Eredivisie,2025-26,NAC Breda,Raul Paula,GER,"FW,MF",21-228,2004,0.3,7,14,50.0,139,34,2,4,50.0,4,6,66.7,1,1,100.0,0,0.0,0.1,0.0,0,2,2,0,2
+NED-Eredivisie,2025-26,NAC Breda,Rio Hillen,NED,DF,22-189,2003,3.0,110,125,88.0,2043,918,38,38,100.0,59,62,95.2,9,18,50.0,0,0.0,0.0,0.0,0,5,0,0,9
+NED-Eredivisie,2025-26,NAC Breda,Sydney van Hooijdonk,NED,FW,25-216,2000,3.2,44,59,74.6,563,34,26,28,92.9,12,19,63.2,1,2,50.0,0,0.1,0.1,-0.1,2,0,0,0,1
+NED-Eredivisie,2025-26,NAC Breda,Terence Kongolo,NED,DF,31-208,1994,1.0,25,38,65.8,431,176,9,13,69.2,16,20,80.0,0,4,0.0,0,0.0,0.0,0.0,0,1,0,0,2
+NED-Eredivisie,2025-26,NEC Nijmegen,Basar Onal,TUR,"MF,DF",21-066,2004,3.0,89,129,69.0,1446,357,41,55,74.5,35,46,76.1,8,15,53.3,2,0.9,1.3,1.1,7,2,9,1,12
+NED-Eredivisie,2025-26,NEC Nijmegen,Brayann Pereira,FRA,DF,22-112,2003,3.2,165,193,85.5,2600,752,86,90,95.6,70,81,86.4,6,12,50.0,0,0.9,1.9,-0.9,4,19,4,1,24
+NED-Eredivisie,2025-26,NEC Nijmegen,Bryan Linssen,NED,"FW,MF",34-337,1990,2.9,45,69,65.2,591,200,30,39,76.9,10,16,62.5,2,9,22.2,1,0.4,1.0,0.6,6,5,0,0,8
+NED-Eredivisie,2025-26,NEC Nijmegen,Calvin Verdonk,IDN,DF,28-137,1997,4.0,327,388,84.3,5388,1906,150,167,89.8,156,170,91.8,18,38,47.4,1,0.2,0.5,0.8,3,46,10,0,57
+NED-Eredivisie,2025-26,NEC Nijmegen,Dirk Proper,NED,MF,23-198,2002,4.0,151,175,86.3,2173,709,87,97,89.7,48,53,90.6,9,14,64.3,0,0.4,0.6,-0.4,4,19,6,0,25
+NED-Eredivisie,2025-26,NEC Nijmegen,Gonzalo Crettaz,ARG,GK,25-194,2000,4.0,108,162,66.7,3066,2404,19,19,100.0,51,53,96.2,37,89,41.6,0,0.0,0.0,0.0,0,6,1,0,1
+NED-Eredivisie,2025-26,NEC Nijmegen,Kento Shiogai,JPN,FW,20-168,2005,0.8,10,18,55.6,169,17,2,6,33.3,7,10,70.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,2
+NED-Eredivisie,2025-26,NEC Nijmegen,Kodai Sano,JPN,"MF,DF",21-350,2003,4.0,254,289,87.9,4478,1602,113,120,94.2,120,131,91.6,21,36,58.3,0,1.7,1.4,-1.7,8,33,6,2,29
+NED-Eredivisie,2025-26,NEC Nijmegen,Koki Ogawa,JPN,FW,28-033,1997,2.4,19,31,61.3,190,45,17,23,73.9,2,3,66.7,0,1,0.0,0,0.6,0.8,-0.6,3,1,1,0,2
+NED-Eredivisie,2025-26,NEC Nijmegen,Philippe Sandler,NED,DF,28-212,1997,2.8,209,222,94.1,3722,1244,88,92,95.7,107,112,95.5,14,16,87.5,1,0.6,0.8,0.4,3,21,4,0,26
+NED-Eredivisie,2025-26,NEC Nijmegen,Roberto González,ESP,MF,24-247,2001,0.9,18,25,72.0,202,74,13,15,86.7,4,6,66.7,0,0,,0,0.1,0.2,-0.1,1,0,3,0,5
+NED-Eredivisie,2025-26,NEC Nijmegen,Sam de Laat,NED,DF,19-090,2006,0.2,4,4,100.0,84,37,1,1,100.0,2,2,100.0,1,1,100.0,0,0.0,0.0,0.0,0,0,1,0,1
+NED-Eredivisie,2025-26,NEC Nijmegen,Sami Ouaissa,NED,"DF,MF",20-343,2004,3.6,115,159,72.3,2026,453,44,54,81.5,61,72,84.7,8,18,44.4,0,0.5,1.2,-0.5,4,7,8,3,14
+NED-Eredivisie,2025-26,NEC Nijmegen,Tjaronn Chery,SUR,"FW,MF",37-098,1988,3.9,142,181,78.5,2568,701,71,78,91.0,47,57,82.5,20,35,57.1,2,0.8,1.1,1.2,3,15,10,0,22
+NED-Eredivisie,2025-26,NEC Nijmegen,Virgil Misidjan,SUR,"DF,MF",32-048,1993,1.3,39,50,78.0,577,122,22,24,91.7,12,14,85.7,3,6,50.0,2,1.4,1.0,0.6,4,2,2,0,7
+NED-Eredivisie,2025-26,NEC Nijmegen,Vito van Crooij,NED,"MF,FW",29-224,1996,1.6,41,59,69.5,634,280,22,26,84.6,14,21,66.7,3,7,42.9,0,0.3,0.1,-0.3,4,2,2,0,5
+NED-Eredivisie,2025-26,NEC Nijmegen,Yousri Sbai,NED,DF,21-033,2004,0.1,2,3,66.7,50,12,0,0,,2,3,66.7,0,0,,0,0.0,0.0,0.0,0,1,0,0,1
+NED-Eredivisie,2025-26,NEC Nijmegen,Youssef El Kachati,NED,"FW,MF",25-284,1999,1.2,17,27,63.0,278,124,6,10,60.0,8,9,88.9,1,3,33.3,1,0.4,1.0,0.6,3,2,2,1,5
+NED-Eredivisie,2025-26,PSV Eindhoven,Alassane Pléa,FRA,FW,32-184,1993,1.2,28,36,77.8,416,89,17,19,89.5,9,10,90.0,2,2,100.0,1,0.1,0.9,0.9,2,2,2,0,2
+NED-Eredivisie,2025-26,PSV Eindhoven,Armando Obispo,NED,DF,26-189,1999,0.2,17,17,100.0,297,198,7,7,100.0,9,9,100.0,1,1,100.0,0,0.0,0.0,0.0,0,2,0,0,2
+NED-Eredivisie,2025-26,PSV Eindhoven,Couhaib Driouech,MAR,FW,23-146,2002,0.6,14,20,70.0,211,51,9,12,75.0,4,5,80.0,1,2,50.0,0,0.0,0.1,0.0,0,0,1,1,1
+NED-Eredivisie,2025-26,PSV Eindhoven,Dennis Man,ROU,FW,27-015,1998,1.0,49,54,90.7,847,253,18,21,85.7,29,29,100.0,2,2,100.0,0,0.1,0.2,-0.1,1,5,2,1,10
+NED-Eredivisie,2025-26,PSV Eindhoven,Esmir Bajraktarevic,BIH,FW,20-184,2005,1.2,47,60,78.3,825,145,25,28,89.3,17,20,85.0,5,10,50.0,0,0.1,0.2,-0.1,1,2,3,1,3
+NED-Eredivisie,2025-26,PSV Eindhoven,Guus Til,NED,"MF,FW",27-262,1997,2.9,74,88,84.1,1030,206,46,52,88.5,25,28,89.3,1,2,50.0,0,0.7,0.8,-0.7,8,6,2,1,6
+NED-Eredivisie,2025-26,PSV Eindhoven,Ismael Saibari,MAR,MF,24-225,2001,3.6,135,160,84.4,1992,533,79,90,87.8,45,53,84.9,7,10,70.0,0,0.6,1.0,-0.6,6,12,3,0,21
+NED-Eredivisie,2025-26,PSV Eindhoven,Ivan Perišić,CRO,FW,36-220,1989,3.7,127,170,74.7,1986,450,86,100,86.0,23,39,59.0,16,22,72.7,3,1.1,0.6,1.9,12,6,3,1,11
+NED-Eredivisie,2025-26,PSV Eindhoven,Jerdy Schouten,NED,"MF,DF",28-241,1997,3.9,221,242,91.3,3740,945,98,104,94.2,102,106,96.2,17,23,73.9,0,0.2,0.4,-0.2,4,29,3,0,21
+NED-Eredivisie,2025-26,PSV Eindhoven,Joey Veerman,NED,MF,26-295,1998,2.5,157,195,80.5,3191,1313,58,65,89.2,67,78,85.9,30,43,69.8,2,1.2,0.9,0.8,11,28,13,0,37
+NED-Eredivisie,2025-26,PSV Eindhoven,Joël van den Berg,NED,MF,18-211,2007,0.2,6,6,100.0,78,4,3,3,100.0,3,3,100.0,0,0,,0,0.1,0.1,-0.1,1,0,0,0,0
+NED-Eredivisie,2025-26,PSV Eindhoven,Kiliann Sildillia,FRA,DF,23-117,2002,2.3,124,151,82.1,2193,638,53,59,89.8,59,68,86.8,11,21,52.4,0,0.0,0.1,0.0,0,20,3,1,20
+NED-Eredivisie,2025-26,PSV Eindhoven,Matej Kovar,CZE,GK,25-116,2000,4.0,153,184,83.2,3716,2522,31,33,93.9,80,84,95.2,42,67,62.7,0,0.0,0.0,0.0,0,2,0,0,1
+NED-Eredivisie,2025-26,PSV Eindhoven,Mauro Júnior,BRA,DF,26-127,1999,1.8,116,136,85.3,1820,427,58,63,92.1,45,49,91.8,9,14,64.3,1,0.6,0.9,0.4,7,9,3,1,8
+NED-Eredivisie,2025-26,PSV Eindhoven,Paul Wanner,GER,MF,19-261,2005,0.1,9,12,75.0,159,16,5,8,62.5,3,3,100.0,1,1,100.0,0,0.0,0.0,0.0,0,0,1,1,0
+NED-Eredivisie,2025-26,PSV Eindhoven,Ricardo Pepi,USA,FW,22-244,2003,0.6,6,9,66.7,113,15,3,5,60.0,2,2,100.0,1,1,100.0,0,0.1,0.0,-0.1,1,1,0,0,1
+NED-Eredivisie,2025-26,PSV Eindhoven,Ruben van Bommel,NED,FW,21-038,2004,2.9,96,132,72.7,1345,298,61,66,92.4,30,42,71.4,4,12,33.3,0,0.9,1.1,-0.9,8,4,10,2,9
+NED-Eredivisie,2025-26,PSV Eindhoven,Ryan Flamingo,NED,DF,22-253,2002,3.8,245,269,91.1,5277,1749,46,50,92.0,173,183,94.5,25,33,75.8,0,0.0,0.1,0.0,0,24,3,0,30
+NED-Eredivisie,2025-26,PSV Eindhoven,Sergiño Dest,USA,DF,24-311,2000,3.9,241,278,86.7,3544,1479,149,157,94.9,81,99,81.8,10,13,76.9,1,0.2,0.3,0.8,6,27,5,0,41
+NED-Eredivisie,2025-26,PSV Eindhoven,Tygo Land,NED,MF,19-242,2006,0.1,9,10,90.0,170,54,4,5,80.0,4,4,100.0,1,1,100.0,0,0.0,0.0,0.0,0,3,0,0,2
+NED-Eredivisie,2025-26,PSV Eindhoven,Yarek Gasiorowski,ESP,DF,20-241,2005,3.5,213,238,89.5,4000,1543,70,78,89.7,128,133,96.2,12,21,57.1,1,0.0,0.1,1.0,1,30,1,0,27
+NED-Eredivisie,2025-26,Sparta R'dam,Ayoub Oufkir,NED,"FW,MF",19-249,2006,1.3,18,26,69.2,307,80,9,10,90.0,5,8,62.5,2,3,66.7,0,0.0,0.1,0.0,1,0,1,0,2
+NED-Eredivisie,2025-26,Sparta R'dam,Bruno Martins Indi,NED,DF,33-214,1992,3.4,134,154,87.0,2553,929,50,53,94.3,70,75,93.3,14,25,56.0,0,0.0,0.2,0.0,0,12,4,0,9
+NED-Eredivisie,2025-26,Sparta R'dam,Jens Toornstra,NED,MF,36-159,1989,3.5,103,151,68.2,2131,705,33,41,80.5,53,66,80.3,17,38,44.7,0,0.2,0.6,-0.2,3,10,2,0,21
+NED-Eredivisie,2025-26,Sparta R'dam,Joel Drommel,NED,GK,28-298,1996,4.0,127,185,68.6,4525,3623,9,9,100.0,56,56,100.0,62,120,51.7,0,0.0,0.0,0.0,0,10,0,0,0
+NED-Eredivisie,2025-26,Sparta R'dam,Joshua Kitolano,NOR,MF,24-038,2001,4.0,65,87,74.7,978,293,33,41,80.5,27,32,84.4,3,7,42.9,0,0.3,0.5,-0.3,5,7,2,0,8
+NED-Eredivisie,2025-26,Sparta R'dam,Julian Baas,NED,MF,23-147,2002,0.4,13,18,72.2,274,118,5,6,83.3,5,6,83.3,3,6,50.0,0,0.0,0.2,0.0,1,2,1,0,3
+NED-Eredivisie,2025-26,Sparta R'dam,Marvin Young,NED,DF,19-343,2005,4.0,126,154,81.8,2722,723,21,21,100.0,93,101,92.1,12,32,37.5,0,0.0,0.0,0.0,0,5,0,0,7
+NED-Eredivisie,2025-26,Sparta R'dam,Mike Kleijn,NED,DF,20-213,2005,0.4,9,11,81.8,127,66,6,7,85.7,3,3,100.0,0,0,,0,0.0,0.0,0.0,0,2,0,0,1
+NED-Eredivisie,2025-26,Sparta R'dam,Mitchell van Bergen,NED,FW,26-014,1999,2.0,22,34,64.7,373,80,11,14,78.6,10,16,62.5,1,3,33.3,0,0.1,0.2,-0.1,1,0,2,1,3
+NED-Eredivisie,2025-26,Sparta R'dam,Nökkvi Þórisson,ISL,"FW,MF",26-028,1999,0.1,5,8,62.5,91,40,2,4,50.0,3,4,75.0,0,0,,0,0.2,0.0,-0.2,2,0,0,0,0
+NED-Eredivisie,2025-26,Sparta R'dam,Patrick van Aanholt,NED,DF,35-012,1990,3.6,115,141,81.6,1960,614,52,64,81.3,53,60,88.3,8,12,66.7,2,0.9,0.8,1.1,7,6,4,0,9
+NED-Eredivisie,2025-26,Sparta R'dam,Pelle Clement,NED,MF,29-114,1996,4.0,74,93,79.6,1259,376,39,46,84.8,28,31,90.3,6,9,66.7,0,0.1,0.1,-0.1,1,5,2,0,12
+NED-Eredivisie,2025-26,Sparta R'dam,Sayfallah Ltaief,TUN,"FW,MF",25-141,2000,3.1,45,61,73.8,616,165,30,37,81.1,15,20,75.0,0,3,0.0,0,0.3,0.2,-0.3,4,3,2,0,6
+NED-Eredivisie,2025-26,Sparta R'dam,Saïd Bakari,COM,DF,30-353,1994,2.2,77,95,81.1,1471,606,30,33,90.9,39,46,84.8,8,14,57.1,0,0.1,0.2,-0.1,2,8,1,0,6
+NED-Eredivisie,2025-26,Sparta R'dam,Shunsuke Mito,JPN,FW,22-347,2002,1.1,19,29,65.5,258,107,13,17,76.5,3,8,37.5,2,3,66.7,1,1.0,0.3,0.0,2,1,0,0,1
+NED-Eredivisie,2025-26,Sparta R'dam,Shurandy Sambo,CUW,DF,24-022,2001,1.8,48,58,82.8,1010,280,14,17,82.4,28,32,87.5,6,9,66.7,1,0.2,0.2,0.8,1,3,0,0,4
+NED-Eredivisie,2025-26,Sparta R'dam,Teo Quintero,VEN,DF,26-192,1999,0.7,18,24,75.0,438,262,5,5,100.0,8,10,80.0,5,9,55.6,0,0.0,0.1,0.0,0,3,0,0,2
+NED-Eredivisie,2025-26,Sparta R'dam,Tobias Lauritsen,NOR,FW,28-011,1997,4.0,52,86,60.5,821,259,28,50,56.0,18,28,64.3,4,4,100.0,1,0.5,0.5,0.5,6,5,4,0,10
+NED-Eredivisie,2025-26,Telstar,Adil Lechkar,NED,DF,24-008,2001,0.3,9,18,50.0,184,57,2,3,66.7,6,10,60.0,1,5,20.0,0,0.0,0.0,0.0,0,0,0,0,2
+NED-Eredivisie,2025-26,Telstar,Danny Bakker,NED,DF,30-237,1995,4.0,184,217,84.8,3454,1205,71,80,88.8,94,105,89.5,16,26,61.5,1,0.2,0.2,0.8,4,27,2,0,25
+NED-Eredivisie,2025-26,Telstar,Devon Koswal,NED,DF,22-020,2003,3.7,112,132,84.8,2273,717,32,39,82.1,68,72,94.4,12,16,75.0,0,0.0,0.0,0.0,1,6,1,0,14
+NED-Eredivisie,2025-26,Telstar,Dion Malone,SUR,"DF,MF",36-209,1989,0.7,15,19,78.9,322,42,3,5,60.0,10,10,100.0,2,4,50.0,0,0.0,0.0,0.0,0,1,0,0,1
+NED-Eredivisie,2025-26,Telstar,Dylan Mertens,NED,"MF,DF",30-052,1995,1.2,24,35,68.6,456,91,8,10,80.0,14,20,70.0,2,4,50.0,0,0.0,0.2,0.0,1,3,1,0,4
+NED-Eredivisie,2025-26,Telstar,Guus Offerhaus,NED,"DF,MF",24-250,2001,4.0,138,169,81.7,3154,976,21,23,91.3,91,100,91.0,25,44,56.8,1,1.1,0.3,-0.1,8,10,3,1,14
+NED-Eredivisie,2025-26,Telstar,Jeff Hardeveld,NED,DF,30-195,1995,3.6,126,173,72.8,2418,918,53,58,91.4,54,70,77.1,17,36,47.2,1,0.6,1.1,0.4,6,11,7,3,17
+NED-Eredivisie,2025-26,Telstar,Jochem van de Kamp,NED,MF,21-312,2003,1.6,36,41,87.8,629,238,18,19,94.7,14,16,87.5,4,4,100.0,1,0.5,0.5,0.5,5,5,4,2,10
+NED-Eredivisie,2025-26,Telstar,Kay Tejan,NED,"MF,FW",28-219,1997,0.3,4,7,57.1,55,25,2,4,50.0,2,2,100.0,0,1,0.0,0,0.0,0.0,0.0,0,1,0,0,2
+NED-Eredivisie,2025-26,Telstar,Milan Zonneveld,NED,FW,21-337,2003,2.3,20,26,76.9,285,56,12,14,85.7,7,8,87.5,1,1,100.0,0,0.0,0.1,0.0,0,2,1,0,3
+NED-Eredivisie,2025-26,Telstar,Nigel Nwankwo,NED,"MF,DF",27-037,1998,0.5,12,22,54.5,201,74,4,7,57.1,6,11,54.5,1,2,50.0,0,0.2,0.2,-0.2,3,0,2,2,1
+NED-Eredivisie,2025-26,Telstar,Nils Rossen,NED,MF,20-040,2005,3.9,112,125,89.6,2116,320,39,43,90.7,57,61,93.4,14,14,100.0,0,0.3,0.3,-0.3,3,6,2,0,11
+NED-Eredivisie,2025-26,Telstar,Patrick Brouwer,NED,MF,24-175,2001,3.2,51,85,60.0,845,326,24,34,70.6,23,37,62.2,4,8,50.0,0,0.8,0.5,-0.8,6,8,3,0,16
+NED-Eredivisie,2025-26,Telstar,Remi van Ekeris,NED,MF,22-352,2002,0.1,6,9,66.7,151,46,2,2,100.0,2,2,100.0,2,3,66.7,0,0.0,0.0,0.0,0,1,0,0,1
+NED-Eredivisie,2025-26,Telstar,Ronald Koeman Jr.,NED,GK,30-110,1995,4.0,136,186,73.1,4613,3677,11,11,100.0,61,63,96.8,64,108,59.3,0,0.0,0.0,0.0,0,11,0,0,0
+NED-Eredivisie,2025-26,Telstar,Sebastiaan Hagedoorn,NED,"FW,MF",20-284,2004,0.5,12,18,66.7,163,24,7,9,77.8,4,6,66.7,0,0,,0,0.1,0.1,-0.1,1,1,1,0,1
+NED-Eredivisie,2025-26,Telstar,Soufiane Hetli,NED,"FW,MF",24-103,2001,2.7,47,58,81.0,662,76,26,30,86.7,19,22,86.4,1,2,50.0,0,0.0,0.4,0.0,0,2,1,0,7
+NED-Eredivisie,2025-26,Telstar,Tyrese Noslin,CUW,DF,22-364,2002,3.8,116,157,73.9,2187,717,45,51,88.2,57,71,80.3,14,30,46.7,0,0.0,0.1,0.0,0,7,4,0,17
+NED-Eredivisie,2025-26,Telstar,Tyrone Owusu,NED,MF,26-189,1999,3.5,96,117,82.1,1636,436,32,38,84.2,61,68,89.7,2,6,33.3,0,0.3,0.1,-0.3,2,10,2,0,17
+NED-Eredivisie,2025-26,Twente,Arno Verschueren,BEL,MF,28-155,1997,1.3,45,70,64.3,727,289,23,31,74.2,14,23,60.9,4,8,50.0,0,0.9,1.0,-0.9,3,6,5,1,9
+NED-Eredivisie,2025-26,Twente,Bart van Rooij,NED,DF,24-107,2001,3.8,178,227,78.4,3182,1177,82,90,91.1,75,90,83.3,19,34,55.9,0,0.1,0.3,-0.1,3,12,4,1,16
+NED-Eredivisie,2025-26,Twente,Bas Kuipers,NED,DF,31-024,1994,0.5,29,37,78.4,567,205,10,10,100.0,14,16,87.5,5,9,55.6,0,0.0,0.0,0.0,1,5,1,0,8
+NED-Eredivisie,2025-26,Twente,Daan Rots,NED,"FW,MF",24-047,2001,2.9,68,96,70.8,1085,386,38,46,82.6,18,23,78.3,8,15,53.3,0,0.2,0.5,-0.2,2,5,3,0,10
+NED-Eredivisie,2025-26,Twente,Kristian Nökkvi Hlynsson,ISL,MF,21-230,2004,3.3,108,136,79.4,1739,435,59,68,86.8,35,42,83.3,11,16,68.8,0,0.6,0.4,-0.6,3,11,5,1,9
+NED-Eredivisie,2025-26,Twente,Lars Unnerstall,GER,GK,35-052,1990,4.0,103,144,71.5,2756,2050,25,25,100.0,45,45,100.0,30,70,42.9,0,0.0,0.0,0.0,0,3,0,0,0
+NED-Eredivisie,2025-26,Twente,Lucas Vennegoor of Hesselink,NED,FW,19-180,2006,0.6,8,15,53.3,116,11,2,6,33.3,5,7,71.4,0,0,,0,0.3,0.2,-0.3,2,0,0,0,0
+NED-Eredivisie,2025-26,Twente,Mathias Kjølø,NOR,MF,24-075,2001,1.0,25,34,73.5,356,115,16,18,88.9,8,11,72.7,1,3,33.3,0,0.0,0.1,0.0,0,4,0,0,2
+NED-Eredivisie,2025-26,Twente,Mats Rots,NED,DF,19-183,2006,3.5,147,209,70.3,2523,840,69,76,90.8,58,81,71.6,13,37,35.1,1,0.4,0.4,0.6,6,6,5,1,14
+NED-Eredivisie,2025-26,Twente,Max Bruns,NED,DF,22-308,2002,3.5,173,207,83.6,3443,1010,59,67,88.1,90,99,90.9,22,33,66.7,0,0.1,0.2,-0.1,1,29,3,0,27
+NED-Eredivisie,2025-26,Twente,Mitchell van Bergen,NED,FW,26-014,1999,0.7,8,15,53.3,107,13,4,6,66.7,3,6,50.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,Twente,Naci Ünüvar,NED,"FW,MF",22-089,2003,1.4,34,50,68.0,682,280,15,17,88.2,12,14,85.7,7,16,43.8,0,0.2,0.2,-0.2,3,3,6,3,8
+NED-Eredivisie,2025-26,Twente,Ramiz Zerrouki,ALG,MF,27-107,1998,3.5,152,181,84.0,2838,932,66,72,91.7,64,73,87.7,18,26,69.2,0,0.2,0.3,-0.2,4,29,4,0,33
+NED-Eredivisie,2025-26,Twente,Ricky van Wolfswinkel,NED,FW,36-226,1989,4.0,42,80,52.5,601,146,24,41,58.5,14,21,66.7,2,4,50.0,0,0.4,0.2,-0.4,6,3,0,0,5
+NED-Eredivisie,2025-26,Twente,Robin Pröpper,NED,DF,31-352,1993,4.0,243,295,82.4,5025,1906,80,86,93.0,119,133,89.5,38,61,62.3,0,0.0,0.3,0.0,1,32,2,1,31
+NED-Eredivisie,2025-26,Twente,Sondre Ørjasæter,NOR,FW,21-286,2003,0.4,14,23,60.9,188,30,8,10,80.0,5,8,62.5,0,1,0.0,0,0.1,0.2,-0.1,1,0,0,0,1
+NED-Eredivisie,2025-26,Twente,Stav Lemkin,ISR,DF,22-161,2003,0.5,26,27,96.3,587,255,11,11,100.0,10,10,100.0,5,6,83.3,0,0.0,0.0,0.0,0,3,0,0,1
+NED-Eredivisie,2025-26,Twente,Taylor Booth,USA,FW,24-102,2001,3.1,89,116,76.7,1580,428,42,49,85.7,32,40,80.0,12,20,60.0,0,0.6,0.6,-0.6,4,8,7,5,9
+NED-Eredivisie,2025-26,Twente,Thomas van den Belt,NED,MF,24-084,2001,2.0,69,90,76.7,992,352,41,47,87.2,22,28,78.6,2,5,40.0,0,0.1,0.2,-0.1,2,4,3,0,9
+NED-Eredivisie,2025-26,Utrecht,Adrian Blake,ENG,"FW,MF",20-057,2005,2.7,51,72,70.8,804,100,29,34,85.3,17,21,81.0,4,9,44.4,1,0.3,0.2,0.7,2,4,0,0,2
+NED-Eredivisie,2025-26,Utrecht,Alonzo Engwanda,BEL,MF,22-226,2003,3.6,141,161,87.6,2296,615,64,72,88.9,67,74,90.5,7,9,77.8,0,0.0,0.1,0.0,1,11,1,0,13
+NED-Eredivisie,2025-26,Utrecht,Can Bozdogan,GER,"MF,FW",24-158,2001,0.3,16,20,80.0,307,100,2,2,100.0,9,9,100.0,3,4,75.0,0,0.0,0.0,0.0,0,4,1,1,2
+NED-Eredivisie,2025-26,Utrecht,Dani de Wit,NED,"FW,MF",27-225,1998,1.2,38,47,80.9,449,96,26,29,89.7,8,14,57.1,0,0,,0,0.0,0.1,0.0,0,2,0,0,5
+NED-Eredivisie,2025-26,Utrecht,Dave Van Den Berg,NED,"MF,FW",25-218,2000,1.1,39,46,84.8,568,139,27,28,96.4,9,12,75.0,3,5,60.0,0,0.1,0.1,-0.1,2,6,1,0,4
+NED-Eredivisie,2025-26,Utrecht,David Min,NED,FW,26-079,1999,2.5,36,47,76.6,529,96,16,22,72.7,17,20,85.0,1,3,33.3,0,0.2,0.2,-0.2,4,5,2,0,7
+NED-Eredivisie,2025-26,Utrecht,Derry Murkin,ENG,"FW,MF",26-045,1999,1.0,21,32,65.6,368,133,11,15,73.3,7,9,77.8,3,3,100.0,2,0.4,0.2,1.6,3,3,2,1,3
+NED-Eredivisie,2025-26,Utrecht,Emirhan Demircan,TUR,MF,20-233,2005,0.4,11,15,73.3,129,40,8,9,88.9,2,4,50.0,0,1,0.0,0,0.1,0.0,-0.1,2,1,0,0,2
+NED-Eredivisie,2025-26,Utrecht,Gjivai Zechiël,NED,MF,21-101,2004,3.6,132,153,86.3,2242,578,60,67,89.6,56,62,90.3,12,17,70.6,0,0.4,0.6,-0.4,6,17,1,0,21
+NED-Eredivisie,2025-26,Utrecht,Jaygo Chubasco Van Ommeren,NED,MF,17-125,2008,0.3,12,13,92.3,245,79,2,3,66.7,8,8,100.0,2,2,100.0,0,0.0,0.0,0.0,0,1,0,0,2
+NED-Eredivisie,2025-26,Utrecht,Matisse Didden,BEL,DF,23-337,2001,1.9,107,125,85.6,1918,542,40,44,90.9,61,68,89.7,6,13,46.2,0,0.0,0.0,0.0,0,4,0,0,4
+NED-Eredivisie,2025-26,Utrecht,Michael Brouwer,NED,GK,32-232,1993,1.0,27,39,69.2,736,515,9,9,100.0,6,6,100.0,12,23,52.2,0,0.0,0.0,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,Utrecht,Miguel Rodríguez,ESP,"FW,MF",22-134,2003,2.5,51,71,71.8,897,179,29,34,85.3,14,20,70.0,6,7,85.7,0,0.2,0.2,-0.2,4,5,3,1,6
+NED-Eredivisie,2025-26,Utrecht,Mike Eerdhuijzen,NED,DF,25-059,2000,0.1,2,3,66.7,49,39,0,0,,2,2,100.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Utrecht,Mike van der Hoorn,NED,DF,32-330,1992,3.5,181,219,82.6,3961,1740,56,59,94.9,97,109,89.0,28,48,58.3,0,0.4,0.4,-0.4,3,28,2,0,19
+NED-Eredivisie,2025-26,Utrecht,Miliano Jonathans,IDN,"MF,FW",21-158,2004,0.6,18,26,69.2,270,40,11,13,84.6,4,7,57.1,2,3,66.7,0,0.3,0.5,-0.3,2,1,0,0,0
+NED-Eredivisie,2025-26,Utrecht,Nick Viergever,NED,DF,36-038,1989,2.5,104,119,87.4,2024,635,33,37,89.2,55,60,91.7,13,19,68.4,0,0.0,0.0,0.0,0,9,0,0,10
+NED-Eredivisie,2025-26,Utrecht,Noah Ohio,NED,FW,22-237,2003,0.1,2,2,100.0,12,0,1,1,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Utrecht,Siebe Horemans,BEL,DF,27-100,1998,4.0,175,211,82.9,3330,1218,77,83,92.8,70,85,82.4,27,36,75.0,0,0.7,0.3,-0.7,7,7,5,4,9
+NED-Eredivisie,2025-26,Utrecht,Souffian El Karouani,MAR,DF,24-326,2000,4.0,166,227,73.1,3460,1507,50,58,86.2,90,110,81.8,25,51,49.0,4,1.7,1.2,2.3,14,7,7,5,11
+NED-Eredivisie,2025-26,Utrecht,Sébastien Haller,CIV,FW,31-080,1994,0.7,15,23,65.2,158,24,13,18,72.2,2,2,100.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,0
+NED-Eredivisie,2025-26,Utrecht,Vasilios Barkas,GRE,GK,31-103,1994,3.0,91,121,75.2,2528,1535,14,14,100.0,50,51,98.0,27,56,48.2,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Utrecht,Victor Jensen,DEN,"MF,FW",25-214,2000,2.6,44,54,81.5,685,151,25,26,96.2,14,19,73.7,3,3,100.0,0,0.1,0.1,-0.1,1,6,1,0,9
+NED-Eredivisie,2025-26,Utrecht,Yoann Cathline,FRA,FW,23-050,2002,0.8,10,19,52.6,186,82,4,6,66.7,4,5,80.0,2,4,50.0,2,0.5,0.5,1.5,3,2,2,1,3
+NED-Eredivisie,2025-26,Volendam,Aaron Meijers,NED,FW,37-317,1987,0.1,2,2,100.0,44,29,1,1,100.0,1,1,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Volendam,Alex Plat,NED,MF,27-218,1998,0.9,18,25,72.0,265,110,9,10,90.0,7,10,70.0,1,3,33.3,0,0.1,0.0,-0.1,2,1,1,0,2
+NED-Eredivisie,2025-26,Volendam,Anthony Descotte,BEL,"MF,FW",22-038,2003,1.3,23,32,71.9,344,42,13,16,81.3,5,6,83.3,3,3,100.0,1,0.1,0.0,0.9,2,1,0,0,2
+NED-Eredivisie,2025-26,Volendam,Aurelio Oehlers,NED,FW,21-217,2004,3.0,32,57,56.1,461,85,21,30,70.0,8,16,50.0,2,5,40.0,0,0.0,0.2,0.0,0,0,4,2,5
+NED-Eredivisie,2025-26,Volendam,Brandley Kuwas,CUW,FW,32-356,1992,1.2,33,43,76.7,486,121,17,19,89.5,11,15,73.3,3,7,42.9,1,0.1,0.3,0.9,1,2,1,0,4
+NED-Eredivisie,2025-26,Volendam,Deron Payne,NED,DF,22-350,2002,2.7,99,123,80.5,1627,510,47,56,83.9,45,52,86.5,5,8,62.5,0,0.0,0.0,0.0,0,9,0,0,6
+NED-Eredivisie,2025-26,Volendam,Gibson Yah,NED,MF,21-348,2003,3.4,105,132,79.5,1964,486,43,48,89.6,45,52,86.5,13,23,56.5,2,0.2,0.1,1.8,4,10,1,0,10
+NED-Eredivisie,2025-26,Volendam,Henk Veerman,NED,FW,32-072,1993,3.6,30,49,61.2,503,86,14,21,66.7,9,13,69.2,6,7,85.7,0,0.0,0.1,0.0,1,3,0,0,5
+NED-Eredivisie,2025-26,Volendam,Joël Ideho,NED,FW,22-055,2003,1.1,19,33,57.6,324,91,7,8,87.5,9,11,81.8,2,6,33.3,0,0.0,0.0,0.0,0,0,2,1,2
+NED-Eredivisie,2025-26,Volendam,Kayne van Oevelen,NED,GK,22-033,2003,4.0,98,191,51.3,3393,2864,16,16,100.0,41,41,100.0,41,134,30.6,0,0.2,0.1,-0.2,2,8,0,0,0
+NED-Eredivisie,2025-26,Volendam,Mawouna Amevor,TOG,DF,33-268,1991,3.5,139,154,90.3,2840,955,46,50,92.0,74,77,96.1,16,21,76.2,0,0.0,0.0,0.0,0,6,0,0,10
+NED-Eredivisie,2025-26,Volendam,Milan de Haan,NED,"MF,FW",21-294,2003,0.3,10,13,76.9,143,27,5,5,100.0,5,6,83.3,0,2,0.0,0,0.0,0.0,0.0,0,2,0,0,1
+NED-Eredivisie,2025-26,Volendam,Nick Verschuren,NED,DF,20-240,2005,1.0,34,34,100.0,674,210,13,13,100.0,18,18,100.0,3,3,100.0,0,0.0,0.0,0.0,0,3,2,1,2
+NED-Eredivisie,2025-26,Volendam,Nordin Bukala,NED,MF,19-357,2005,3.4,78,97,80.4,1262,257,40,49,81.6,25,29,86.2,8,10,80.0,0,0.0,0.1,0.0,0,10,1,0,10
+NED-Eredivisie,2025-26,Volendam,Ozan Kökcü,AZE,"FW,MF",27-023,1998,2.8,68,89,76.4,971,299,42,43,97.7,19,24,79.2,3,13,23.1,0,0.1,0.2,-0.1,4,4,1,0,6
+NED-Eredivisie,2025-26,Volendam,Precious Ugwu,NED,DF,19-214,2006,1.3,31,39,79.5,584,273,15,19,78.9,10,14,71.4,4,4,100.0,0,0.4,0.3,-0.4,1,4,1,0,4
+NED-Eredivisie,2025-26,Volendam,Robert Mühren,NED,"MF,FW",36-115,1989,2.5,26,37,70.3,457,161,11,14,78.6,7,11,63.6,5,7,71.4,0,0.2,0.2,-0.2,2,5,1,0,4
+NED-Eredivisie,2025-26,Volendam,Robin van Cruijsen,,"MF,FW",,,0.4,6,13,46.2,67,22,5,6,83.3,1,4,25.0,0,2,0.0,1,0.1,0.0,0.9,2,1,1,0,1
+NED-Eredivisie,2025-26,Volendam,Xavier Mbuyamba,NED,DF,23-253,2001,3.5,136,173,78.6,2823,1142,42,49,85.7,75,84,89.3,18,33,54.5,0,0.0,0.1,0.0,0,23,1,0,21
+NED-Eredivisie,2025-26,Volendam,Yannick Leliendal,SUR,DF,23-140,2002,4.0,154,187,82.4,2633,570,71,74,95.9,67,83,80.7,12,20,60.0,0,0.0,0.1,0.0,1,10,1,1,12
+NED-Eredivisie,2025-26,Zwolle,Anselmo García MacNulty,IRL,DF,22-203,2003,3.0,163,182,89.6,3490,1601,51,51,100.0,89,99,89.9,21,30,70.0,0,0.0,0.3,0.0,1,21,2,0,19
+NED-Eredivisie,2025-26,Zwolle,Damian van der Haar,NED,DF,21-237,2004,0.2,1,2,50.0,12,12,1,1,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,1
+NED-Eredivisie,2025-26,Zwolle,Dylan Mbayo,BEL,FW,23-334,2001,2.3,43,51,84.3,588,80,22,25,88.0,18,22,81.8,0,0,,1,0.1,0.1,0.9,2,1,1,0,3
+NED-Eredivisie,2025-26,Zwolle,Eliano Reijnders,IDN,FW,24-322,2000,0.5,4,11,36.4,53,15,3,6,50.0,1,1,100.0,0,2,0.0,0,0.2,0.1,-0.2,1,0,0,0,0
+NED-Eredivisie,2025-26,Zwolle,Gabriel Reiziger,NED,MF,19-335,2005,0.4,7,10,70.0,96,25,4,5,80.0,2,2,100.0,1,3,33.3,0,0.0,0.1,0.0,0,0,0,0,1
+NED-Eredivisie,2025-26,Zwolle,Jadiel Pereira da Gama,NED,MF,15-269,2009,0.1,4,5,80.0,89,4,1,1,100.0,2,3,66.7,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+NED-Eredivisie,2025-26,Zwolle,Jamiro Monteiro,CPV,MF,31-291,1993,2.6,90,105,85.7,1444,404,44,48,91.7,38,43,88.4,6,10,60.0,0,0.1,0.5,-0.1,2,5,4,0,13
+NED-Eredivisie,2025-26,Zwolle,Kaj de Rooij,NED,FW,24-289,2000,2.9,33,56,58.9,573,110,14,20,70.0,15,22,68.2,3,8,37.5,2,2.3,1.3,-0.3,3,1,0,0,2
+NED-Eredivisie,2025-26,Zwolle,Koen Kostons,NED,FW,25-357,1999,2.4,31,45,68.9,450,62,18,23,78.3,7,10,70.0,3,5,60.0,0,0.2,0.6,-0.2,2,2,1,0,5
+NED-Eredivisie,2025-26,Zwolle,Nick Fichtinger,NED,"MF,DF",21-157,2004,0.4,8,14,57.1,150,80,3,4,75.0,3,6,50.0,2,4,50.0,0,0.0,0.0,0.0,0,2,0,0,2
+NED-Eredivisie,2025-26,Zwolle,Olivier Aertssen,NED,DF,21-034,2004,3.0,87,122,71.3,1765,764,30,36,83.3,43,54,79.6,14,24,58.3,0,0.0,0.1,0.0,0,6,1,1,7
+NED-Eredivisie,2025-26,Zwolle,Ryan Thomas,NZL,MF,30-264,1994,3.0,100,122,82.0,1924,388,34,37,91.9,55,65,84.6,10,14,71.4,0,0.0,0.1,0.0,2,5,2,0,9
+NED-Eredivisie,2025-26,Zwolle,Samir Lagsir,NED,"MF,FW",22-113,2003,0.2,9,11,81.8,218,49,1,1,100.0,6,6,100.0,2,4,50.0,0,0.0,0.0,0.0,0,1,0,0,3
+NED-Eredivisie,2025-26,Zwolle,Sherel Floranus,CUW,DF,27-018,1998,2.8,111,143,77.6,2018,700,51,56,91.1,48,58,82.8,12,23,52.2,0,0.3,0.2,-0.3,2,7,2,0,10
+NED-Eredivisie,2025-26,Zwolle,Simon Graves Jensen,DEN,DF,26-111,1999,3.0,165,199,82.9,3385,1247,49,54,90.7,92,101,91.1,23,41,56.1,0,0.0,0.1,0.0,0,14,1,0,21
+NED-Eredivisie,2025-26,Zwolle,Thijs Oosting,NED,MF,25-131,2000,2.6,43,76,56.6,786,181,19,26,73.1,19,30,63.3,5,13,38.5,0,0.0,0.2,0.0,2,7,1,0,7
+NED-Eredivisie,2025-26,Zwolle,Thomas Buitink,NED,FW,25-088,2000,0.7,11,14,78.6,178,66,5,6,83.3,5,6,83.3,0,1,0.0,0,0.1,0.1,-0.1,1,2,1,0,2
+NED-Eredivisie,2025-26,Zwolle,Tom de Graaff,NED,GK,20-274,2004,3.0,78,110,70.9,2117,1442,14,14,100.0,43,43,100.0,21,52,40.4,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,AVS Futebol,Aderlan Santos,BRA,DF,36-154,1989,4.0,143,178,80.3,2982,935,44,47,93.6,76,80,95.0,21,48,43.8,0,0.0,0.1,0.0,1,8,1,1,7
+POR-Primeira Liga,2025-26,AVS Futebol,Babatunde Akinsola,NGA,FW,22-184,2003,3.5,37,57,64.9,688,215,20,24,83.3,12,18,66.7,5,9,55.6,2,1.1,0.2,0.9,5,3,4,1,8
+POR-Primeira Liga,2025-26,AVS Futebol,Bruno Lourenço,POR,MF,27-220,1998,0.3,12,17,70.6,223,46,3,5,60.0,9,11,81.8,0,1,0.0,0,0.0,0.0,0.0,0,0,1,0,2
+POR-Primeira Liga,2025-26,AVS Futebol,Christian Neiva Afonso,POR,DF,30-274,1994,2.0,79,115,68.7,1494,796,30,37,81.1,38,48,79.2,8,22,36.4,0,0.2,0.1,-0.2,4,9,2,0,6
+POR-Primeira Liga,2025-26,AVS Futebol,Cristian Castro,COL,DF,24-228,2001,4.0,144,171,84.2,3051,1030,32,37,86.5,88,93,94.6,21,35,60.0,0,0.0,0.0,0.0,1,9,2,1,9
+POR-Primeira Liga,2025-26,AVS Futebol,Daniel Rivas,PAR,DF,23-278,2001,2.0,43,68,63.2,877,451,15,16,93.8,20,28,71.4,8,19,42.1,0,0.1,0.0,-0.1,1,5,1,0,7
+POR-Primeira Liga,2025-26,AVS Futebol,Diego Duarte,PAR,"FW,MF",23-155,2002,2.3,7,21,33.3,115,41,4,12,33.3,1,4,25.0,2,2,100.0,0,0.0,0.0,0.0,0,0,0,0,3
+POR-Primeira Liga,2025-26,AVS Futebol,Diogo Spencer,POR,FW,21-146,2004,1.5,24,47,51.1,330,136,14,22,63.6,5,11,45.5,2,6,33.3,0,0.0,0.0,0.0,0,0,0,0,2
+POR-Primeira Liga,2025-26,AVS Futebol,Edson,MOZ,DF,21-272,2003,0.9,36,43,83.7,635,214,17,17,100.0,15,19,78.9,4,5,80.0,0,0.1,0.1,-0.1,1,1,2,2,1
+POR-Primeira Liga,2025-26,AVS Futebol,Guilherme Neiva Silva,BRA,"FW,DF",24-179,2001,1.4,22,39,56.4,370,41,11,13,84.6,9,16,56.3,2,9,22.2,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,AVS Futebol,Guillem Molina,ESP,DF,25-130,2000,2.8,67,103,65.0,1138,493,28,34,82.4,32,47,68.1,6,16,37.5,0,0.1,0.0,-0.1,1,3,1,1,7
+POR-Primeira Liga,2025-26,AVS Futebol,Gustavo Mendonça,POR,DF,22-183,2003,0.1,14,15,93.3,303,59,4,4,100.0,7,8,87.5,3,3,100.0,0,0.1,0.0,-0.1,1,0,0,0,1
+POR-Primeira Liga,2025-26,AVS Futebol,Jaume Grau,ESP,MF,28-128,1997,4.0,100,128,78.1,1860,515,46,56,82.1,39,45,86.7,13,24,54.2,0,0.1,0.0,-0.1,1,12,0,0,11
+POR-Primeira Liga,2025-26,AVS Futebol,Jordi Escobar,ESP,FW,23-212,2002,1.2,7,16,43.8,78,0,3,8,37.5,2,3,66.7,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,AVS Futebol,Kobamelo Kodisang,RSA,FW,26-013,1999,0.4,7,8,87.5,107,27,4,4,100.0,3,4,75.0,0,0,,0,0.1,0.0,-0.1,1,0,1,1,1
+POR-Primeira Liga,2025-26,AVS Futebol,Nenê,BRA,"FW,MF",42-044,1983,1.0,14,21,66.7,226,80,8,9,88.9,2,5,40.0,3,5,60.0,0,0.1,0.0,-0.1,2,0,0,0,5
+POR-Primeira Liga,2025-26,AVS Futebol,Pedro Lima,BRA,"MF,FW",22-167,2003,2.0,22,42,52.4,413,167,5,8,62.5,15,20,75.0,1,7,14.3,0,0.1,0.0,-0.1,3,4,1,0,4
+POR-Primeira Liga,2025-26,AVS Futebol,Rafael Barbosa,POR,"MF,FW",29-165,1996,3.0,63,85,74.1,1239,339,24,27,88.9,25,33,75.8,12,19,63.2,1,0.4,1.1,0.6,7,2,5,4,8
+POR-Primeira Liga,2025-26,AVS Futebol,Simão Bertelli,BRA,GK,32-100,1993,4.0,101,133,75.9,2744,1890,23,23,100.0,50,51,98.0,28,58,48.3,0,0.1,0.0,-0.1,1,2,0,0,0
+POR-Primeira Liga,2025-26,AVS Futebol,Tiago Galletto,URU,MF,23-122,2002,0.5,8,11,72.7,124,25,3,5,60.0,5,6,83.3,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,AVS Futebol,Ángel Algobia,ESP,MF,26-079,1999,2.9,60,77,77.9,1100,374,24,32,75.0,28,29,96.6,5,11,45.5,0,0.0,0.1,0.0,0,5,1,1,8
+POR-Primeira Liga,2025-26,Alverca,Amorim,BRA,MF,20-115,2005,3.9,106,129,82.2,1880,582,52,59,88.1,39,44,88.6,11,20,55.0,0,0.7,0.6,-0.7,5,14,4,1,13
+POR-Primeira Liga,2025-26,Alverca,André Gomes,POR,GK,20-325,2004,3.0,44,70,62.9,1304,957,5,5,100.0,26,27,96.3,13,38,34.2,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Alverca,Bastien Meupiyou,FRA,DF,19-175,2006,3.0,97,117,82.9,1936,715,30,31,96.8,58,64,90.6,9,19,47.4,0,0.0,0.0,0.0,0,4,0,0,6
+POR-Primeira Liga,2025-26,Alverca,Cedric Nuozzi,BEL,"FW,MF",19-223,2006,3.0,36,45,80.0,485,89,20,21,95.2,10,13,76.9,2,4,50.0,0,0.0,0.0,0.0,1,7,0,0,6
+POR-Primeira Liga,2025-26,Alverca,Chiquinho,POR,"FW,MF",25-217,2000,3.7,42,70,60.0,775,228,17,21,81.0,17,29,58.6,6,16,37.5,0,0.2,0.3,-0.2,4,3,3,0,9
+POR-Primeira Liga,2025-26,Alverca,Davy Gui,CIV,MF,19-087,2006,0.7,32,37,86.5,624,158,13,15,86.7,15,15,100.0,4,5,80.0,0,0.0,0.0,0.0,0,5,0,0,4
+POR-Primeira Liga,2025-26,Alverca,Diogo Martins,POR,FW,29-020,1996,0.1,4,6,66.7,65,24,2,2,100.0,2,2,100.0,0,1,0.0,0,0.0,0.0,0.0,0,1,0,0,2
+POR-Primeira Liga,2025-26,Alverca,Francisco Chissumba,POR,DF,20-104,2005,0.3,24,26,92.3,323,39,13,14,92.9,8,8,100.0,1,2,50.0,0,0.0,0.0,0.0,0,0,0,0,2
+POR-Primeira Liga,2025-26,Alverca,Gonçalo Esteves,POR,MF,21-195,2004,1.8,58,74,78.4,1040,349,23,27,85.2,30,35,85.7,4,10,40.0,0,0.0,0.0,0.0,1,2,0,0,4
+POR-Primeira Liga,2025-26,Alverca,Isaac James,NGA,"MF,DF",21-013,2004,3.7,75,118,63.6,1382,516,25,37,67.6,39,51,76.5,7,20,35.0,1,0.3,0.3,0.7,2,4,3,3,5
+POR-Primeira Liga,2025-26,Alverca,Julián Martínez,HON,DF,21-283,2003,1.3,84,88,95.5,1537,534,36,39,92.3,39,39,100.0,9,10,90.0,0,0.0,0.0,0.0,0,4,0,0,5
+POR-Primeira Liga,2025-26,Alverca,Kaiky Naves,BRA,DF,23-125,2002,2.7,107,134,79.9,2665,924,16,18,88.9,67,72,93.1,24,41,58.5,0,0.2,0.2,-0.2,1,8,0,0,7
+POR-Primeira Liga,2025-26,Alverca,Lincoln,BRA,MF,26-307,1998,0.2,15,21,71.4,349,93,4,5,80.0,7,8,87.5,4,8,50.0,0,0.1,0.1,-0.1,1,3,0,0,5
+POR-Primeira Liga,2025-26,Alverca,Marko Milovanović,SRB,FW,22-037,2003,3.5,31,42,73.8,412,39,18,24,75.0,7,8,87.5,2,2,100.0,0,0.1,0.2,-0.1,1,2,0,0,1
+POR-Primeira Liga,2025-26,Alverca,Matheus Mendes,BRA,GK,26-184,1999,1.0,24,30,80.0,538,309,6,6,100.0,13,13,100.0,5,11,45.5,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Alverca,Nabil Touaizi,MAR,"DF,MF",24-221,2001,2.3,60,94,63.8,1035,561,33,43,76.7,18,27,66.7,7,15,46.7,0,1.1,0.3,-1.1,3,2,3,2,2
+POR-Primeira Liga,2025-26,Alverca,Sabit Abdulai,GHA,MF,26-122,1999,0.9,22,29,75.9,392,72,8,11,72.7,9,10,90.0,3,4,75.0,0,0.0,0.1,0.0,1,2,0,0,1
+POR-Primeira Liga,2025-26,Alverca,Sandro Lima,BRA,"FW,MF",34-317,1990,0.5,9,14,64.3,109,18,5,7,71.4,3,4,75.0,0,0,,0,0.0,0.0,0.0,1,0,0,0,1
+POR-Primeira Liga,2025-26,Alverca,Sergi Gómez,ESP,DF,33-166,1992,3.0,109,128,85.2,2180,710,29,32,90.6,74,79,93.7,6,17,35.3,0,0.0,0.1,0.0,0,2,0,0,2
+POR-Primeira Liga,2025-26,Alverca,Steven Baseya,FRA,DF,20-239,2005,1.9,85,97,87.6,1606,416,35,38,92.1,40,42,95.2,9,14,64.3,0,0.0,0.0,0.0,0,2,0,0,0
+POR-Primeira Liga,2025-26,Alverca,Stéphane Diarra,FRA,"FW,MF",26-275,1998,0.2,12,15,80.0,194,71,6,8,75.0,4,4,100.0,2,2,100.0,0,0.1,0.1,-0.1,1,2,0,0,1
+POR-Primeira Liga,2025-26,Alverca,Tiago Leite,POR,FW,25-041,2000,0.4,9,12,75.0,151,46,6,7,85.7,1,2,50.0,1,2,50.0,0,0.1,0.0,-0.1,1,1,0,0,1
+POR-Primeira Liga,2025-26,Alverca,Tomás Mendes,ESP,MF,20-293,2004,2.8,51,81,63.0,948,299,21,26,80.8,22,32,68.8,6,16,37.5,0,0.0,0.0,0.0,0,6,0,0,5
+POR-Primeira Liga,2025-26,Arouca,Alexandre Pinto,POR,DF,27-064,1998,2.6,97,126,77.0,1761,504,38,44,86.4,53,65,81.5,6,14,42.9,0,0.1,0.0,-0.1,1,2,1,1,8
+POR-Primeira Liga,2025-26,Arouca,Alfonso Trezza,URU,FW,26-080,1999,3.6,32,55,58.2,409,104,19,23,82.6,11,21,52.4,0,3,0.0,1,0.1,0.2,0.9,1,2,2,1,3
+POR-Primeira Liga,2025-26,Arouca,Amadou Dante,MLI,DF,24-338,2000,3.2,113,138,81.9,1901,531,54,58,93.1,51,61,83.6,4,13,30.8,0,0.1,0.1,-0.1,2,6,1,0,8
+POR-Primeira Liga,2025-26,Arouca,Arnau Solà,ESP,DF,22-159,2003,0.8,43,52,82.7,781,216,10,10,100.0,31,34,91.2,1,7,14.3,0,0.0,0.0,0.0,0,2,0,0,6
+POR-Primeira Liga,2025-26,Arouca,Barbero,ESP,FW,27-024,1998,1.1,19,22,86.4,347,39,9,11,81.8,7,8,87.5,3,3,100.0,0,0.0,0.0,0.0,2,1,0,0,3
+POR-Primeira Liga,2025-26,Arouca,Boris Popović,SRB,DF,25-196,2000,3.0,137,151,90.7,2564,1124,58,61,95.1,61,62,98.4,17,25,68.0,0,0.0,0.0,0.0,1,9,0,0,2
+POR-Primeira Liga,2025-26,Arouca,Brian Mansilla,URU,FW,23-119,2002,0.4,7,11,63.6,124,57,3,3,100.0,3,3,100.0,1,4,25.0,0,0.0,0.0,0.0,1,0,0,0,1
+POR-Primeira Liga,2025-26,Arouca,David Simão,POR,MF,35-118,1990,1.1,55,72,76.4,851,290,31,32,96.9,19,25,76.0,3,10,30.0,0,0.0,0.0,0.0,0,6,0,0,5
+POR-Primeira Liga,2025-26,Arouca,Dylan Nandín,URU,FW,23-194,2002,2.2,25,32,78.1,367,37,12,13,92.3,11,15,73.3,0,0,,0,0.1,0.0,-0.1,2,0,0,0,2
+POR-Primeira Liga,2025-26,Arouca,José Fontán,ESP,DF,25-211,2000,4.0,257,294,87.4,4910,2028,89,96,92.7,141,148,95.3,24,43,55.8,0,0.1,0.0,-0.1,2,15,0,0,13
+POR-Primeira Liga,2025-26,Arouca,João Valido,POR,GK,25-191,2000,4.0,123,166,74.1,2625,1670,39,39,100.0,68,69,98.6,15,57,26.3,0,0.0,0.0,0.0,0,2,0,0,0
+POR-Primeira Liga,2025-26,Arouca,Lee Hyunju,KOR,MF,22-215,2003,3.3,80,90,88.9,1280,220,41,46,89.1,31,33,93.9,4,5,80.0,2,0.7,0.4,1.3,4,3,2,2,6
+POR-Primeira Liga,2025-26,Arouca,Mateo Flores,ESP,MF,21-156,2004,0.8,44,48,91.7,721,136,18,19,94.7,25,25,100.0,1,3,33.3,0,0.0,0.1,0.0,1,5,0,0,1
+POR-Primeira Liga,2025-26,Arouca,Matí­as Rocha,URU,DF,24-209,2001,1.0,44,48,91.7,681,187,23,24,95.8,19,20,95.0,1,3,33.3,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Arouca,Miguel Puche García,ESP,"FW,DF",24-133,2001,0.5,7,9,77.8,173,54,1,1,100.0,4,4,100.0,2,4,50.0,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Arouca,Naïs Djouahra,FRA,FW,25-291,1999,3.3,68,100,68.0,1193,270,28,33,84.8,33,41,80.5,6,17,35.3,0,0.1,0.1,-0.1,2,5,0,0,9
+POR-Primeira Liga,2025-26,Arouca,Pablo Gozalbez,ESP,MF,24-133,2001,0.2,0,1,0.0,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Arouca,Pedro Santos,POR,MF,24-333,2000,2.8,162,183,88.5,3200,987,68,71,95.8,70,74,94.6,22,35,62.9,0,0.1,0.1,-0.1,3,19,1,1,16
+POR-Primeira Liga,2025-26,Arouca,Taichi Fukui,JPN,MF,21-057,2004,3.7,154,182,84.6,2734,605,66,69,95.7,72,84,85.7,15,25,60.0,1,0.1,0.1,0.9,2,11,3,0,19
+POR-Primeira Liga,2025-26,Arouca,Tiago Esgaio,POR,DF,30-040,1995,1.8,73,102,71.6,1328,567,35,44,79.5,29,35,82.9,8,17,47.1,0,0.2,0.4,-0.2,3,9,2,0,9
+POR-Primeira Liga,2025-26,Benfica,Amar Dedić,BIH,DF,23-023,2002,2.5,130,157,82.8,1910,524,75,82,91.5,48,57,84.2,6,12,50.0,1,1.0,0.8,0.0,3,7,3,0,18
+POR-Primeira Liga,2025-26,Benfica,Anatolii Trubin,UKR,GK,24-040,2001,1.0,12,24,50.0,442,332,2,2,100.0,4,4,100.0,6,18,33.3,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Benfica,Andreas Schjelderup,NOR,"MF,FW",21-101,2004,2.2,50,67,74.6,687,205,31,33,93.9,15,20,75.0,1,9,11.1,1,0.2,0.3,0.8,4,1,5,0,8
+POR-Primeira Liga,2025-26,Benfica,António Silva,POR,DF,21-315,2003,1.1,36,42,85.7,869,314,8,10,80.0,16,18,88.9,12,14,85.7,0,0.0,0.0,0.0,0,5,0,0,4
+POR-Primeira Liga,2025-26,Benfica,Enzo Barrenechea,ARG,MF,24-111,2001,2.9,207,226,91.6,3949,1212,83,89,93.3,90,98,91.8,30,33,90.9,0,0.0,0.1,0.0,1,28,1,1,18
+POR-Primeira Liga,2025-26,Benfica,Florentino Luís,POR,MF,26-022,1999,0.4,9,12,75.0,182,74,3,4,75.0,3,3,100.0,2,4,50.0,0,0.0,0.0,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Benfica,Franjo Ivanović,CRO,FW,21-344,2003,2.5,31,48,64.6,366,58,23,28,82.1,7,14,50.0,0,0,,0,0.1,0.0,-0.1,2,3,0,0,4
+POR-Primeira Liga,2025-26,Benfica,Fredrik Aursnes,NOR,"MF,FW",29-274,1995,3.0,118,142,83.1,1837,559,61,65,93.8,39,48,81.3,9,14,64.3,0,1.6,0.8,-1.6,7,8,9,2,15
+POR-Primeira Liga,2025-26,Benfica,Gianluca Prestianni,ARG,MF,19-222,2006,0.8,26,37,70.3,315,76,17,22,77.3,6,8,75.0,1,2,50.0,0,0.3,0.2,-0.3,3,0,3,0,3
+POR-Primeira Liga,2025-26,Benfica,Henrique Araújo,POR,FW,23-234,2002,0.0,0,0,,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Benfica,Kerem Aktürkoğlu,TUR,MF,26-324,1998,0.3,7,10,70.0,127,102,4,5,80.0,2,3,66.7,1,2,50.0,0,0.0,0.1,0.0,1,1,2,0,5
+POR-Primeira Liga,2025-26,Benfica,Leandro Barreiro Martins,LUX,"MF,FW",25-250,2000,1.0,19,22,86.4,233,20,13,14,92.9,5,7,71.4,0,0,,1,0.1,0.0,0.9,1,1,0,0,1
+POR-Primeira Liga,2025-26,Benfica,Nicolás Otamendi,ARG,DF,37-210,1988,3.0,162,172,94.2,3201,973,60,61,98.4,79,81,97.5,21,28,75.0,0,0.0,0.1,0.0,1,13,2,0,13
+POR-Primeira Liga,2025-26,Benfica,Rafel Obrador,ESP,DF,21-198,2004,0.7,30,37,81.1,517,152,16,17,94.1,11,15,73.3,3,5,60.0,0,0.2,0.3,-0.2,3,2,1,1,3
+POR-Primeira Liga,2025-26,Benfica,Richard Ríos,COL,MF,25-100,2000,2.7,145,168,86.3,2498,524,65,72,90.3,67,71,94.4,11,20,55.0,0,0.1,0.2,-0.1,1,12,1,1,12
+POR-Primeira Liga,2025-26,Benfica,Samuel Dahl,SWE,DF,25-190,2000,2.3,120,140,85.7,1823,562,69,71,97.2,41,46,89.1,8,16,50.0,0,0.2,0.6,-0.2,2,8,3,0,11
+POR-Primeira Liga,2025-26,Benfica,Samuel Soares,POR,GK,23-087,2002,2.0,38,48,79.2,910,593,11,11,100.0,19,19,100.0,8,18,44.4,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Benfica,Tiago Gouveia,POR,MF,24-084,2001,0.0,0,1,0.0,0,0,0,0,,0,1,0.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Benfica,Tomás Araújo,POR,DF,23-117,2002,2.0,114,127,89.8,2290,783,40,41,97.6,58,61,95.1,15,22,68.2,0,0.0,0.0,0.0,0,14,0,0,12
+POR-Primeira Liga,2025-26,Benfica,Vangelis Pavlidis,GRE,FW,26-293,1998,2.3,34,48,70.8,504,127,18,20,90.0,10,13,76.9,3,4,75.0,0,0.5,0.4,-0.5,3,3,4,0,7
+POR-Primeira Liga,2025-26,Braga,Amine El Ouazzani,MAR,FW,24-057,2001,3.0,35,42,83.3,470,75,21,24,87.5,8,8,100.0,2,2,100.0,0,0.3,0.2,-0.3,4,1,1,0,2
+POR-Primeira Liga,2025-26,Braga,Bright Arrey-Mbi,GER,DF,22-168,2003,2.0,159,174,91.4,2771,895,68,68,100.0,80,85,94.1,9,18,50.0,0,0.0,0.3,0.0,0,7,1,0,5
+POR-Primeira Liga,2025-26,Braga,Diego Rodrigues,POR,MF,20-109,2005,2.0,100,109,91.7,1538,346,52,54,96.3,37,41,90.2,6,8,75.0,0,0.2,0.2,-0.2,2,8,1,0,7
+POR-Primeira Liga,2025-26,Braga,Fran Navarro,ESP,FW,27-219,1998,0.8,10,14,71.4,132,15,8,11,72.7,1,1,100.0,1,1,100.0,0,0.0,0.0,0.0,1,0,0,0,1
+POR-Primeira Liga,2025-26,Braga,Gabri Martínez,ESP,FW,22-231,2003,0.5,20,34,58.8,305,64,11,14,78.6,8,12,66.7,1,2,50.0,1,0.8,0.7,0.2,1,0,1,0,1
+POR-Primeira Liga,2025-26,Braga,Gabriel Moscardo,BRA,MF,19-347,2005,0.1,7,8,87.5,120,35,4,5,80.0,3,3,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Braga,Gustaf Lagerbielke,SWE,DF,25-153,2000,2.7,182,206,88.3,3471,1358,63,67,94.0,104,110,94.5,14,25,56.0,0,0.0,0.1,0.0,1,33,1,0,25
+POR-Primeira Liga,2025-26,Braga,Ismaël Gharbi,TUN,MF,21-153,2004,0.8,22,30,73.3,357,54,11,12,91.7,9,12,75.0,1,2,50.0,0,0.0,0.0,0.0,0,0,2,0,2
+POR-Primeira Liga,2025-26,Braga,Jean Gorby,FRA,MF,23-047,2002,3.4,253,270,93.7,4421,957,103,106,97.2,123,127,96.9,20,23,87.0,0,0.2,0.3,-0.2,3,29,2,1,27
+POR-Primeira Liga,2025-26,Braga,João Moutinho,POR,MF,39-002,1986,2.0,189,217,87.1,3324,899,85,95,89.5,82,90,91.1,20,24,83.3,0,0.1,0.5,-0.1,2,25,6,0,28
+POR-Primeira Liga,2025-26,Braga,Leonardo Lelo,POR,DF,25-164,2000,4.0,295,362,81.5,4944,1457,149,163,91.4,119,137,86.9,20,45,44.4,4,2.0,1.5,2.0,14,33,15,4,37
+POR-Primeira Liga,2025-26,Braga,Lukáš Horníček,CZE,GK,23-059,2002,4.0,133,157,84.7,2978,1988,28,28,100.0,81,81,100.0,24,48,50.0,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Braga,Mario Dorgeless,CIV,"MF,FW",21-034,2004,0.6,40,46,87.0,678,155,18,22,81.8,18,19,94.7,3,4,75.0,0,0.1,0.1,-0.1,2,5,2,1,3
+POR-Primeira Liga,2025-26,Braga,Pau Victor,ESP,"MF,FW",23-288,2001,3.4,104,126,82.5,1447,174,63,70,90.0,27,37,73.0,6,8,75.0,0,0.1,0.1,-0.1,3,8,0,0,7
+POR-Primeira Liga,2025-26,Braga,Paulo Oliveira,POR,DF,33-245,1992,3.2,266,281,94.7,4944,1767,90,92,97.8,159,162,98.1,14,24,58.3,0,0.0,0.0,0.0,0,8,0,0,6
+POR-Primeira Liga,2025-26,Braga,Ricardo Horta,POR,"MF,FW",30-360,1994,1.2,57,67,85.1,791,172,40,40,100.0,10,13,76.9,5,7,71.4,0,0.0,0.1,0.0,0,4,1,0,5
+POR-Primeira Liga,2025-26,Braga,Rodrigo Zalazar,URU,"FW,MF",26-029,1999,2.1,72,93,77.4,1130,232,38,46,82.6,29,34,85.3,4,6,66.7,0,0.1,0.1,-0.1,3,5,2,0,8
+POR-Primeira Liga,2025-26,Braga,Roger Fernandes,POR,"MF,FW",19-293,2005,3.6,131,169,77.5,2235,421,59,69,85.5,58,70,82.9,10,17,58.8,1,0.1,0.3,0.9,3,8,7,0,14
+POR-Primeira Liga,2025-26,Braga,Sandro Vidigal,POR,"MF,FW",18-044,2007,0.4,10,13,76.9,206,13,4,5,80.0,5,5,100.0,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Braga,Victor Gomez,ESP,DF,25-162,2000,2.7,175,213,82.2,2985,776,84,89,94.4,75,89,84.3,15,28,53.6,0,0.3,0.2,-0.3,5,18,6,0,18
+POR-Primeira Liga,2025-26,Braga,Vitor Carvalho,BRA,"DF,MF",28-106,1997,1.6,121,132,91.7,2357,829,44,47,93.6,58,62,93.5,17,21,81.0,0,0.1,0.0,-0.1,3,8,1,0,6
+POR-Primeira Liga,2025-26,Casa Pia,André Geraldes,POR,"DF,MF",34-131,1991,1.4,48,57,84.2,915,245,11,13,84.6,35,39,89.7,2,3,66.7,0,0.0,0.0,0.0,0,5,0,0,6
+POR-Primeira Liga,2025-26,Casa Pia,Cassiano,BRA,FW,36-086,1989,2.4,18,27,66.7,274,54,9,14,64.3,9,11,81.8,0,0,,0,0.0,0.0,0.0,1,0,0,0,1
+POR-Primeira Liga,2025-26,Casa Pia,Duplexe Tchamba,CMR,DF,27-062,1998,4.0,154,211,73.0,2941,1285,65,72,90.3,67,79,84.8,21,54,38.9,0,0.0,0.2,0.0,1,12,0,0,10
+POR-Primeira Liga,2025-26,Casa Pia,Fahem Benaissa Yahia,FRA,"MF,DF",23-134,2002,3.4,84,109,77.1,1256,393,46,54,85.2,35,44,79.5,2,7,28.6,0,0.2,0.2,-0.2,1,2,1,0,5
+POR-Primeira Liga,2025-26,Casa Pia,Iyad Mohamed,COM,MF,24-189,2001,2.4,65,92,70.7,1254,369,26,33,78.8,30,35,85.7,9,21,42.9,0,0.0,0.0,0.0,1,6,0,0,7
+POR-Primeira Liga,2025-26,Casa Pia,José Fonte,POR,DF,41-262,1983,4.0,131,149,87.9,2432,805,45,48,93.8,73,82,89.0,11,16,68.8,0,0.0,0.1,0.0,2,5,1,0,9
+POR-Primeira Liga,2025-26,Casa Pia,João Goulart Silva,POR,DF,25-226,2000,3.1,81,111,73.0,1451,698,37,44,84.1,37,41,90.2,6,16,37.5,0,0.0,0.0,0.0,0,4,0,0,4
+POR-Primeira Liga,2025-26,Casa Pia,Jérémy Livolant,FRA,"FW,MF",27-244,1998,3.8,62,100,62.0,1105,359,32,47,68.1,13,24,54.2,13,20,65.0,1,0.8,0.7,0.2,5,6,3,2,5
+POR-Primeira Liga,2025-26,Casa Pia,Kelian Nsona Wa Saka,FRA,MF,23-122,2002,0.8,7,13,53.8,66,9,7,9,77.8,0,2,0.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Casa Pia,Kevin Prieto,URU,MF,22-075,2003,0.2,9,10,90.0,135,28,5,5,100.0,4,4,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Casa Pia,Korede Osundina,USA,"FW,MF",21-209,2004,2.0,24,35,68.6,432,104,14,19,73.7,7,9,77.8,3,4,75.0,0,0.1,0.1,-0.1,1,3,1,0,3
+POR-Primeira Liga,2025-26,Casa Pia,Larra,ESP,"DF,MF",27-267,1997,3.6,93,127,73.2,1464,540,45,52,86.5,45,58,77.6,3,14,21.4,0,0.3,0.5,-0.3,3,8,2,2,8
+POR-Primeira Liga,2025-26,Casa Pia,Max Svensson,ESP,FW,,,1.7,23,39,59.0,311,84,15,21,71.4,8,10,80.0,0,4,0.0,0,0.1,0.1,-0.1,3,1,0,0,2
+POR-Primeira Liga,2025-26,Casa Pia,Miguel Sousa,POR,MF,26-356,1998,0.3,13,17,76.5,188,42,6,7,85.7,5,5,100.0,1,3,33.3,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Casa Pia,Patrick Sequeira,CRC,GK,26-193,1999,4.0,87,120,72.5,2371,1655,13,14,92.9,52,57,91.2,22,48,45.8,0,0.0,0.0,0.0,0,2,0,0,0
+POR-Primeira Liga,2025-26,Casa Pia,Rafael Brito,POR,MF,23-234,2002,1.2,23,29,79.3,359,125,11,14,78.6,10,12,83.3,1,2,50.0,0,0.0,0.2,0.0,0,2,1,0,4
+POR-Primeira Liga,2025-26,Casa Pia,Renato Nhaga,GNB,MF,18-167,2007,1.7,62,75,82.7,1048,358,30,33,90.9,28,29,96.6,4,11,36.4,0,0.0,0.0,0.0,0,8,0,0,13
+POR-Primeira Liga,2025-26,Casa Pia,Sebastián Pérez Cardona,COL,MF,32-165,1993,1.2,56,74,75.7,1159,299,16,19,84.2,32,35,91.4,8,18,44.4,0,0.0,0.0,0.0,1,6,0,0,7
+POR-Primeira Liga,2025-26,Casa Pia,Tiago Fonseca Morais,POR,"FW,MF",22-007,2003,1.2,23,39,59.0,325,129,16,21,76.2,3,7,42.9,2,6,33.3,0,0.6,0.2,-0.6,2,3,0,0,2
+POR-Primeira Liga,2025-26,Casa Pia,Yassin Oukili,NED,MF,24-250,2001,1.4,30,36,83.3,431,157,22,25,88.0,4,4,100.0,3,5,60.0,0,0.0,0.0,0.0,0,1,1,0,2
+POR-Primeira Liga,2025-26,Estoril,Alejandro Marqués,VEN,FW,25-037,2000,0.6,7,11,63.6,106,31,5,6,83.3,1,2,50.0,1,1,100.0,0,0.0,0.0,0.0,0,2,0,0,1
+POR-Primeira Liga,2025-26,Estoril,André Lacximicant,POR,FW,24-114,2001,2.0,25,35,71.4,364,107,15,20,75.0,9,9,100.0,1,3,33.3,1,0.6,0.5,0.4,4,1,3,1,4
+POR-Primeira Liga,2025-26,Estoril,Fabrício Garcia,CPV,"FW,MF",24-129,2001,0.2,10,13,76.9,130,22,9,10,90.0,1,2,50.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Estoril,Felix Bacher,AUT,DF,24-320,2000,4.0,149,173,86.1,2670,1240,64,69,92.8,68,79,86.1,14,21,66.7,0,0.1,0.1,-0.1,1,9,0,0,1
+POR-Primeira Liga,2025-26,Estoril,Francisco Reis Ferreira,POR,DF,28-168,1997,1.1,44,51,86.3,756,200,18,20,90.0,23,25,92.0,3,5,60.0,0,0.1,0.0,-0.1,2,1,1,0,2
+POR-Primeira Liga,2025-26,Estoril,Joel Robles,ESP,GK,35-085,1990,4.0,71,114,62.3,2356,1980,12,12,100.0,29,29,100.0,29,72,40.3,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Estoril,Jordan Holsgrove,SCO,MF,26-000,1999,3.9,229,287,79.8,4288,1906,100,118,84.7,95,107,88.8,32,54,59.3,0,0.4,0.6,-0.4,7,27,3,0,30
+POR-Primeira Liga,2025-26,Estoril,João Carvalho,POR,"FW,MF",28-185,1997,3.8,100,139,71.9,1798,484,48,54,88.9,34,45,75.6,14,23,60.9,1,0.7,0.7,0.3,8,15,2,0,13
+POR-Primeira Liga,2025-26,Estoril,Kévin Boma,TOG,DF,22-294,2002,3.0,107,127,84.3,1702,821,54,57,94.7,48,56,85.7,2,8,25.0,0,0.0,0.0,0.0,0,6,0,0,10
+POR-Primeira Liga,2025-26,Estoril,Nodari Lominadze,GEO,MF,23-159,2002,2.0,60,86,69.8,1059,286,28,40,70.0,27,33,81.8,5,7,71.4,0,0.4,0.3,-0.4,1,7,1,0,11
+POR-Primeira Liga,2025-26,Estoril,Or Israelov,ISR,DF,21-008,2004,0.2,9,10,90.0,165,56,4,4,100.0,5,5,100.0,0,1,0.0,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Estoril,Patrick de Paula,BRA,MF,26-002,1999,1.6,61,80,76.3,1105,308,29,35,82.9,24,26,92.3,7,16,43.8,0,0.0,0.1,0.0,1,5,2,1,9
+POR-Primeira Liga,2025-26,Estoril,Pedro Amaral,POR,DF,28-016,1997,4.0,163,196,83.2,2714,986,83,84,98.8,66,78,84.6,10,25,40.0,0,0.0,0.0,0.0,1,16,0,0,21
+POR-Primeira Liga,2025-26,Estoril,Pedro Carvalho,POR,"MF,DF",22-208,2003,3.6,109,158,69.0,1967,564,46,52,88.5,50,75,66.7,11,25,44.0,0,0.1,0.2,-0.1,2,3,3,1,11
+POR-Primeira Liga,2025-26,Estoril,Pizzi,POR,"MF,FW",35-339,1989,1.2,65,80,81.3,1138,268,32,35,91.4,25,30,83.3,7,12,58.3,0,0.0,0.1,0.0,1,4,0,0,7
+POR-Primeira Liga,2025-26,Estoril,Rafik Guitane,FRA,FW,26-107,1999,2.1,54,62,87.1,764,121,28,30,93.3,22,24,91.7,1,1,100.0,0,0.2,0.4,-0.2,5,1,2,0,4
+POR-Primeira Liga,2025-26,Estoril,Ricard Sánchez,ESP,"DF,MF",25-200,2000,1.1,23,36,63.9,297,126,11,15,73.3,10,15,66.7,0,3,0.0,0,0.2,0.1,-0.2,2,2,0,0,0
+POR-Primeira Liga,2025-26,Estoril,Tiago Brito,POR,"MF,FW",21-147,2004,0.3,23,32,71.9,369,111,12,15,80.0,9,14,64.3,1,1,100.0,0,0.0,0.0,0.0,0,0,1,0,1
+POR-Primeira Liga,2025-26,Estoril,Tiago Parente,POR,MF,21-239,2004,2.5,61,76,80.3,808,296,40,42,95.2,15,21,71.4,3,6,50.0,0,0.0,0.1,0.0,0,2,3,0,5
+POR-Primeira Liga,2025-26,Estoril,Yanis Begraoui,MAR,FW,24-068,2001,2.8,37,51,72.5,618,62,19,22,86.4,14,20,70.0,3,4,75.0,0,0.1,0.0,-0.1,2,3,0,0,3
+POR-Primeira Liga,2025-26,Estrela,Abraham Marcus,NGA,MF,25-251,2000,3.2,66,77,85.7,1232,335,32,34,94.1,19,22,86.4,11,14,78.6,0,0.3,0.4,-0.3,4,8,2,1,8
+POR-Primeira Liga,2025-26,Estrela,Alan Godoy,ESP,FW,22-129,2003,2.9,22,37,59.5,296,36,11,14,78.6,7,9,77.8,1,1,100.0,0,0.0,0.1,0.0,1,0,0,0,2
+POR-Primeira Liga,2025-26,Estrela,Alexandre Sola,AND,MF,21-270,2003,0.0,1,1,100.0,6,0,1,1,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Estrela,Atanas Chernev,BUL,DF,23-169,2002,4.0,110,138,79.7,2165,777,45,53,84.9,51,55,92.7,14,23,60.9,0,0.0,0.0,0.0,1,10,1,1,10
+POR-Primeira Liga,2025-26,Estrela,Bernardo Schappo,BRA,DF,26-172,1999,4.0,141,174,81.0,2686,1418,50,54,92.6,71,76,93.4,18,40,45.0,0,0.1,0.1,-0.1,1,6,1,0,7
+POR-Primeira Liga,2025-26,Estrela,Fábio Conceição,POR,DF,24-135,2001,1.4,27,38,71.1,449,217,17,22,77.3,7,10,70.0,3,5,60.0,0,0.1,0.0,-0.1,2,2,0,0,2
+POR-Primeira Liga,2025-26,Estrela,Gonzalo Calçada,ESP,FW,24-047,2001,0.1,0,0,,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Estrela,Guilherme Serrão,POR,DF,21-361,2003,0.2,2,5,40.0,59,24,0,2,0.0,1,1,100.0,1,2,50.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Estrela,Ianis Stoica,ROU,"FW,MF",22-276,2002,1.3,20,28,71.4,291,59,9,12,75.0,8,9,88.9,1,3,33.3,0,0.3,0.1,-0.3,2,1,1,0,4
+POR-Primeira Liga,2025-26,Estrela,Jefferson Encada,GNB,DF,27-146,1998,0.7,21,25,84.0,359,57,9,9,100.0,10,13,76.9,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Estrela,Jorge Meireles,POR,MF,21-159,2004,0.2,4,4,100.0,101,63,2,2,100.0,1,1,100.0,1,1,100.0,0,0.0,0.0,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Estrela,Jovane Cabral,CPV,MF,27-088,1998,3.7,96,136,70.6,1763,499,44,53,83.0,33,44,75.0,14,30,46.7,0,0.2,0.3,-0.2,3,16,4,1,19
+POR-Primeira Liga,2025-26,Estrela,João Moisés,ANG,"FW,MF",19-050,2006,2.5,13,23,56.5,169,36,11,14,78.6,1,4,25.0,1,1,100.0,1,0.9,0.0,0.1,4,1,1,0,3
+POR-Primeira Liga,2025-26,Estrela,João Resende,POR,DF,22-168,2003,0.1,7,7,100.0,96,47,4,4,100.0,3,3,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Estrela,Kikas,POR,"FW,MF",26-358,1998,1.2,4,9,44.4,53,10,3,3,100.0,1,3,33.3,0,1,0.0,0,0.0,0.0,0.0,1,0,1,0,1
+POR-Primeira Liga,2025-26,Estrela,Luan Patrick,BRA,DF,23-233,2002,3.6,103,122,84.4,2045,858,38,39,97.4,50,54,92.6,14,26,53.8,0,0.0,0.0,0.0,0,4,0,0,5
+POR-Primeira Liga,2025-26,Estrela,Nilton Varela,POR,DF,24-108,2001,0.6,8,11,72.7,201,109,1,2,50.0,4,5,80.0,3,4,75.0,0,0.0,0.1,0.0,0,0,1,1,1
+POR-Primeira Liga,2025-26,Estrela,Paulo Moreira,POR,MF,25-205,2000,2.5,72,89,80.9,1294,322,33,41,80.5,29,34,85.3,8,12,66.7,0,0.0,0.1,0.0,2,6,2,0,12
+POR-Primeira Liga,2025-26,Estrela,Renan Ribeiro,BRA,GK,35-171,1990,4.0,81,136,59.6,2348,1621,10,10,100.0,37,38,97.4,32,86,37.2,0,0.0,0.0,0.0,0,2,0,0,0
+POR-Primeira Liga,2025-26,Estrela,Robinho,BRA,MF,23-034,2002,1.9,75,87,86.2,1522,453,18,22,81.8,44,46,95.7,11,17,64.7,0,0.3,0.0,-0.3,1,6,0,0,10
+POR-Primeira Liga,2025-26,Estrela,Rodrigo Pinho,BRA,MF,34-103,1991,0.5,5,11,45.5,102,54,1,2,50.0,2,5,40.0,1,2,50.0,1,0.8,0.6,0.2,2,1,0,0,1
+POR-Primeira Liga,2025-26,Estrela,Ryan Carlos,BRA,DF,23-119,2002,0.7,32,42,76.2,594,157,11,13,84.6,18,22,81.8,2,5,40.0,0,0.0,0.0,0.0,1,1,0,0,3
+POR-Primeira Liga,2025-26,Estrela,Sidny Cabral,CPV,DF,22-357,2002,4.0,97,148,65.5,1855,653,45,49,91.8,37,56,66.1,14,31,45.2,0,0.9,0.9,-0.9,6,5,3,2,4
+POR-Primeira Liga,2025-26,Famalicão,García,BRA,DF,23-249,2002,0.2,3,6,50.0,90,32,0,0,,2,4,50.0,1,1,100.0,0,0.0,0.0,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Famalicão,Gil Bastião Dias,POR,FW,28-347,1996,2.5,54,74,73.0,752,355,34,41,82.9,16,20,80.0,2,7,28.6,0,0.4,0.4,-0.4,1,5,4,0,10
+POR-Primeira Liga,2025-26,Famalicão,Gustavo sá,POR,MF,20-303,2004,3.7,102,145,70.3,2003,598,44,53,83.0,36,54,66.7,20,26,76.9,0,0.2,0.2,-0.2,5,16,1,0,24
+POR-Primeira Liga,2025-26,Famalicão,Ibrahima Ba,SEN,"DF,MF",20-107,2005,0.4,3,5,60.0,62,52,2,3,66.7,0,0,,1,2,50.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Famalicão,Justin de Haas,NED,DF,25-221,2000,4.0,207,233,88.8,4239,1589,66,67,98.5,119,121,98.3,21,42,50.0,0,0.0,0.0,0.0,0,10,1,0,8
+POR-Primeira Liga,2025-26,Famalicão,Lazar Carević,MNE,GK,26-178,1999,4.0,109,142,76.8,2483,1579,27,27,100.0,59,59,100.0,23,54,42.6,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Famalicão,Leonardo Realpe,ECU,DF,24-196,2001,3.6,155,189,82.0,3175,1021,49,53,92.5,84,90,93.3,21,39,53.8,0,0.0,0.0,0.0,0,7,0,0,8
+POR-Primeira Liga,2025-26,Famalicão,Marcos Peña,ESP,MF,20-231,2005,0.8,30,36,83.3,539,160,14,16,87.5,9,10,90.0,5,7,71.4,0,0.0,0.0,0.0,0,5,1,0,4
+POR-Primeira Liga,2025-26,Famalicão,Marcos Vinicios Sorriso,BRA,FW,24-199,2001,3.9,85,132,64.4,1458,497,45,59,76.3,26,38,68.4,11,25,44.0,1,0.9,0.8,0.1,8,4,7,1,13
+POR-Primeira Liga,2025-26,Famalicão,Mathias De Amorim,POR,MF,20-274,2004,3.7,87,109,79.8,1222,367,48,54,88.9,31,40,77.5,2,5,40.0,1,0.2,0.6,0.8,4,5,4,1,15
+POR-Primeira Liga,2025-26,Famalicão,Otar Mamageishvili,GEO,MF,22-238,2003,0.3,4,6,66.7,86,40,1,2,50.0,2,2,100.0,1,2,50.0,0,0.0,0.0,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Famalicão,Pedro Bondo,ANG,DF,20-298,2004,2.3,57,85,67.1,1321,638,15,16,93.8,30,40,75.0,12,26,46.2,0,0.0,0.1,0.0,1,7,2,0,10
+POR-Primeira Liga,2025-26,Famalicão,Pedro Santos,POR,"FW,MF",22-212,2003,1.4,30,46,65.2,398,131,17,18,94.4,9,15,60.0,1,8,12.5,0,0.0,0.2,0.0,0,3,5,1,6
+POR-Primeira Liga,2025-26,Famalicão,Rafa Soares,POR,DF,30-124,1995,1.5,59,77,76.6,1029,382,33,36,91.7,19,25,76.0,6,12,50.0,1,0.0,0.0,1.0,1,6,1,0,6
+POR-Primeira Liga,2025-26,Famalicão,Rodrigo Pinheiro,POR,DF,23-013,2002,4.0,133,170,78.2,2244,1062,62,69,89.9,57,70,81.4,10,21,47.6,0,0.5,0.4,-0.5,6,8,6,3,19
+POR-Primeira Liga,2025-26,Famalicão,Roméo Beney,SUI,FW,20-234,2005,0.5,6,11,54.5,100,19,3,4,75.0,2,5,40.0,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,2
+POR-Primeira Liga,2025-26,Famalicão,Simon Elisor,FRA,FW,26-050,1999,3.4,43,58,74.1,599,122,25,29,86.2,13,15,86.7,3,3,100.0,1,0.6,0.5,0.4,3,4,1,0,4
+POR-Primeira Liga,2025-26,Famalicão,Tom van de Looi,NED,MF,26-070,1999,2.9,97,122,79.5,1931,577,35,39,89.7,49,62,79.0,13,16,81.3,0,0.0,0.1,0.0,2,9,2,1,12
+POR-Primeira Liga,2025-26,Famalicão,Umar Abubakar,NGA,FW,19-207,2006,0.2,1,3,33.3,14,0,1,2,50.0,0,1,0.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Famalicão,Yassir Zabiri,MAR,FW,20-199,2005,0.4,4,8,50.0,67,35,3,3,100.0,0,2,0.0,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Gil Vicente FC,Agustín Moreira,URU,"FW,MF",24-105,2001,1.3,21,30,70.0,307,66,11,15,73.3,7,10,70.0,1,2,50.0,0,0.1,0.1,-0.1,2,0,3,2,2
+POR-Primeira Liga,2025-26,Gil Vicente FC,Andrew,BRA,GK,24-071,2001,4.0,120,173,69.4,3393,2287,22,22,100.0,54,56,96.4,43,94,45.7,0,0.0,0.0,0.0,0,5,0,0,0
+POR-Primeira Liga,2025-26,Gil Vicente FC,Facundo Cáseres,ARG,MF,24-105,2001,3.4,121,141,85.8,2300,563,42,44,95.5,61,69,88.4,16,24,66.7,0,0.1,0.1,-0.1,2,15,2,2,10
+POR-Primeira Liga,2025-26,Gil Vicente FC,Ghislain Konan,CIV,DF,29-257,1995,4.0,136,178,76.4,2496,976,54,60,90.0,65,78,83.3,15,31,48.4,0,0.0,0.0,0.0,1,12,2,0,17
+POR-Primeira Liga,2025-26,Gil Vicente FC,Gonçalo Maia,POR,FW,19-284,2005,0.0,0,0,,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Gil Vicente FC,Gustavo Varela,POR,FW,20-223,2005,0.7,10,10,100.0,132,42,6,6,100.0,4,4,100.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,2
+POR-Primeira Liga,2025-26,Gil Vicente FC,Hevertton Santos,BRA,DF,24-221,2001,1.6,32,47,68.1,522,188,18,22,81.8,12,15,80.0,2,7,28.6,1,0.1,0.1,0.9,2,0,1,1,2
+POR-Primeira Liga,2025-26,Gil Vicente FC,Jonathan Buatu Mananga,ANG,DF,31-348,1993,4.0,139,155,89.7,2853,897,41,42,97.6,73,78,93.6,24,34,70.6,0,0.0,0.0,0.0,0,2,0,0,2
+POR-Primeira Liga,2025-26,Gil Vicente FC,Luís Esteves,POR,MF,27-154,1998,3.6,112,152,73.7,2051,669,51,58,87.9,42,54,77.8,16,34,47.1,1,1.0,0.7,0.0,7,15,4,0,15
+POR-Primeira Liga,2025-26,Gil Vicente FC,Martín Fernández,URU,"FW,MF",22-079,2003,2.7,33,46,71.7,446,108,21,25,84.0,8,12,66.7,2,2,100.0,1,0.4,0.4,0.6,7,2,1,1,4
+POR-Primeira Liga,2025-26,Gil Vicente FC,Marvin Elimbi,FRA,DF,22-202,2003,4.0,138,167,82.6,2962,812,28,30,93.3,89,95,93.7,19,39,48.7,0,0.2,0.2,-0.2,2,5,0,0,6
+POR-Primeira Liga,2025-26,Gil Vicente FC,Mohamed Bamba,CIV,MF,20-337,2004,0.5,7,10,70.0,142,9,1,2,50.0,5,6,83.3,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Gil Vicente FC,Murilo Costa,BRA,"FW,MF",30-314,1994,0.7,20,33,60.6,473,115,8,12,66.7,5,7,71.4,6,10,60.0,1,0.3,0.1,0.7,3,2,0,0,1
+POR-Primeira Liga,2025-26,Gil Vicente FC,Pablo,BRA,FW,21-251,2004,3.6,32,42,76.2,384,104,21,25,84.0,6,9,66.7,1,2,50.0,0,0.3,0.0,-0.3,5,3,1,0,5
+POR-Primeira Liga,2025-26,Gil Vicente FC,Rodrigo Rodrigues,POR,"FW,MF",17-278,2007,0.3,3,4,75.0,27,16,3,3,100.0,0,1,0.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Gil Vicente FC,Santiago García,ESP,"MF,FW",24-012,2001,2.7,76,93,81.7,1178,320,41,44,93.2,23,32,71.9,7,10,70.0,0,0.0,0.2,0.0,0,12,2,0,9
+POR-Primeira Liga,2025-26,Gil Vicente FC,Sergio Bermejo,ESP,"FW,MF",28-024,1997,3.1,37,59,62.7,613,160,18,20,90.0,10,15,66.7,6,14,42.9,0,0.0,0.1,0.0,0,3,1,0,5
+POR-Primeira Liga,2025-26,Gil Vicente FC,Zé Carlos,POR,DF,27-041,1998,2.4,79,108,73.1,1473,757,29,36,80.6,37,47,78.7,10,16,62.5,0,0.1,0.1,-0.1,2,3,1,1,3
+POR-Primeira Liga,2025-26,Gil Vicente FC,Zé Carlos,POR,MF,23-315,2001,1.5,50,65,76.9,864,239,22,28,78.6,24,28,85.7,3,7,42.9,0,0.0,0.1,0.0,0,4,1,0,5
+POR-Primeira Liga,2025-26,Moreirense,Afonso Assis,POR,MF,19-057,2006,1.1,36,45,80.0,684,210,17,19,89.5,15,17,88.2,4,6,66.7,0,0.1,0.0,-0.1,1,5,1,0,6
+POR-Primeira Liga,2025-26,Moreirense,Alan,BRA,MF,25-186,2000,4.0,123,152,80.9,2119,662,58,65,89.2,48,52,92.3,11,25,44.0,1,0.8,0.8,0.2,5,22,4,1,20
+POR-Primeira Liga,2025-26,Moreirense,Bernardo Martins,POR,FW,27-280,1997,0.3,15,20,75.0,319,76,5,7,71.4,7,9,77.8,3,3,100.0,0,0.0,0.0,0.0,0,2,0,0,2
+POR-Primeira Liga,2025-26,Moreirense,Caio Secco,BRA,GK,34-262,1990,4.0,96,131,73.3,2275,1450,30,30,100.0,48,50,96.0,17,49,34.7,0,0.3,0.0,-0.3,1,5,0,0,0
+POR-Primeira Liga,2025-26,Moreirense,Cédric Teguia,ESP,FW,23-344,2001,3.2,68,105,64.8,1181,343,30,39,76.9,29,42,69.0,6,18,33.3,0,0.1,0.1,-0.1,1,9,0,0,7
+POR-Primeira Liga,2025-26,Moreirense,Dinis Pinto,POR,DF,25-017,2000,4.0,135,177,76.3,2316,725,63,71,88.7,60,74,81.1,10,23,43.5,2,1.1,1.0,0.9,6,10,3,3,11
+POR-Primeira Liga,2025-26,Moreirense,Diogo Travassos,POR,"FW,DF",21-163,2004,0.4,8,10,80.0,163,49,3,3,100.0,4,4,100.0,1,1,100.0,0,0.1,0.2,-0.1,1,1,2,1,2
+POR-Primeira Liga,2025-26,Moreirense,Gilberto Batista,GNB,DF,21-255,2003,0.2,9,12,75.0,182,29,2,2,100.0,6,7,85.7,1,2,50.0,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Moreirense,Guilherme Schettine,BRA,FW,29-335,1995,3.1,43,54,79.6,642,104,15,18,83.3,14,19,73.7,6,6,100.0,0,0.0,0.2,0.0,0,2,3,0,6
+POR-Primeira Liga,2025-26,Moreirense,Jimi Gower,ENG,FW,20-344,2004,0.1,3,3,100.0,53,0,1,1,100.0,2,2,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Moreirense,Joel Jorquera,ESP,MF,25-022,2000,0.1,5,5,100.0,45,9,5,5,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Moreirense,Kiko,POR,DF,23-147,2002,2.6,94,132,71.2,1559,507,41,48,85.4,47,56,83.9,4,21,19.0,0,0.2,0.4,-0.2,3,8,1,1,9
+POR-Primeira Liga,2025-26,Moreirense,Kiko Bondoso,POR,FW,29-297,1995,3.3,78,107,72.9,1152,263,46,58,79.3,25,32,78.1,5,9,55.6,1,1.1,0.7,-0.1,3,4,5,1,9
+POR-Primeira Liga,2025-26,Moreirense,Landerson,BRA,FW,18-272,2006,0.6,14,20,70.0,188,13,11,14,78.6,3,5,60.0,0,0,,0,0.0,0.0,0.0,0,0,1,0,3
+POR-Primeira Liga,2025-26,Moreirense,Lawrence Ofori,GHA,MF,27-074,1998,2.3,58,70,82.9,944,253,29,31,93.5,25,30,83.3,3,6,50.0,1,0.3,0.1,0.7,6,12,1,0,12
+POR-Primeira Liga,2025-26,Moreirense,Maracás,BRA,DF,31-136,1994,3.9,244,264,92.4,4895,1609,62,63,98.4,165,171,96.5,15,24,62.5,0,0.1,0.0,-0.1,1,3,0,0,6
+POR-Primeira Liga,2025-26,Moreirense,Marcelo dos Santos Ferreira,BRA,DF,36-045,1989,4.0,220,253,87.0,4665,1589,46,50,92.0,146,155,94.2,28,45,62.2,0,0.0,0.0,0.0,0,8,0,0,9
+POR-Primeira Liga,2025-26,Moreirense,Mateja Stjepanović,SRB,MF,21-202,2004,4.0,133,155,85.8,2527,724,45,49,91.8,73,82,89.0,12,19,63.2,0,0.0,0.0,0.0,0,14,0,0,13
+POR-Primeira Liga,2025-26,Moreirense,Rodri,ESP,MF,22-249,2003,0.6,16,16,100.0,228,97,5,5,100.0,9,9,100.0,0,0,,0,0.0,0.0,0.0,0,2,1,0,2
+POR-Primeira Liga,2025-26,Moreirense,Yan Lincon,BRA,FW,22-362,2002,0.9,16,17,94.1,199,29,9,9,100.0,3,3,100.0,1,2,50.0,0,0.0,0.0,0.0,0,1,0,0,2
+POR-Primeira Liga,2025-26,Moreirense,Álvaro Martínez,ESP,DF,23-129,2002,1.3,87,104,83.7,1497,357,42,45,93.3,40,46,87.0,5,12,41.7,0,0.0,0.0,0.0,0,1,0,0,2
+POR-Primeira Liga,2025-26,Nacional,André Sousa,POR,FW,35-063,1990,0.2,3,9,33.3,54,31,1,1,100.0,0,2,0.0,1,5,20.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Nacional,Chiheb Labidi,TUN,MF,24-101,2001,2.3,39,54,72.2,576,164,21,24,87.5,17,21,81.0,1,5,20.0,0,0.0,0.1,0.0,0,2,1,0,8
+POR-Primeira Liga,2025-26,Nacional,Filipe Soares,POR,MF,26-113,1999,1.6,32,46,69.6,647,278,12,15,80.0,12,14,85.7,7,14,50.0,0,0.3,0.8,-0.3,3,4,1,1,6
+POR-Primeira Liga,2025-26,Nacional,Jesús Ramírez,VEN,FW,27-129,1998,3.7,44,64,68.8,592,108,29,36,80.6,11,14,78.6,2,5,40.0,0,0.0,0.0,0.0,1,3,0,0,2
+POR-Primeira Liga,2025-26,Nacional,Joel silva,POR,MF,22-211,2003,0.6,12,15,80.0,193,45,5,7,71.4,5,5,100.0,1,2,50.0,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Nacional,José Gomes,POR,DF,29-052,1996,3.8,64,119,53.8,1161,770,31,41,75.6,26,47,55.3,7,22,31.8,2,0.8,0.9,1.2,7,7,6,3,10
+POR-Primeira Liga,2025-26,Nacional,João Aurélio,POR,DF,37-024,1988,4.0,97,142,68.3,1689,835,48,55,87.3,37,59,62.7,12,26,46.2,0,0.1,0.2,-0.1,2,10,2,2,11
+POR-Primeira Liga,2025-26,Nacional,Lenny Vallier,FRA,DF,26-139,1999,0.2,4,7,57.1,37,21,3,4,75.0,1,2,50.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Nacional,Liziero,BRA,MF,27-215,1998,3.2,88,127,69.3,1715,518,36,42,85.7,32,41,78.0,17,38,44.7,1,0.4,0.7,0.6,5,7,2,0,9
+POR-Primeira Liga,2025-26,Nacional,Lucas França,BRA,GK,29-234,1996,4.0,58,117,49.6,2171,1796,9,9,100.0,16,16,100.0,33,91,36.3,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Nacional,Lucas João,ANG,FW,32-006,1993,0.3,7,10,70.0,113,0,4,5,80.0,0,0,,2,3,66.7,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Nacional,Léo Santos,BRA,DF,26-275,1998,3.5,85,106,80.2,1731,643,24,26,92.3,47,49,95.9,13,28,46.4,0,0.0,0.1,0.0,0,6,0,0,5
+POR-Primeira Liga,2025-26,Nacional,Matheus Dias,BRA,MF,23-124,2002,3.5,86,103,83.5,1718,542,30,38,78.9,41,46,89.1,14,17,82.4,0,0.4,0.4,-0.4,1,5,1,0,8
+POR-Primeira Liga,2025-26,Nacional,Mootez Nourani,TUN,MF,23-211,2002,0.0,0,0,,0,0,0,0,,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Nacional,Pablo,BRA,"MF,FW",22-221,2003,0.9,6,13,46.2,86,21,4,4,100.0,1,3,33.3,1,4,25.0,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Nacional,Paulinho Bóia,BRA,"FW,MF",27-076,1998,3.7,36,63,57.1,520,121,19,25,76.0,11,19,57.9,3,10,30.0,0,0.1,0.3,-0.1,3,2,3,0,8
+POR-Primeira Liga,2025-26,Nacional,Ulisses,BRA,DF,25-347,1999,1.5,55,65,84.6,1213,399,16,18,88.9,23,25,92.0,14,18,77.8,0,0.0,0.0,0.0,0,5,0,0,5
+POR-Primeira Liga,2025-26,Nacional,Watts,POR,"MF,FW",20-058,2005,0.4,4,5,80.0,90,9,0,0,,4,4,100.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Nacional,Witi,MOZ,"FW,MF",29-015,1996,2.4,26,43,60.5,475,170,15,18,83.3,4,7,57.1,6,11,54.5,0,0.3,0.3,-0.3,4,2,3,1,3
+POR-Primeira Liga,2025-26,Nacional,Zé Vitor,BRA,DF,24-213,2001,3.0,50,70,71.4,1169,422,12,14,85.7,23,27,85.2,14,22,63.6,0,0.0,0.0,0.0,0,7,0,0,7
+POR-Primeira Liga,2025-26,Porto,Alan Varela,ARG,MF,24-068,2001,4.0,164,189,86.8,2809,1047,72,78,92.3,80,90,88.9,9,14,64.3,0,0.6,0.4,-0.6,3,17,3,0,22
+POR-Primeira Liga,2025-26,Porto,Alberto costa,POR,DF,21-346,2003,3.7,125,154,81.2,2080,548,64,72,88.9,56,65,86.2,5,11,45.5,4,1.5,0.6,2.5,5,1,1,1,7
+POR-Primeira Liga,2025-26,Porto,Borja Sainz,ESP,FW,24-221,2001,3.2,58,77,75.3,927,253,24,34,70.6,27,30,90.0,4,5,80.0,1,0.7,0.1,0.3,4,6,4,0,12
+POR-Primeira Liga,2025-26,Porto,Deniz Gül,TUR,FW,21-070,2004,0.2,3,3,100.0,45,16,1,1,100.0,2,2,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Porto,Diogo Costa,POR,GK,25-356,1999,4.0,144,174,82.8,3482,2297,42,42,100.0,64,64,100.0,35,65,53.8,0,0.0,0.0,0.0,0,6,1,0,0
+POR-Primeira Liga,2025-26,Porto,Dominik Prpić,CRO,DF,21-114,2004,0.6,40,50,80.0,663,211,16,20,80.0,22,23,95.7,2,7,28.6,0,0.0,0.0,0.0,0,0,0,0,2
+POR-Primeira Liga,2025-26,Porto,Gabriel Veiga,ESP,MF,23-106,2002,2.3,68,95,71.6,1104,344,39,46,84.8,18,29,62.1,10,18,55.6,1,0.7,0.4,0.3,7,5,2,0,8
+POR-Primeira Liga,2025-26,Porto,Jan Bednarek,POL,DF,29-151,1996,3.5,266,282,94.3,4428,1432,111,116,95.7,140,144,97.2,11,16,68.8,0,0.0,0.0,0.0,1,7,0,0,10
+POR-Primeira Liga,2025-26,Porto,Luuk de Jong,NED,FW,35-014,1990,2.6,35,50,70.0,490,96,22,28,78.6,11,17,64.7,2,2,100.0,0,0.6,0.4,-0.6,5,2,0,0,3
+POR-Primeira Liga,2025-26,Porto,Martim Fernandes,POR,DF,19-235,2006,0.6,31,33,93.9,530,123,15,15,100.0,11,13,84.6,3,3,100.0,0,0.0,0.1,0.0,1,3,1,1,1
+POR-Primeira Liga,2025-26,Porto,Moura,POR,DF,26-025,1999,1.1,41,50,82.0,614,215,22,24,91.7,17,22,77.3,1,2,50.0,0,0.0,0.0,0.0,0,3,1,0,7
+POR-Primeira Liga,2025-26,Porto,Nehuén Pérez,ARG,DF,25-078,2000,4.0,304,322,94.4,5335,1425,128,132,97.0,151,155,97.4,23,33,69.7,0,0.0,0.0,0.0,1,21,0,0,20
+POR-Primeira Liga,2025-26,Porto,Pablo Rosario,DOM,MF,28-246,1997,0.4,10,11,90.9,160,94,5,5,100.0,4,5,80.0,1,1,100.0,0,0.1,0.0,-0.1,1,2,0,0,4
+POR-Primeira Liga,2025-26,Porto,Pepê,BRA,FW,28-198,1997,1.9,42,56,75.0,841,277,14,16,87.5,21,27,77.8,6,9,66.7,0,0.8,0.5,-0.8,6,5,4,3,7
+POR-Primeira Liga,2025-26,Porto,Rodrigo Mora,POR,"MF,FW",18-128,2007,1.1,27,33,81.8,427,152,15,19,78.9,9,11,81.8,2,2,100.0,0,0.0,0.0,0.0,2,0,2,0,5
+POR-Primeira Liga,2025-26,Porto,Samu Omorodion,ESP,FW,21-128,2004,1.4,22,28,78.6,319,99,16,19,84.2,3,3,100.0,2,2,100.0,0,0.0,0.1,0.0,1,3,1,0,4
+POR-Primeira Liga,2025-26,Porto,Stephen Eustáquio,CAN,MF,28-263,1996,1.0,41,45,91.1,667,137,24,25,96.0,15,15,100.0,2,4,50.0,0,0.0,0.0,0.0,1,3,0,0,3
+POR-Primeira Liga,2025-26,Porto,Victor Froholdt,DEN,MF,19-197,2006,3.6,66,80,82.5,915,183,41,46,89.1,22,22,100.0,1,2,50.0,2,0.6,0.6,1.4,5,8,0,0,8
+POR-Primeira Liga,2025-26,Porto,William Gomes,BRA,FW,19-179,2006,2.1,33,55,60.0,582,204,14,22,63.6,14,23,60.9,4,6,66.7,0,0.2,0.2,-0.2,3,1,5,0,10
+POR-Primeira Liga,2025-26,Porto,Zaidu Sanusi,NGA,DF,28-089,1997,2.3,100,116,86.2,1807,525,36,41,87.8,54,65,83.1,7,7,100.0,1,0.4,0.5,0.6,4,4,2,1,8
+POR-Primeira Liga,2025-26,Porto,Zé Pedro Figueiredo,POR,DF,28-096,1997,0.3,17,23,73.9,267,80,10,11,90.9,6,7,85.7,1,3,33.3,0,0.0,0.0,0.0,0,1,0,0,0
+POR-Primeira Liga,2025-26,Rio Ave,Andreas Ntoi,GRE,"DF,MF",22-220,2003,2.4,85,104,81.7,1697,608,16,18,88.9,62,67,92.5,7,17,41.2,0,0.0,0.1,0.0,1,11,0,0,9
+POR-Primeira Liga,2025-26,Rio Ave,André Inácio,BRA,FW,23-199,2002,2.5,25,34,73.5,324,31,16,19,84.2,9,11,81.8,0,0,,3,0.5,0.7,2.5,3,1,0,0,2
+POR-Primeira Liga,2025-26,Rio Ave,Antonios Papakanellos,GRE,FW,20-030,2005,0.5,15,19,78.9,214,43,9,11,81.8,5,6,83.3,1,1,100.0,0,0.0,0.0,0.0,0,1,1,0,5
+POR-Primeira Liga,2025-26,Rio Ave,Brandon Aguilera,CRC,MF,22-074,2003,2.6,78,93,83.9,1373,356,35,35,100.0,35,37,94.6,6,16,37.5,0,0.2,0.1,-0.2,1,6,1,0,14
+POR-Primeira Liga,2025-26,Rio Ave,Cezary Miszta,POL,GK,23-315,2001,3.0,72,124,58.1,2015,1458,19,19,100.0,24,24,100.0,29,80,36.3,0,0.0,0.0,0.0,0,2,0,0,0
+POR-Primeira Liga,2025-26,Rio Ave,Clayton,BRA,FW,26-242,1999,2.9,33,39,84.6,519,143,13,15,86.7,15,18,83.3,2,2,100.0,1,0.7,0.3,0.3,5,3,2,1,5
+POR-Primeira Liga,2025-26,Rio Ave,Dario Špikić,CRO,FW,26-172,1999,1.0,7,11,63.6,95,46,4,6,66.7,1,1,100.0,1,2,50.0,0,0.0,0.2,0.0,1,2,1,0,2
+POR-Primeira Liga,2025-26,Rio Ave,Francisco Petrasso,ARG,DF,23-194,2002,1.2,34,39,87.2,731,188,4,5,80.0,27,29,93.1,3,5,60.0,0,0.0,0.0,0.0,0,1,0,0,2
+POR-Primeira Liga,2025-26,Rio Ave,Georgios Liavas,GRE,MF,24-210,2001,1.3,21,35,60.0,391,111,6,10,60.0,14,21,66.7,1,3,33.3,0,0.0,0.0,0.0,0,2,0,0,1
+POR-Primeira Liga,2025-26,Rio Ave,Jonathan Panzo,ENG,DF,24-320,2000,3.0,161,173,93.1,3133,1083,41,44,93.2,105,107,98.1,14,20,70.0,0,0.0,0.0,0.0,0,2,0,0,7
+POR-Primeira Liga,2025-26,Rio Ave,João Novais,POR,MF,32-062,1993,0.5,21,26,80.8,406,96,7,7,100.0,12,13,92.3,2,6,33.3,0,0.0,0.0,0.0,1,3,0,0,6
+POR-Primeira Liga,2025-26,Rio Ave,João Tomé,POR,FW,22-210,2003,0.2,3,8,37.5,41,30,2,2,100.0,1,5,20.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Rio Ave,Marc Gual,ESP,FW,29-181,1996,0.3,4,8,50.0,69,9,2,3,66.7,2,4,50.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,1
+POR-Primeira Liga,2025-26,Rio Ave,Marious Vrousai,GRE,MF,27-070,1998,2.8,82,118,69.5,1354,408,35,43,81.4,43,52,82.7,3,18,16.7,0,0.1,0.2,-0.1,2,4,2,1,9
+POR-Primeira Liga,2025-26,Rio Ave,Nelson Abbey,ENG,DF,22-013,2003,2.9,110,125,88.0,1850,524,43,44,97.7,61,63,96.8,5,15,33.3,0,0.0,0.0,0.0,0,6,0,0,8
+POR-Primeira Liga,2025-26,Rio Ave,Nicolaos Athanasiou,GRE,"MF,FW",24-178,2001,2.8,94,127,74.0,1767,473,40,47,85.1,42,56,75.0,11,17,64.7,1,0.6,0.2,0.4,6,10,2,1,10
+POR-Primeira Liga,2025-26,Rio Ave,Ole Pohlmann,GER,FW,24-158,2001,1.4,35,40,87.5,455,85,23,24,95.8,11,12,91.7,0,3,0.0,0,0.0,0.0,0.0,1,1,0,0,2
+POR-Primeira Liga,2025-26,Rio Ave,Theofanis Bakoulas,GRE,MF,20-249,2005,1.8,54,59,91.5,814,154,24,25,96.0,25,25,100.0,2,4,50.0,0,0.3,0.4,-0.3,2,3,2,0,5
+POR-Primeira Liga,2025-26,Santa Clara,Adriano,BRA,MF,25-310,1999,3.3,124,147,84.4,2162,508,54,62,87.1,59,65,90.8,8,14,57.1,0,0.1,0.3,-0.1,3,12,3,0,13
+POR-Primeira Liga,2025-26,Santa Clara,Anthony Carter,AUS,FW,31-010,1994,0.5,5,12,41.7,63,16,4,6,66.7,1,4,25.0,0,0,,0,0.1,0.0,-0.1,1,1,1,0,1
+POR-Primeira Liga,2025-26,Santa Clara,Brenner,BRA,FW,23-251,2002,1.3,14,21,66.7,190,18,10,13,76.9,4,5,80.0,0,2,0.0,0,0.4,0.1,-0.4,2,0,0,0,1
+POR-Primeira Liga,2025-26,Santa Clara,Diogo Calila,MOZ,MF,26-335,1998,0.5,19,23,82.6,296,50,11,11,100.0,8,8,100.0,0,2,0.0,0,0.0,0.0,0.0,0,1,0,0,4
+POR-Primeira Liga,2025-26,Santa Clara,Elias Manoel,BRA,FW,23-284,2001,0.6,12,15,80.0,192,40,6,8,75.0,4,4,100.0,1,1,100.0,0,0.0,0.0,0.0,1,1,1,0,2
+POR-Primeira Liga,2025-26,Santa Clara,Frederico Venâncio,POR,DF,32-218,1993,3.0,179,197,90.9,4059,1433,36,39,92.3,113,118,95.8,30,39,76.9,0,0.0,0.1,0.0,1,12,0,0,8
+POR-Primeira Liga,2025-26,Santa Clara,Gabriel Batista,BRA,GK,27-099,1998,4.0,79,109,72.5,2192,1510,16,16,100.0,42,42,100.0,21,51,41.2,0,0.0,0.0,0.0,0,3,0,0,0
+POR-Primeira Liga,2025-26,Santa Clara,Gabriel Vieira,BRA,FW,23-172,2002,3.4,40,77,51.9,621,103,22,31,71.0,15,23,65.2,2,16,12.5,0,0.4,0.1,-0.4,5,2,1,0,6
+POR-Primeira Liga,2025-26,Santa Clara,José Tavares,,"MF,FW",22-100,2003,0.2,6,7,85.7,113,15,2,2,100.0,4,4,100.0,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Santa Clara,João Costa,POR,FW,25-187,2000,0.4,4,4,100.0,31,0,2,2,100.0,0,0,,0,0,,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Santa Clara,Lucas Soares,BRA,MF,27-129,1998,1.9,62,80,77.5,995,271,35,39,89.7,21,28,75.0,6,10,60.0,0,0.0,0.0,0.0,0,3,1,0,4
+POR-Primeira Liga,2025-26,Santa Clara,Luís Carlos Rocha Rodrigues,POR,DF,39-028,1986,2.0,162,179,90.5,3263,937,46,49,93.9,93,96,96.9,23,31,74.2,0,0.0,0.1,0.0,0,8,1,1,6
+POR-Primeira Liga,2025-26,Santa Clara,MT,BRA,DF,24-193,2001,3.0,164,190,86.3,3389,1054,46,50,92.0,92,99,92.9,26,37,70.3,0,0.1,0.2,-0.1,1,27,2,1,18
+POR-Primeira Liga,2025-26,Santa Clara,Matheus Pereira,BRA,"MF,FW",24-263,2000,3.6,87,137,63.5,1272,353,48,57,84.2,34,46,73.9,3,23,13.0,0,0.0,0.1,0.0,1,9,1,0,14
+POR-Primeira Liga,2025-26,Santa Clara,Ney Bahia,BRA,MF,21-046,2004,0.5,9,15,60.0,116,9,4,4,100.0,4,6,66.7,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Santa Clara,Paulo Victor,BRA,MF,24-150,2001,2.2,66,90,73.3,1159,553,32,37,86.5,25,34,73.5,8,14,57.1,0,0.0,0.1,0.0,1,12,3,3,13
+POR-Primeira Liga,2025-26,Santa Clara,Pedro Ferreira,POR,MF,27-248,1998,2.2,45,63,71.4,728,163,24,30,80.0,19,23,82.6,2,8,25.0,0,0.0,0.0,0.0,0,9,0,0,4
+POR-Primeira Liga,2025-26,Santa Clara,Serginho,POR,MF,25-283,1999,3.4,114,138,82.6,2112,496,44,48,91.7,57,63,90.5,12,23,52.2,0,0.4,0.3,-0.4,6,7,0,0,9
+POR-Primeira Liga,2025-26,Santa Clara,Sidney,BRA,DF,28-236,1997,4.0,214,248,86.3,4625,1459,69,72,95.8,111,121,91.7,33,53,62.3,0,0.2,0.2,-0.2,3,21,6,3,28
+POR-Primeira Liga,2025-26,Santa Clara,Vinícius,BRA,FW,26-126,1999,2.4,45,59,76.3,663,214,26,32,81.3,17,19,89.5,1,2,50.0,0,0.3,0.3,-0.3,3,5,3,1,9
+POR-Primeira Liga,2025-26,Santa Clara,Wendel,BRA,FW,25-039,2000,1.6,9,12,75.0,98,0,7,9,77.8,1,1,100.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Sporting CP,Alisson Santos,BRA,"FW,MF",22-348,2002,0.1,9,9,100.0,125,8,6,6,100.0,3,3,100.0,0,0,,0,0.0,0.0,0.0,0,1,1,0,1
+POR-Primeira Liga,2025-26,Sporting CP,Conrad Harder,DEN,FW,20-156,2005,0.7,8,12,66.7,112,18,5,7,71.4,3,4,75.0,0,1,0.0,0,0.0,0.0,0.0,0,1,1,0,2
+POR-Primeira Liga,2025-26,Sporting CP,Francisco Trincão,POR,MF,25-255,1999,4.0,131,170,77.1,2144,655,67,75,89.3,51,60,85.0,9,22,40.9,1,1.2,1.2,-0.2,7,19,8,1,22
+POR-Primeira Liga,2025-26,Sporting CP,Geny Catamo,MOZ,FW,24-227,2001,2.8,71,94,75.5,1035,197,38,46,82.6,28,36,77.8,2,5,40.0,0,0.1,0.2,-0.1,2,1,5,1,10
+POR-Primeira Liga,2025-26,Sporting CP,Georgios Vagiannidis,GRE,DF,23-363,2001,1.1,68,77,88.3,1021,334,36,37,97.3,30,35,85.7,0,2,0.0,1,0.7,0.9,0.3,3,8,0,0,9
+POR-Primeira Liga,2025-26,Sporting CP,Geovany Quenda,POR,"FW,DF",18-133,2007,1.4,42,65,64.6,752,202,19,26,73.1,20,26,76.9,3,9,33.3,2,0.4,0.4,1.6,7,5,3,0,11
+POR-Primeira Liga,2025-26,Sporting CP,Giorgi Kochorashvili,GEO,MF,26-073,1999,1.7,109,121,90.1,1865,552,54,56,96.4,41,42,97.6,11,18,61.1,0,0.0,0.3,0.0,1,11,3,0,18
+POR-Primeira Liga,2025-26,Sporting CP,Gonçalo Inácio,POR,DF,24-016,2001,4.0,316,343,92.1,5959,2877,124,129,96.1,162,174,93.1,28,33,84.8,2,0.4,0.3,1.6,7,45,2,0,44
+POR-Primeira Liga,2025-26,Sporting CP,Hidemasa Morita,JPN,MF,30-123,1995,2.1,98,119,82.4,1565,407,51,58,87.9,40,48,83.3,6,11,54.5,0,0.0,0.1,0.0,2,18,3,0,13
+POR-Primeira Liga,2025-26,Sporting CP,Iván Fresneda,ESP,DF,20-347,2004,2.9,129,154,83.8,2177,560,56,60,93.3,64,74,86.5,7,12,58.3,0,0.2,0.2,-0.2,2,11,2,1,18
+POR-Primeira Liga,2025-26,Sporting CP,Luis Javier Suárez,COL,FW,27-282,1997,3.9,60,83,72.3,852,127,39,47,83.0,15,20,75.0,4,9,44.4,2,0.9,0.4,1.1,8,2,3,0,6
+POR-Primeira Liga,2025-26,Sporting CP,Maximiliano Araújo,URU,DF,25-207,2000,0.6,29,34,85.3,401,75,16,19,84.2,12,14,85.7,1,1,100.0,0,0.0,0.0,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Sporting CP,Morten Hjulmand,DEN,MF,26-077,1999,4.0,243,266,91.4,3952,1042,140,146,95.9,86,94,91.5,15,21,71.4,0,0.4,0.4,-0.4,9,32,0,0,33
+POR-Primeira Liga,2025-26,Sporting CP,Ousmane Diomande,CIV,DF,21-280,2003,0.6,36,41,87.8,662,128,10,12,83.3,23,23,100.0,2,3,66.7,0,0.0,0.0,0.0,0,1,1,0,3
+POR-Primeira Liga,2025-26,Sporting CP,Pedro Gonçalves,POR,"FW,MF",27-074,1998,3.7,115,160,71.9,1898,514,60,67,89.6,44,58,75.9,8,19,42.1,2,1.1,0.8,0.9,12,9,6,3,17
+POR-Primeira Liga,2025-26,Sporting CP,Ricardo Mangas,POR,DF,27-175,1998,3.1,127,162,78.4,1969,482,69,80,86.3,49,56,87.5,7,12,58.3,0,0.9,0.5,-0.9,7,4,5,2,8
+POR-Primeira Liga,2025-26,Sporting CP,Rui Silva,POR,GK,31-215,1994,4.0,83,90,92.2,1906,1020,18,18,100.0,47,48,97.9,18,24,75.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Sporting CP,Zeno Debast,BEL,DF,21-321,2003,3.4,233,264,88.3,5282,2068,55,57,96.5,138,147,93.9,40,57,70.2,0,0.1,0.2,-0.1,2,27,5,0,22
+POR-Primeira Liga,2025-26,Tondela,Afonso Rodrigues,POR,"FW,MF",23-022,2002,0.6,11,15,73.3,122,33,5,5,100.0,4,4,100.0,0,2,0.0,0,0.0,0.0,0.0,0,0,1,0,2
+POR-Primeira Liga,2025-26,Tondela,André Ceitil,POR,MF,30-183,1995,0.1,6,8,75.0,82,33,4,5,80.0,2,3,66.7,0,0,,0,0.0,0.0,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Tondela,Bebeto,BRA,DF,35-252,1990,1.0,22,40,55.0,425,206,9,11,81.8,9,11,81.8,4,16,25.0,0,0.0,0.0,0.0,0,4,0,0,3
+POR-Primeira Liga,2025-26,Tondela,Bernardo Fontes,BRA,GK,23-049,2002,4.0,105,140,75.0,3073,2279,17,17,100.0,54,56,96.4,34,67,50.7,0,0.0,0.0,0.0,0,6,0,0,0
+POR-Primeira Liga,2025-26,Tondela,Brayan Medina,COL,DF,23-190,2002,2.0,64,72,88.9,1218,458,27,29,93.1,31,33,93.9,5,6,83.3,0,0.0,0.1,0.0,0,2,1,0,5
+POR-Primeira Liga,2025-26,Tondela,Christian Marques,SUI,DF,22-238,2003,3.0,104,113,92.0,2295,945,21,21,100.0,65,66,98.5,15,19,78.9,0,0.0,0.0,0.0,1,10,0,0,8
+POR-Primeira Liga,2025-26,Tondela,Clebinho,BRA,MF,28-123,1997,1.2,24,32,75.0,441,210,14,19,73.7,7,7,100.0,3,5,60.0,0,0.0,0.0,0.0,0,1,0,0,4
+POR-Primeira Liga,2025-26,Tondela,Hélder Tavares,CPV,MF,35-258,1989,1.4,28,33,84.8,409,104,17,18,94.4,7,10,70.0,2,2,100.0,0,0.0,0.0,0.0,0,2,0,0,3
+POR-Primeira Liga,2025-26,Tondela,Ivan Cavaleiro,POR,FW,31-327,1993,0.4,14,22,63.6,198,81,6,9,66.7,6,8,75.0,0,2,0.0,0,0.5,0.2,-0.5,4,3,2,1,3
+POR-Primeira Liga,2025-26,Tondela,Joseph Hodge,IRL,MF,22-361,2002,2.5,81,101,80.2,1418,569,36,40,90.0,30,35,85.7,10,19,52.6,0,0.1,0.1,-0.1,2,13,0,0,13
+POR-Primeira Liga,2025-26,Tondela,João Afonso,POR,DF,35-105,1990,3.0,95,109,87.2,1898,713,27,30,90.0,57,60,95.0,10,15,66.7,0,0.0,0.0,0.0,0,3,0,0,5
+POR-Primeira Liga,2025-26,Tondela,Juan Rodríguez,ECU,MF,19-167,2006,2.6,80,94,85.1,1342,450,35,39,89.7,35,40,87.5,6,10,60.0,0,0.0,0.0,0.0,0,9,1,0,12
+POR-Primeira Liga,2025-26,Tondela,Maranhão,BRA,FW,26-192,1999,2.9,38,64,59.4,583,208,24,32,75.0,6,9,66.7,5,15,33.3,0,0.2,0.4,-0.2,3,1,3,1,5
+POR-Primeira Liga,2025-26,Tondela,Miro,ANG,FW,22-141,2003,3.1,30,45,66.7,561,145,9,12,75.0,15,16,93.8,4,9,44.4,0,0.4,0.2,-0.4,1,9,2,0,7
+POR-Primeira Liga,2025-26,Tondela,Nor Maviram,NGA,DF,24-159,2001,4.0,120,179,67.0,2213,1215,46,56,82.1,55,77,71.4,14,33,42.4,0,0.6,0.5,-0.6,5,10,5,2,12
+POR-Primeira Liga,2025-26,Tondela,Sie Ouattara,CIV,FW,23-113,2002,1.2,35,48,72.9,580,110,15,17,88.2,12,17,70.6,5,7,71.4,0,0.2,0.1,-0.2,2,2,3,2,4
+POR-Primeira Liga,2025-26,Tondela,Sphephelo Sithole,RSA,MF,26-191,1999,1.4,48,68,70.6,792,234,26,28,92.9,15,26,57.7,4,9,44.4,0,0.0,0.0,0.0,0,6,0,0,10
+POR-Primeira Liga,2025-26,Tondela,Tiago Manso,POR,"DF,FW",25-271,1999,3.8,99,157,63.1,1555,528,52,59,88.1,36,55,65.5,7,22,31.8,0,0.2,0.1,-0.2,2,10,1,1,16
+POR-Primeira Liga,2025-26,Tondela,Xabier Huarte Armendáriz,ESP,MF,24-197,2001,1.5,29,35,82.9,436,140,16,17,94.1,7,8,87.5,3,4,75.0,0,0.0,0.0,0.0,1,3,0,0,8
+POR-Primeira Liga,2025-26,Tondela,Yarlen Augusto,BRA,"FW,MF",19-202,2006,3.2,19,48,39.6,310,103,9,13,69.2,4,12,33.3,3,12,25.0,0,0.1,0.0,-0.1,1,2,1,0,2
+POR-Primeira Liga,2025-26,Tondela,Yefrei Rodríguez,COL,FW,20-122,2005,1.2,10,12,83.3,136,41,7,8,87.5,1,1,100.0,1,2,50.0,0,0.1,0.1,-0.1,2,0,1,1,0
+POR-Primeira Liga,2025-26,Vitória,Alioune Ndoye,SEN,FW,23-340,2001,1.0,4,11,36.4,38,12,4,10,40.0,0,1,0.0,0,0,,0,0.0,0.0,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Vitória,Beni,ANG,"MF,FW",23-112,2002,1.0,46,54,85.2,911,252,13,16,81.3,27,31,87.1,5,6,83.3,0,0.0,0.0,0.0,0,7,1,1,6
+POR-Primeira Liga,2025-26,Vitória,Charles,BRA,GK,31-218,1994,4.0,101,145,69.7,2554,1675,23,24,95.8,47,48,97.9,31,73,42.5,0,0.0,0.0,0.0,0,2,0,0,0
+POR-Primeira Liga,2025-26,Vitória,Fabio Blanco,ESP,MF,21-204,2004,0.2,4,5,80.0,131,10,0,0,,3,3,100.0,1,1,100.0,0,0.0,0.1,0.0,0,1,0,0,1
+POR-Primeira Liga,2025-26,Vitória,Gonçalo Nogueira,POR,MF,21-256,2003,0.7,13,20,65.0,228,61,5,10,50.0,6,6,100.0,1,2,50.0,0,0.1,0.0,-0.1,2,3,0,0,3
+POR-Primeira Liga,2025-26,Vitória,Gustavo da Silva,BRA,FW,26-101,1999,3.8,51,81,63.0,708,174,27,32,84.4,15,25,60.0,3,7,42.9,0,0.3,0.3,-0.3,6,1,4,0,5
+POR-Primeira Liga,2025-26,Vitória,João Mendes,POR,"DF,MF",25-150,2000,3.8,149,205,72.7,2956,927,50,60,83.3,81,94,86.2,18,42,42.9,0,0.1,0.2,-0.1,3,14,3,0,19
+POR-Primeira Liga,2025-26,Vitória,João Nogueira,POR,MF,20-195,2005,0.8,8,14,57.1,113,50,5,7,71.4,3,4,75.0,0,2,0.0,0,0.0,0.0,0.0,1,0,0,0,2
+POR-Primeira Liga,2025-26,Vitória,Matija Mitrovic,SRB,MF,20-272,2004,0.3,15,19,78.9,253,115,6,8,75.0,8,8,100.0,1,3,33.3,0,0.0,0.0,0.0,0,2,0,0,3
+POR-Primeira Liga,2025-26,Vitória,Miguel Maga,POR,DF,22-298,2002,3.4,129,155,83.2,2224,710,51,61,83.6,69,79,87.3,5,10,50.0,0,0.0,0.1,0.0,1,14,0,0,14
+POR-Primeira Liga,2025-26,Vitória,Miguel Nóbrega,POR,DF,25-146,2000,2.9,109,136,80.1,2127,825,38,41,92.7,61,66,92.4,9,26,34.6,0,0.0,0.0,0.0,0,7,0,0,5
+POR-Primeira Liga,2025-26,Vitória,Nuno Santos,POR,"FW,MF",26-192,1999,2.3,68,87,78.2,1016,199,38,42,90.5,24,34,70.6,3,5,60.0,1,0.3,0.4,0.7,2,8,2,0,5
+POR-Primeira Liga,2025-26,Vitória,Nélson Oliveira,POR,FW,34-033,1991,2.6,41,42,97.6,581,72,24,24,100.0,12,12,100.0,2,3,66.7,0,0.0,0.0,0.0,0,3,1,0,5
+POR-Primeira Liga,2025-26,Vitória,Orest Lebedenko,UKR,DF,26-352,1998,0.4,18,19,94.7,386,143,5,5,100.0,10,10,100.0,3,3,100.0,0,0.0,0.1,0.0,0,2,1,1,1
+POR-Primeira Liga,2025-26,Vitória,Oumar Camara,FRA,MF,18-122,2007,1.0,18,22,81.8,195,32,15,17,88.2,3,4,75.0,0,1,0.0,0,0.0,0.0,0.0,0,0,0,0,2
+POR-Primeira Liga,2025-26,Vitória,Paulo Vitor,BRA,DF,24-053,2001,0.1,4,5,80.0,114,69,1,2,50.0,2,2,100.0,1,1,100.0,0,0.0,0.0,0.0,0,0,0,0,0
+POR-Primeira Liga,2025-26,Vitória,Rodrigo Abascal,URU,DF,31-239,1994,3.0,154,196,78.6,3361,1300,46,51,90.2,84,91,92.3,24,48,50.0,0,0.0,0.1,0.0,1,15,1,0,12
+POR-Primeira Liga,2025-26,Vitória,Telmo Arcanjo,CPV,"FW,MF",24-081,2001,1.4,29,45,64.4,505,143,11,16,68.8,12,17,70.6,5,10,50.0,0,0.0,0.1,0.0,1,0,2,2,2
+POR-Primeira Liga,2025-26,Vitória,Tiago Silva,POR,MF,32-100,1993,3.2,178,219,81.3,3659,1071,58,60,96.7,85,99,85.9,32,50,64.0,0,0.2,0.5,-0.2,8,28,5,1,20
+POR-Primeira Liga,2025-26,Vitória,Tomás Händel,POR,MF,24-287,2000,3.0,89,114,78.1,1403,292,49,59,83.1,31,38,81.6,6,10,60.0,1,0.3,0.3,0.7,2,10,1,0,11
+POR-Primeira Liga,2025-26,Vitória,Toni Borevkovic,CRO,DF,28-084,1997,1.0,43,52,82.7,854,298,12,14,85.7,24,24,100.0,6,12,50.0,0,0.0,0.0,0.0,1,2,0,0,1
+POR-Primeira Liga,2025-26,Vitória,Vando Félix,GNB,"MF,DF",23-007,2002,3.0,82,101,81.2,1261,167,42,46,91.3,31,38,81.6,5,8,62.5,0,0.0,0.1,0.0,1,2,0,0,4
+POR-Primeira Liga,2025-26,Vitória,Óscar Rivas,ESP,DF,25-167,2000,1.0,60,65,92.3,1304,496,11,11,100.0,42,44,95.5,7,9,77.8,0,0.0,0.1,0.0,0,5,1,0,3

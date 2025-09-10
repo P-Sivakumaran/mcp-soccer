@@ -30,16 +30,22 @@ logger = logging.getLogger(__name__)
 class ComprehensiveFBrefCollector:
     """Comprehensive FBref data collector for MCP Soccer Server"""
     
-    def __init__(self, seasons: List[str] = None):
+    def __init__(self, seasons: List[str] = None, leagues: Optional[List[str]] = None):
         if seasons is None:
             seasons = ["2024-25"]
         self.seasons = seasons if isinstance(seasons, list) else [seasons]
-        self.leagues = [
+        # Default to Big 5 + added leagues (POR/NED/BEL/AUT) if not provided
+        self.leagues = leagues if leagues is not None else [
             "ENG-Premier League",
-            "ESP-La Liga", 
+            "ESP-La Liga",
             "ITA-Serie A",
             "GER-Bundesliga",
-            "FRA-Ligue 1"
+            "FRA-Ligue 1",
+            # Newly added leagues (require soccerdata custom league_dict.json)
+            "POR-Primeira Liga",
+            "NED-Eredivisie",
+            "BEL-Belgian Pro League",
+            "AUT-Bundesliga",
         ]
         
         # Create directory structure
@@ -215,18 +221,22 @@ class ComprehensiveFBrefCollector:
             'tackles_tkl': 'tackles_tkl',
             'tackles_tklw': 'tackles_tklw',
             'interceptions': 'interceptions',
+            'int': 'interceptions',
             'blocks_blocks': 'blocks_blocks',
             'clearances': 'clearances',
+            'clr': 'clearances',
             'aerial_duels_won_pct': 'aerial_duels_won_pct',
             
             # Passing stats  
             'total_cmp_pct': 'total_cmp_pct',
             'total_att': 'total_att',
             'progressive_passes': 'progressive_passes',
+            'prgp': 'progressive_passes',
             'kp': 'kp',
             'carries_prgc': 'carries_prgc',
-            'take_ons_succ': 'take-ons_succ',
-            'take_ons_att': 'take-ons_att',
+            # Normalize take-ons to underscores
+            'take_ons_succ': 'take_ons_succ',
+            'take_ons_att': 'take_ons_att',
             'touches_att_pen': 'touches_att_pen',
             'sca_sca': 'sca_sca',
             'gca_gca': 'gca_gca'
@@ -252,16 +262,35 @@ class ComprehensiveFBrefCollector:
                         else:
                             # Create meaningful column names for actual stats
                             if category and stat:
-                                col_str = f"{category}_{stat}".lower().replace(' ', '_').replace('.', '_').replace('%', '_pct').replace('+', '_').replace('-', '_').replace('(', '').replace(')', '')
+                                col_str = f"{category}_{stat}".lower()
                             elif stat:
-                                col_str = stat.lower().replace(' ', '_').replace('.', '_').replace('%', '_pct').replace('+', '_').replace('-', '_').replace('(', '').replace(')', '')
+                                col_str = stat.lower()
                             else:
-                                col_str = category.lower().replace(' ', '_').replace('.', '_').replace('%', '_pct').replace('+', '_').replace('-', '_').replace('(', '').replace(')', '')
+                                col_str = category.lower()
                     else:
                         col_str = str(col)
                     
-                    # Apply mapping or clean the column name
-                    clean_col = column_mappings.get(col_str, col_str.lower().replace(' ', '_').replace('.', '_').replace('%', '_pct'))
+                    # Normalize special characters first
+                    cleaned = (
+                        col_str
+                        .lower()
+                        .replace(' ', '_')
+                        .replace('.', '_')
+                        .replace('%', '_pct')
+                        .replace('+', '_')
+                        .replace('-', '_')
+                        .replace('/', '_')
+                        .replace('#', '')
+                        .replace(':', '_')
+                        .replace('(', '')
+                        .replace(')', '')
+                    )
+                    # Collapse multiple underscores
+                    while '__' in cleaned:
+                        cleaned = cleaned.replace('__', '_')
+
+                    # Apply mapping or use cleaned default
+                    clean_col = column_mappings.get(cleaned, cleaned)
                     new_columns.append(clean_col)
                 
                 df.columns = new_columns
@@ -490,6 +519,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="Collect FBref player stats and produce unified datasets")
     parser.add_argument('seasons', nargs='*', help="Seasons like 2024-25 2023-24")
+    parser.add_argument('--leagues', nargs='*', help="Canonical league IDs (override defaults). Example: POR-Primeira Liga NED-Eredivisie")
     parser.add_argument('--log-level', default=os.getenv('SOCCER_COLLECTOR_LOG_LEVEL', 'INFO'), help="Logging level (DEBUG, INFO, WARNING, ERROR)")
     args = parser.parse_args()
 
@@ -509,7 +539,10 @@ def main():
     
     try:
         # Initialize collector with multiple seasons
-        collector = ComprehensiveFBrefCollector(seasons=seasons)
+        leagues_override = args.leagues if args.leagues else None
+        if leagues_override:
+            print(f"🏆 Target leagues: {', '.join(leagues_override)}")
+        collector = ComprehensiveFBrefCollector(seasons=seasons, leagues=leagues_override)
         
         # Run complete collection pipeline
         result = collector.run_complete_collection()

@@ -190,6 +190,21 @@ class EnhancedSoccerDataServer:
         if 'playing_time_min' not in df.columns and 'playing_time_90s' in df.columns:
             df['playing_time_min'] = pd.to_numeric(df['playing_time_90s'], errors='coerce') * 90
 
+        # Compute numeric age_years from age if present
+        if 'age' in df.columns and 'age_years' not in df.columns:
+            def _age_years(v):
+                try:
+                    s = str(v)
+                    if '-' in s:
+                        s = s.split('-')[0]
+                    return float(s)
+                except Exception:
+                    try:
+                        return float(v)
+                    except Exception:
+                        return np.nan
+            df['age_years'] = df['age'].apply(_age_years)
+
         # Add computed per-90 metrics consistently where possible
         if 'playing_time_90s' in df.columns:
             _n90 = pd.to_numeric(df['playing_time_90s'], errors='coerce').replace(0, np.nan)
@@ -203,8 +218,15 @@ class EnhancedSoccerDataServer:
                 df['key_passes_per_90'] = (pd.to_numeric(df['kp'], errors='coerce') / _n90).round(3)
             if 'progressive_passes_per_90' not in df.columns and 'progressive_passes' in df.columns:
                 df['progressive_passes_per_90'] = (pd.to_numeric(df['progressive_passes'], errors='coerce') / _n90).round(3)
-            if 'dribbles_per_90' not in df.columns and 'take-ons_att' in df.columns:
-                df['dribbles_per_90'] = (pd.to_numeric(df['take-ons_att'], errors='coerce') / _n90).round(3)
+            # Support both underscore and hyphen variants for take-ons
+            if 'dribbles_per_90' not in df.columns:
+                to_col = None
+                if 'take_ons_att' in df.columns:
+                    to_col = 'take_ons_att'
+                elif 'take-ons_att' in df.columns:
+                    to_col = 'take-ons_att'
+                if to_col:
+                    df['dribbles_per_90'] = (pd.to_numeric(df[to_col], errors='coerce') / _n90).round(3)
 
             # Fill NaNs created by division for players with 0 minutes
             for col in ['tackles_per_90','interceptions_per_90','shots_per_90','key_passes_per_90','progressive_passes_per_90','dribbles_per_90']:
@@ -457,10 +479,12 @@ class EnhancedSoccerDataServer:
                 filtered = filtered[combined_position_filter]
         
         if age_min is not None:
-            filtered = filtered[filtered['age'] >= age_min]
+            age_col = 'age_years' if 'age_years' in filtered.columns else 'age'
+            filtered = filtered[pd.to_numeric(filtered[age_col], errors='coerce') >= age_min]
             
         if age_max is not None:
-            filtered = filtered[filtered['age'] <= age_max]
+            age_col = 'age_years' if 'age_years' in filtered.columns else 'age'
+            filtered = filtered[pd.to_numeric(filtered[age_col], errors='coerce') <= age_max]
             
         if nationality:
             filtered = filtered[filtered['nation'].isin(nationality)]

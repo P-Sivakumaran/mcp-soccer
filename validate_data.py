@@ -18,7 +18,7 @@ def validate_fbref_data():
     
     logger.info("🔍 Starting FBref data validation...")
     
-    data_dir = Path("soccer-mcp/data")
+    data_dir = Path("data")
     main_file = data_dir / "unified_player_stats.csv"
     
     if not main_file.exists():
@@ -63,20 +63,28 @@ def validate_fbref_data():
             logger.info(f"   {position}: {count} players")
         
         # Check for key stats availability
-        key_stats = [
-            'goals', 'assists', 'matches_played', 'minutes_played',
-            'expected_goals', 'shots', 'pass_completion_pct', 'tackles'
-        ]
-        available_stats = [stat for stat in key_stats if stat in df.columns]
-        missing_stats = [stat for stat in key_stats if stat not in df.columns]
+        # Map friendly keys to actual columns in dataset
+        key_map = {
+            'goals': 'performance_gls',
+            'assists': 'performance_ast',
+            'matches_played': 'playing_time_mp',
+            'minutes_played': 'playing_time_min',
+            'expected_goals': 'expected_xg',
+            'shots': 'standard_sh',
+            'pass_completion_pct': 'total_cmp_pct',
+            'tackles': 'tackles_tkl'
+        }
+        available_stats = [k for k, col in key_map.items() if col in df.columns]
+        missing_stats = [k for k, col in key_map.items() if col not in df.columns]
         
-        logger.info(f"📈 Available key stats ({len(available_stats)}/{len(key_stats)}): {available_stats}")
+        logger.info(f"📈 Available key stats ({len(available_stats)}/{len(key_map)}): {available_stats}")
         if missing_stats:
             logger.warning(f"⚠️  Missing key stats: {missing_stats}")
         
         # Check data completeness for key columns
         logger.info("📊 Data completeness check:")
-        for col in ['player', 'team', 'league', 'position'] + available_stats[:5]:
+        for k in ['player', 'team', 'league', 'position'] + available_stats[:5]:
+            col = key_map.get(k, k)
             if col in df.columns:
                 missing_pct = (df[col].isna().sum() / len(df)) * 100
                 logger.info(f"   {col}: {missing_pct:.1f}% missing")
@@ -166,7 +174,7 @@ def validate_fbref_data():
                 logger.warning(f"⚠️  League count ({league_count}) below target ({success_criteria['required_leagues']})")
                 meets_criteria = False
         
-        coverage_ratio = len(available_stats) / len(key_stats)
+        coverage_ratio = len(available_stats) / len(key_map)
         if coverage_ratio < success_criteria['key_stats_coverage']:
             logger.warning(f"⚠️  Key stats coverage ({coverage_ratio:.1%}) below target ({success_criteria['key_stats_coverage']:.1%})")
             meets_criteria = False
@@ -191,7 +199,7 @@ def validate_mcp_server_compatibility():
     logger = logging.getLogger(__name__)
     logger.info("🔧 Running MCP server compatibility checks...")
     
-    data_dir = Path("soccer-mcp/data")
+    data_dir = Path("data")
     
     # Check if the soccer_server.py can load the data
     try:

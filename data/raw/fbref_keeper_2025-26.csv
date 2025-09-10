@@ -1,0 +1,186 @@
+league,season,team,player,nation,pos,age,born,Playing Time,Playing Time,Playing Time,Playing Time,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Performance,Penalty Kicks,Penalty Kicks,Penalty Kicks,Penalty Kicks,Penalty Kicks
+,,,,,,,,MP,Starts,Min,90s,GA,GA90,SoTA,Saves,Save%,W,D,L,CS,CS%,PKatt,PKA,PKsv,PKm,Save%
+AUT-Bundesliga,2025-26,Austria Wien,Samuel Şahin-Radlinger,AUT,GK,32-307,1992,5,5,450,5.0,9,1.8,15,7,46.7,1,1,3,1,20.0,1,1,0,0,0
+AUT-Bundesliga,2025-26,Blau-Weiß Linz,Viktor Baier,CZE,GK,20-237,2005,5,5,450,5.0,9,1.8,28,21,75.0,0,1,4,0,0.0,2,2,0,0,0
+AUT-Bundesliga,2025-26,Grazer AK,Jakob Meierhofer,AUT,GK,27-308,1997,5,5,450,5.0,12,2.4,21,10,47.6,0,3,2,0,0.0,1,1,0,0,0
+AUT-Bundesliga,2025-26,Hartberg,Tom Hülsmann,GER,GK,21-152,2004,5,5,450,5.0,8,1.6,18,11,61.1,2,0,3,1,20.0,1,1,0,0,0
+AUT-Bundesliga,2025-26,LASK,Lukas Jungwirth,AUT,GK,21-133,2004,5,5,450,5.0,12,2.4,24,16,62.5,1,0,4,0,0.0,4,3,1,0,25
+AUT-Bundesliga,2025-26,RB Salzburg,Alexander Schlager,AUT,GK,29-221,1996,5,5,450,5.0,5,1.0,14,9,64.3,3,2,0,2,40.0,0,0,0,0,
+AUT-Bundesliga,2025-26,Rapid Wien,Niklas Hedl,AUT,GK,24-177,2001,5,5,450,5.0,2,0.4,14,13,92.9,4,1,0,3,60.0,1,1,0,0,0
+AUT-Bundesliga,2025-26,Ried,Andreas Leitner,AUT,GK,31-169,1994,5,5,450,5.0,7,1.4,27,20,74.1,2,1,2,1,20.0,0,0,0,0,
+AUT-Bundesliga,2025-26,SCR Altach,Dejan Stojanović,AUT,GK,32-053,1993,5,5,450,5.0,2,0.4,12,11,83.3,2,2,1,3,60.0,1,0,1,0,100
+AUT-Bundesliga,2025-26,Sturm Graz,Matteo Bignetti,AUT,GK,21-127,2004,1,1,90,1.0,0,0.0,1,1,100.0,1,0,0,1,100.0,0,0,0,0,
+AUT-Bundesliga,2025-26,Sturm Graz,Oliver Christensen,DEN,GK,26-172,1999,3,3,270,3.0,3,1.0,15,12,80.0,2,0,1,1,33.3,0,0,0,0,
+AUT-Bundesliga,2025-26,WSG Tirol,Adam Stejskal,CZE,GK,22-352,2002,4,4,360,4.0,5,1.25,12,7,58.3,2,2,0,0,0.0,0,0,0,0,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Lukas Gütlbauer,AUT,GK,24-278,2000,1,1,90,1.0,1,1.0,4,3,75.0,0,1,0,0,0.0,0,0,0,0,
+AUT-Bundesliga,2025-26,Wolfsberger AC,Nikolas Polster,AUT,GK,23-065,2002,4,4,360,4.0,4,1.0,15,11,73.3,2,0,2,2,50.0,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Anderlecht,Colin Coosemans,BEL,GK,33-038,1992,5,5,450,5.0,7,1.4,20,13,70.0,3,0,2,2,40.0,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Antwerp,Senne Lammens,BEL,GK,23-065,2002,4,4,360,4.0,4,1.0,15,10,73.3,1,3,0,0,0.0,1,0,1,0,100
+BEL-Belgian Pro League,2025-26,Antwerp,Yannick Thoelen,BEL,GK,35-054,1990,2,2,180,2.0,3,1.5,16,13,81.3,1,0,1,0,0.0,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Cercle Brugge,Maxime Delanghe,BEL,GK,24-110,2001,6,6,540,6.0,6,1.0,26,20,80.8,2,2,2,2,33.3,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Charleroi,Martin Delavallée,BEL,GK,21-176,2004,5,5,450,5.0,6,1.2,18,13,72.2,1,3,1,0,0.0,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Club Brugge,Nordin Jackers,BEL,GK,28-005,1997,4,4,360,4.0,3,0.75,10,7,80.0,2,1,1,2,50.0,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Club Brugge,Simon Mignolet,BEL,GK,37-188,1988,1,1,90,1.0,1,1.0,9,8,88.9,1,0,0,0,0.0,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Dender,Michael Verrips,NED,GK,28-281,1996,6,6,540,6.0,9,1.5,24,15,70.8,0,2,4,1,16.7,2,2,0,0,0
+BEL-Belgian Pro League,2025-26,Genk,Hendrik Van Crombrugge,BEL,GK,32-133,1993,1,1,90,1.0,2,2.0,4,2,50.0,0,0,1,0,0.0,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Genk,Tobias Lawal,AUT,GK,25-095,2000,4,4,360,4.0,6,1.5,20,14,80.0,2,1,1,0,0.0,2,2,0,0,0
+BEL-Belgian Pro League,2025-26,Gent,Davy Roef,BEL,GK,31-216,1994,5,5,450,5.0,8,1.6,23,16,65.2,1,2,2,1,20.0,0,0,0,0,
+BEL-Belgian Pro League,2025-26,La Louvière,Marcos Peano,ARG,GK,26-330,1998,6,6,540,6.0,8,1.33,34,26,79.4,1,1,4,2,33.3,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Mechelen,Nacho Miras,ESP,GK,28-053,1997,1,1,90,1.0,1,1.0,11,10,90.9,0,1,0,0,0.0,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Mechelen,Ortwin De Wolf,BEL,GK,28-140,1997,5,5,450,5.0,6,1.2,18,14,72.2,3,1,1,1,20.0,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,OH Leuven,Tobe Leysen,BEL,GK,23-185,2002,6,6,540,6.0,12,2.0,31,19,71.0,2,1,3,2,33.3,3,3,0,0,0
+BEL-Belgian Pro League,2025-26,Sint-Truiden,Leo Kokubo,JPN,GK,24-230,2001,6,6,540,6.0,4,0.67,17,13,82.4,4,2,0,2,33.3,1,1,0,0,0
+BEL-Belgian Pro League,2025-26,Standard Liège,Matthieu Epolo,BEL,GK,21-238,2004,6,6,540,6.0,9,1.5,31,23,71.0,2,1,3,1,16.7,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Union SG,Kjell Scherpen,NED,GK,25-230,2000,3,3,270,3.0,0,0.0,5,5,100.0,2,1,0,3,100.0,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Union SG,Vic Chambaere,BEL,GK,22-243,2003,3,3,270,3.0,3,1.0,10,7,70.0,2,1,0,1,33.3,0,0,0,0,
+BEL-Belgian Pro League,2025-26,Westerlo,Andreas Jungdal,DEN,GK,23-200,2002,5,5,450,5.0,11,2.2,27,15,59.3,2,0,3,1,20.0,1,0,1,0,100
+BEL-Belgian Pro League,2025-26,Zulte Waregem,Brent Gabriël,BEL,GK,26-226,1999,6,6,540,6.0,12,2.0,25,14,56.0,1,1,4,0,0.0,1,1,0,0,0
+ENG-Premier League,2025-26,Arsenal,David Raya,ESP,GK,29-360,1995,3,3,270,3.0,1,0.33,11,10,90.9,2,0,1,2,66.7,0,0,0,0,
+ENG-Premier League,2025-26,Aston Villa,Emiliano Martínez,ARG,GK,33-008,1992,1,1,90,1.0,1,1.0,2,1,50.0,0,0,1,0,0.0,0,0,0,0,
+ENG-Premier League,2025-26,Aston Villa,Marco Bizot,NED,GK,34-184,1991,2,2,180,2.0,3,1.5,7,4,71.4,0,1,1,1,50.0,1,1,0,0,0
+ENG-Premier League,2025-26,Bournemouth,Đorđe Petrović,SRB,GK,25-337,1999,3,3,270,3.0,4,1.33,12,8,66.7,2,0,1,2,66.7,0,0,0,0,
+ENG-Premier League,2025-26,Brentford,Caoimhín Kelleher,IRL,GK,26-291,1998,3,3,270,3.0,5,1.67,10,5,60.0,1,0,2,1,33.3,1,1,0,0,0
+ENG-Premier League,2025-26,Brighton,Bart Verbruggen,NED,GK,23-023,2002,3,3,270,3.0,4,1.33,8,4,50.0,1,1,1,0,0.0,0,0,0,0,
+ENG-Premier League,2025-26,Burnley,Martin Dúbravka,SVK,GK,36-238,1989,3,3,270,3.0,6,2.0,13,8,61.5,1,0,2,1,33.3,1,1,0,0,0
+ENG-Premier League,2025-26,Chelsea,Robert Sánchez,ESP,GK,27-296,1997,3,3,270,3.0,1,0.33,9,8,88.9,2,1,0,2,66.7,0,0,0,0,
+ENG-Premier League,2025-26,Crystal Palace,Dean Henderson,ENG,GK,28-182,1997,3,3,270,3.0,1,0.33,7,6,85.7,1,2,0,2,66.7,0,0,0,0,
+ENG-Premier League,2025-26,Everton,Jordan Pickford,ENG,GK,31-187,1994,3,3,270,3.0,3,1.0,11,7,81.8,2,0,1,1,33.3,2,1,1,0,50
+ENG-Premier League,2025-26,Fulham,Bernd Leno,GER,GK,33-190,1992,3,3,270,3.0,4,1.33,13,10,84.6,0,2,1,0,0.0,3,2,0,1,0
+ENG-Premier League,2025-26,Leeds United,Lucas Perri,BRA,GK,27-274,1997,3,3,270,3.0,5,1.67,8,3,50.0,1,1,1,2,66.7,1,1,0,0,0
+ENG-Premier League,2025-26,Liverpool,Alisson,BRA,GK,32-343,1992,3,3,270,3.0,4,1.33,7,3,42.9,3,0,0,1,33.3,0,0,0,0,
+ENG-Premier League,2025-26,Manchester City,James Trafford,ENG,GK,22-335,2002,3,3,270,3.0,4,1.33,15,11,80.0,1,0,2,1,33.3,1,1,0,0,0
+ENG-Premier League,2025-26,Manchester Utd,Altay Bayındır,TUR,GK,27-149,1998,3,3,270,3.0,4,1.33,9,5,55.6,1,1,1,0,0.0,0,0,0,0,
+ENG-Premier League,2025-26,Newcastle Utd,Nick Pope,ENG,GK,33-144,1992,3,3,270,3.0,3,1.0,8,5,62.5,0,2,1,2,66.7,0,0,0,0,
+ENG-Premier League,2025-26,Nott'ham Forest,Matz Sels,BEL,GK,33-196,1992,3,3,270,3.0,5,1.67,15,10,80.0,1,1,1,0,0.0,2,2,0,0,0
+ENG-Premier League,2025-26,Sunderland,Robin Roefs,NED,GK,22-236,2003,3,3,270,3.0,3,1.0,9,5,66.7,2,0,1,1,33.3,1,0,1,0,100
+ENG-Premier League,2025-26,Tottenham,Guglielmo Vicario,ITA,GK,28-338,1996,3,3,270,3.0,1,0.33,14,13,92.9,2,0,1,2,66.7,0,0,0,0,
+ENG-Premier League,2025-26,West Ham,Mads Hermansen,DEN,GK,25-061,2000,3,3,270,3.0,8,2.67,15,7,46.7,1,0,2,1,33.3,0,0,0,0,
+ENG-Premier League,2025-26,Wolves,José Sá,POR,GK,32-236,1993,3,3,270,3.0,8,2.67,12,4,33.3,0,0,3,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Alavés,Antonio Sivera,ESP,GK,29-030,1996,3,3,270,3.0,3,1.0,14,11,78.6,1,1,1,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Athletic Club,Unai Simón,ESP,GK,28-091,1997,3,3,270,3.0,3,1.0,9,6,66.7,3,0,0,1,33.3,0,0,0,0,
+ESP-La Liga,2025-26,Atlético Madrid,Jan Oblak,SVN,GK,32-246,1993,3,3,270,3.0,4,1.33,9,5,66.7,0,2,1,0,0.0,1,1,0,0,0
+ESP-La Liga,2025-26,Barcelona,Joan García,ESP,GK,24-129,2001,3,3,270,3.0,3,1.0,12,9,83.3,2,1,0,1,33.3,1,1,0,0,0
+ESP-La Liga,2025-26,Betis,Pau López,ESP,GK,30-271,1994,2,2,180,2.0,1,0.5,7,6,85.7,1,1,0,1,50.0,0,0,0,0,
+ESP-La Liga,2025-26,Betis,Álvaro Vallés,ESP,GK,28-047,1997,2,2,180,2.0,3,1.5,11,9,72.7,0,1,1,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Celta Vigo,Ionuț Radu,ROU,GK,28-105,1997,4,4,360,4.0,5,1.25,11,6,54.5,0,3,1,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Elche,Matías Dituro,ARG,GK,38-125,1987,3,3,270,3.0,2,0.67,11,9,81.8,1,2,0,1,33.3,0,0,0,0,
+ESP-La Liga,2025-26,Espanyol,Marko Dmitrović,SRB,GK,33-229,1992,3,3,270,3.0,3,1.0,14,11,78.6,2,1,0,1,33.3,0,0,0,0,
+ESP-La Liga,2025-26,Getafe,David Soria,ESP,GK,32-159,1993,3,3,270,3.0,4,1.33,10,7,60.0,2,0,1,1,33.3,0,0,0,0,
+ESP-La Liga,2025-26,Girona,Krapyvtsov Vladyslav,UKR,GK,20-077,2005,2,1,136,1.5,6,3.97,9,3,44.4,0,0,1,0,0.0,1,1,0,0,0
+ESP-La Liga,2025-26,Girona,Paulo Gazzaniga,ARG,GK,33-251,1992,2,2,132,1.5,4,2.73,6,2,33.3,0,0,2,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Levante,Mathew Ryan,AUS,GK,33-155,1992,1,1,90,1.0,2,2.0,5,3,60.0,0,0,1,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Levante,Pablo Cuñat,ESP,GK,23-135,2002,2,2,180,2.0,5,2.5,14,10,64.3,0,0,2,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Mallorca,Leo Román,ESP,GK,25-066,2000,3,3,270,3.0,6,2.0,17,11,64.7,0,1,2,0,0.0,0,0,0,0,
+ESP-La Liga,2025-26,Osasuna,Sergio Herrera,ESP,GK,32-097,1993,3,3,270,3.0,2,0.67,10,8,90.0,1,0,2,1,33.3,1,1,0,0,0
+ESP-La Liga,2025-26,Oviedo,Aarón Escandell,ESP,GK,29-348,1995,3,3,270,3.0,5,1.67,26,21,80.8,1,0,2,1,33.3,0,0,0,0,
+ESP-La Liga,2025-26,Rayo Vallecano,Augusto Batalla,ARG,GK,29-133,1996,3,3,270,3.0,3,1.0,9,6,88.9,1,1,1,0,0.0,2,2,0,0,0
+ESP-La Liga,2025-26,Real Madrid,Thibaut Courtois,BEL,GK,33-122,1992,3,3,270,3.0,1,0.33,6,5,83.3,3,0,0,2,66.7,0,0,0,0,
+ESP-La Liga,2025-26,Real Sociedad,Álex Remiro,ESP,GK,30-170,1995,3,3,270,3.0,4,1.33,6,2,50.0,0,2,1,0,0.0,1,1,0,0,0
+ESP-La Liga,2025-26,Sevilla,Ørjan Nyland,NOR,GK,35-000,1990,3,3,270,3.0,5,1.67,14,9,71.4,1,0,2,1,33.3,1,1,0,0,0
+ESP-La Liga,2025-26,Valencia,Julen Agirrezabala,ESP,GK,24-258,2000,3,3,270,3.0,2,0.67,8,6,75.0,1,1,1,1,33.3,0,0,0,0,
+ESP-La Liga,2025-26,Villarreal,Luiz Lúcio Reis Júnior,BRA,GK,24-239,2001,3,3,270,3.0,1,0.33,8,6,87.5,2,1,0,2,66.7,1,0,1,0,100
+FRA-Ligue 1,2025-26,Angers,Hervé Koffi,BFA,GK,28-329,1996,3,3,270,3.0,2,0.67,18,16,88.9,1,1,1,1,33.3,1,0,0,1,
+FRA-Ligue 1,2025-26,Auxerre,Donovan Léon,GUF,GK,32-311,1992,2,2,135,1.5,2,1.33,4,3,50.0,1,0,1,1,50.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Auxerre,Théo De Percin,MTQ,GK,24-220,2001,2,1,131,1.5,2,1.37,8,6,75.0,0,0,1,0,0.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Brest,Grégoire Coudert,FRA,GK,26-160,1999,1,0,32,0.4,3,8.44,7,4,71.4,0,0,0,0,,1,1,0,0,0
+FRA-Ligue 1,2025-26,Brest,Radosław Majecki,POL,GK,25-298,1999,3,3,234,2.6,5,1.92,12,7,58.3,0,1,2,0,0.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Le Havre,Mory Diaw,SEN,GK,32-080,1993,3,3,270,3.0,6,2.0,9,4,44.4,1,0,2,0,0.0,1,1,0,0,0
+FRA-Ligue 1,2025-26,Lens,Robin Risser,FRA,GK,20-282,2004,3,3,270,3.0,3,1.0,11,8,72.7,2,0,1,0,0.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Lille,Berke Özer,TUR,GK,25-108,2000,3,3,270,3.0,4,1.33,8,3,50.0,2,1,0,1,33.3,1,0,1,0,100
+FRA-Ligue 1,2025-26,Lorient,Bingourou Kamara,SEN,GK,28-324,1996,3,3,270,3.0,8,2.67,15,7,46.7,1,0,2,1,33.3,1,0,0,1,
+FRA-Ligue 1,2025-26,Lyon,Rémy Descamps,FRA,GK,29-077,1996,3,3,270,3.0,0,0.0,8,8,100.0,3,0,0,3,100.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Marseille,Gerónimo Rulli,ARG,GK,33-113,1992,3,3,270,3.0,4,1.33,14,10,71.4,1,0,2,0,0.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Metz,Jonathan Fischer,DEN,GK,23-305,2001,3,3,270,3.0,7,2.33,20,13,70.0,0,0,3,0,0.0,1,1,0,0,0
+FRA-Ligue 1,2025-26,Monaco,Lukáš Hrádecký,FIN,GK,35-290,1989,3,3,258,2.9,4,1.4,8,4,62.5,2,0,1,0,0.0,2,1,0,1,0
+FRA-Ligue 1,2025-26,Monaco,Philipp Köhn,SUI,GK,27-161,1998,1,0,12,0.1,0,0.0,1,1,100.0,0,0,0,0,,0,0,0,0,
+FRA-Ligue 1,2025-26,Nantes,Anthony Lopes,POR,GK,34-344,1990,3,3,270,3.0,2,0.67,12,10,83.3,1,0,2,1,33.3,0,0,0,0,
+FRA-Ligue 1,2025-26,Nice,Yehvann Diouf,SEN,GK,25-298,1999,3,3,270,3.0,5,1.67,18,13,72.2,1,0,2,0,0.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Paris FC,Kevin Trapp,GER,GK,35-064,1990,1,1,90,1.0,2,2.0,2,0,0.0,1,0,0,0,0.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Paris FC,Obed Nkambadio,FRA,GK,22-215,2003,2,2,180,2.0,6,3.0,9,3,44.4,0,0,2,0,0.0,2,1,0,1,0
+FRA-Ligue 1,2025-26,Paris S-G,Lucas Chevalier,FRA,GK,23-308,2001,3,3,270,3.0,3,1.0,6,2,50.0,3,0,0,2,66.7,1,0,1,0,100
+FRA-Ligue 1,2025-26,Rennes,Brice Samba,FRA,GK,31-138,1994,3,3,270,3.0,5,1.67,16,11,68.8,1,1,1,1,33.3,0,0,0,0,
+FRA-Ligue 1,2025-26,Strasbourg,Karl-Johan Johnsson,SWE,GK,35-225,1990,1,1,90,1.0,0,0.0,2,2,100.0,1,0,0,1,100.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Strasbourg,Mike Penders,BEL,GK,20-041,2005,2,2,180,2.0,3,1.5,4,1,25.0,1,0,1,1,50.0,0,0,0,0,
+FRA-Ligue 1,2025-26,Toulouse,Guillaume Restes,FRA,GK,20-183,2005,3,3,270,3.0,6,2.0,12,6,66.7,2,0,1,2,66.7,2,2,0,0,0
+GER-Bundesliga,2025-26,Augsburg,Finn Dahmen,GER,GK,27-167,1998,2,2,180,2.0,4,2.0,14,10,78.6,1,0,1,0,0.0,1,1,0,0,0
+GER-Bundesliga,2025-26,Bayern Munich,Manuel Neuer,GER,GK,39-167,1986,2,2,180,2.0,2,1.0,4,2,50.0,2,0,0,1,50.0,0,0,0,0,
+GER-Bundesliga,2025-26,Dortmund,Gregor Kobel,SUI,GK,27-278,1997,2,2,180,2.0,3,1.5,10,7,80.0,1,1,0,1,50.0,1,1,0,0,0
+GER-Bundesliga,2025-26,Eint Frankfurt,Michael Zetterer,GER,GK,30-060,1995,2,2,180,2.0,2,1.0,10,8,80.0,2,0,0,0,0.0,0,0,0,0,
+GER-Bundesliga,2025-26,Freiburg,Noah Atubolu,GER,GK,23-108,2002,2,2,180,2.0,7,3.5,11,4,36.4,0,0,2,0,0.0,0,0,0,0,
+GER-Bundesliga,2025-26,Gladbach,Moritz Nicolas,GER,GK,27-324,1997,2,2,180,2.0,1,0.5,6,5,83.3,0,1,1,1,50.0,0,0,0,0,
+GER-Bundesliga,2025-26,Hamburger SV,Daniel Heuer Fernandes,POR,GK,32-301,1992,2,2,180,2.0,2,1.0,10,8,80.0,0,1,1,1,50.0,0,0,0,0,
+GER-Bundesliga,2025-26,Heidenheim,Diant Ramaj,GER,GK,23-356,2001,2,2,180,2.0,5,2.5,10,5,60.0,0,0,2,0,0.0,1,1,0,0,0
+GER-Bundesliga,2025-26,Hoffenheim,Oliver Baumann,GER,GK,35-100,1990,2,2,180,2.0,4,2.0,8,4,50.0,1,0,1,0,0.0,0,0,0,0,
+GER-Bundesliga,2025-26,Köln,Marvin Schwäbe,GER,GK,30-138,1995,2,2,180,2.0,1,0.5,4,3,75.0,2,0,0,1,50.0,0,0,0,0,
+GER-Bundesliga,2025-26,Leverkusen,Mark Flekken,NED,GK,32-089,1993,2,2,180,2.0,5,2.5,10,5,60.0,0,1,1,0,0.0,1,1,0,0,0
+GER-Bundesliga,2025-26,Mainz 05,Robin Zentner,GER,GK,30-317,1994,2,2,180,2.0,2,1.0,5,3,60.0,0,1,1,0,0.0,0,0,0,0,
+GER-Bundesliga,2025-26,RB Leipzig,Péter Gulácsi,HUN,GK,35-127,1990,2,2,180,2.0,6,3.0,12,6,50.0,1,0,1,1,50.0,0,0,0,0,
+GER-Bundesliga,2025-26,St. Pauli,Nikola Vasilj,BIH,GK,29-282,1995,2,2,180,2.0,3,1.5,9,5,66.7,1,1,0,1,50.0,1,0,1,0,100
+GER-Bundesliga,2025-26,Stuttgart,Alexander Nübel,GER,GK,28-345,1996,2,2,180,2.0,2,1.0,8,6,75.0,1,0,1,1,50.0,0,0,0,0,
+GER-Bundesliga,2025-26,Union Berlin,Frederik Rønnow,DEN,GK,33-037,1992,2,2,180,2.0,4,2.0,12,8,66.7,1,0,1,0,0.0,0,0,0,0,
+GER-Bundesliga,2025-26,Werder Bremen,Mio Backhaus,GER,GK,21-147,2004,2,2,180,2.0,7,3.5,9,2,33.3,0,1,1,0,0.0,1,1,0,0,0
+GER-Bundesliga,2025-26,Wolfsburg,Kamil Grabara,POL,GK,26-245,1999,2,2,180,2.0,2,1.0,5,3,80.0,1,1,0,0,0.0,1,1,0,0,0
+ITA-Serie A,2025-26,Atalanta,Marco Carnesecchi,ITA,GK,25-071,2000,2,2,180,2.0,2,1.0,5,4,60.0,0,2,0,0,0.0,0,0,0,0,
+ITA-Serie A,2025-26,Bologna,Łukasz Skorupski,POL,GK,34-128,1991,2,2,180,2.0,1,0.5,6,5,83.3,1,0,1,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Cagliari,Elia Caprile,ITA,GK,24-016,2001,2,2,180,2.0,2,1.0,7,5,71.4,0,1,1,0,0.0,0,0,0,0,
+ITA-Serie A,2025-26,Como,Jean Butez,FRA,GK,30-094,1995,2,2,180,2.0,1,0.5,3,2,66.7,1,0,1,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Cremonese,Emil Audero,IDN,GK,28-235,1997,2,2,180,2.0,3,1.5,11,8,81.8,2,0,0,0,0.0,1,1,0,0,0
+ITA-Serie A,2025-26,Fiorentina,David de Gea,ESP,GK,34-307,1990,2,2,180,2.0,1,0.5,9,8,88.9,0,2,0,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Genoa,Nicola Leali,ITA,GK,32-205,1993,2,2,180,2.0,1,0.5,3,2,66.7,0,1,1,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Hellas Verona,Lorenzo Montipò,ITA,GK,29-202,1996,2,2,180,2.0,5,2.5,10,5,50.0,0,1,1,0,0.0,0,0,0,0,
+ITA-Serie A,2025-26,Inter,Yann Sommer,SUI,GK,36-267,1988,2,2,180,2.0,2,1.0,9,7,88.9,1,0,1,1,50.0,1,1,0,0,0
+ITA-Serie A,2025-26,Juventus,Michele Di Gregorio,ITA,GK,28-045,1997,2,2,180,2.0,0,0.0,2,2,100.0,2,0,0,2,100.0,0,0,0,0,
+ITA-Serie A,2025-26,Lazio,Ivan Provedel,ITA,GK,31-177,1994,2,2,180,2.0,2,1.0,10,8,80.0,1,0,1,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Lecce,Wladimiro Falcone,ITA,GK,30-151,1995,2,2,180,2.0,2,1.0,8,6,75.0,0,1,1,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Milan,Mike Maignan,FRA,GK,30-069,1995,2,2,180,2.0,2,1.0,5,3,60.0,1,0,1,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Napoli,Alex Meret,ITA,GK,28-172,1997,2,2,180,2.0,0,0.0,3,3,100.0,2,0,0,2,100.0,0,0,0,0,
+ITA-Serie A,2025-26,Parma,Zion Suzuki,JPN,GK,23-020,2002,2,2,180,2.0,3,1.5,11,8,72.7,0,1,1,0,0.0,0,0,0,0,
+ITA-Serie A,2025-26,Pisa,Adrian Šemper,CRO,GK,27-241,1998,2,2,180,2.0,2,1.0,11,9,81.8,0,1,1,0,0.0,0,0,0,0,
+ITA-Serie A,2025-26,Roma,Mile Svilar,SRB,GK,26-014,1999,2,2,180,2.0,0,0.0,5,5,100.0,2,0,0,2,100.0,0,0,0,0,
+ITA-Serie A,2025-26,Sassuolo,Arijanet Muric,KVX,GK,26-307,1998,1,1,90,1.0,3,3.0,6,3,66.7,0,0,1,0,0.0,1,1,0,0,0
+ITA-Serie A,2025-26,Sassuolo,Stefano Turati,ITA,GK,24-005,2001,1,1,90,1.0,2,2.0,4,2,50.0,0,0,1,0,0.0,0,0,0,0,
+ITA-Serie A,2025-26,Torino,Franco Israel,URU,GK,25-141,2000,2,2,180,2.0,5,2.5,12,7,58.3,0,1,1,1,50.0,0,0,0,0,
+ITA-Serie A,2025-26,Udinese,Razvan Sava,ROU,GK,23-081,2002,2,2,180,2.0,2,1.0,6,4,66.7,1,1,0,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,AZ Alkmaar,Jeroen Zoet,NED,GK,34-247,1991,1,1,90,1.0,1,1.0,7,6,85.7,1,0,0,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,AZ Alkmaar,Rome-Jayden Owusu-Oduro,NED,GK,21-070,2004,2,2,180,2.0,2,1.0,9,7,77.8,1,1,0,1,50.0,1,0,0,1,
+NED-Eredivisie,2025-26,Ajax,Vitezslav Jaros,CZE,GK,24-049,2001,4,4,360,4.0,3,0.75,13,10,76.9,2,2,0,2,50.0,0,0,0,0,
+NED-Eredivisie,2025-26,Excelsior,Calvin Raatsie,NED,GK,23-213,2002,2,2,180,2.0,6,3.0,16,10,62.5,0,0,2,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,Excelsior,Stijn van Gassel,NED,GK,28-327,1996,2,2,119,1.3,1,0.76,11,10,90.9,1,0,1,1,50.0,0,0,0,0,
+NED-Eredivisie,2025-26,Excelsior,Tijmen Holla,,GK,,,1,0,61,0.7,4,5.9,7,3,57.1,0,0,0,0,,1,1,0,0,0
+NED-Eredivisie,2025-26,Feyenoord,Timon Wellenreuther,GER,GK,29-281,1995,3,3,270,3.0,1,0.33,4,3,75.0,3,0,0,2,66.7,0,0,0,0,
+NED-Eredivisie,2025-26,Fortuna Sittard,Mattijs Branderhorst,NED,GK,31-253,1993,3,3,270,3.0,6,2.0,13,8,53.8,1,1,1,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,Go Ahead Eag,Jari De Busser,BEL,GK,25-324,1999,4,4,360,4.0,9,2.25,28,19,67.9,0,3,1,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,Groningen,Etienne Vaessen,SUR,GK,30-046,1995,1,1,90,1.0,0,0.0,0,0,,1,0,0,1,100.0,0,0,0,0,
+NED-Eredivisie,2025-26,Groningen,Hidde Jurjus,NED,GK,31-213,1994,3,3,270,3.0,9,3.0,17,9,52.9,1,0,2,0,0.0,1,1,0,0,0
+NED-Eredivisie,2025-26,Heerenveen,Andries Noppert,NED,GK,31-156,1994,4,4,360,4.0,7,1.75,18,11,61.1,0,2,2,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,Heracles Almelo,Fabian de Keijzer,NED,GK,25-123,2000,4,4,360,4.0,14,3.5,31,17,54.8,0,0,4,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,NAC Breda,Daniel Bielica,POL,GK,26-133,1999,4,4,360,4.0,7,1.75,26,19,76.9,1,0,3,0,0.0,1,1,0,0,0
+NED-Eredivisie,2025-26,NEC Nijmegen,Gonzalo Crettaz,ARG,GK,25-194,2000,4,4,360,4.0,4,1.0,19,15,84.2,3,0,1,2,50.0,1,1,0,0,0
+NED-Eredivisie,2025-26,PSV Eindhoven,Matej Kovar,CZE,GK,25-116,2000,4,4,360,4.0,5,1.25,18,13,72.2,3,0,1,1,25.0,0,0,0,0,
+NED-Eredivisie,2025-26,Sparta R'dam,Joel Drommel,NED,GK,28-298,1996,4,4,360,4.0,11,2.75,32,20,65.6,2,0,2,1,25.0,1,0,1,0,100
+NED-Eredivisie,2025-26,Telstar,Ronald Koeman Jr.,NED,GK,30-110,1995,4,4,360,4.0,6,1.5,21,15,71.4,1,1,2,1,25.0,0,0,0,0,
+NED-Eredivisie,2025-26,Twente,Lars Unnerstall,GER,GK,35-052,1990,4,4,360,4.0,5,1.25,12,8,58.3,1,0,3,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,Utrecht,Michael Brouwer,NED,GK,32-232,1993,1,1,90,1.0,2,2.0,5,3,80.0,0,0,1,0,0.0,1,1,0,0,0
+NED-Eredivisie,2025-26,Utrecht,Vasilios Barkas,GRE,GK,31-103,1994,3,3,270,3.0,1,0.33,9,8,88.9,3,0,0,2,66.7,0,0,0,0,
+NED-Eredivisie,2025-26,Volendam,Kayne van Oevelen,NED,GK,22-033,2003,4,4,360,4.0,6,1.5,22,16,72.7,0,4,0,0,0.0,0,0,0,0,
+NED-Eredivisie,2025-26,Zwolle,Tom de Graaff,NED,GK,20-274,2004,3,3,270,3.0,2,0.67,16,14,87.5,2,0,1,2,66.7,0,0,0,0,
+POR-Primeira Liga,2025-26,AVS Futebol,Simão Bertelli,BRA,GK,32-100,1993,4,4,360,4.0,8,2.0,17,9,58.8,0,1,3,0,0.0,1,1,0,0,0
+POR-Primeira Liga,2025-26,Alverca,André Gomes,POR,GK,20-325,2004,3,3,270,3.0,7,2.33,15,8,60.0,0,1,2,0,0.0,2,1,0,1,0
+POR-Primeira Liga,2025-26,Alverca,Matheus Mendes,BRA,GK,26-184,1999,1,1,90,1.0,2,2.0,2,0,0.0,0,0,1,0,0.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Arouca,João Valido,POR,GK,25-191,2000,4,4,360,4.0,11,2.75,21,10,52.4,1,2,1,0,0.0,1,1,0,0,0
+POR-Primeira Liga,2025-26,Benfica,Anatolii Trubin,UKR,GK,24-040,2001,1,1,90,1.0,0,0.0,2,2,100.0,1,0,0,1,100.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Benfica,Samuel Soares,POR,GK,23-087,2002,2,2,180,2.0,1,0.5,11,10,90.9,2,0,0,1,50.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Braga,Lukáš Horníček,CZE,GK,23-059,2002,4,4,360,4.0,4,1.0,10,6,70.0,2,2,0,2,50.0,1,1,0,0,0
+POR-Primeira Liga,2025-26,Casa Pia,Patrick Sequeira,CRC,GK,26-193,1999,4,4,360,4.0,8,2.0,22,14,63.6,1,0,3,1,25.0,1,0,0,1,
+POR-Primeira Liga,2025-26,Estoril,Joel Robles,ESP,GK,35-085,1990,4,4,360,4.0,7,1.75,17,10,76.5,0,2,2,0,0.0,3,3,0,0,0
+POR-Primeira Liga,2025-26,Estrela,Renan Ribeiro,BRA,GK,35-171,1990,4,4,360,4.0,4,1.0,11,7,72.7,0,3,1,1,25.0,1,1,0,0,0
+POR-Primeira Liga,2025-26,Famalicão,Lazar Carević,MNE,GK,26-178,1999,4,4,360,4.0,0,0.0,17,17,100.0,3,1,0,4,100.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Gil Vicente FC,Andrew,BRA,GK,24-071,2001,4,4,360,4.0,2,0.5,10,8,80.0,2,1,1,3,75.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Moreirense,Caio Secco,BRA,GK,34-262,1990,4,4,360,4.0,3,0.75,13,10,84.6,3,0,1,2,50.0,1,1,0,0,0
+POR-Primeira Liga,2025-26,Nacional,Lucas França,BRA,GK,29-234,1996,4,4,360,4.0,7,1.75,20,13,65.0,1,1,2,1,25.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Porto,Diogo Costa,POR,GK,25-356,1999,4,4,360,4.0,1,0.25,6,6,83.3,4,0,0,3,75.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Rio Ave,Cezary Miszta,POL,GK,23-315,2001,3,3,270,3.0,6,2.0,20,14,70.0,0,3,0,0,0.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Santa Clara,Gabriel Batista,BRA,GK,27-099,1998,4,4,360,4.0,4,1.0,9,5,55.6,1,1,2,2,50.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Sporting CP,Rui Silva,POR,GK,31-215,1994,4,4,360,4.0,3,0.75,11,8,72.7,3,0,1,2,50.0,0,0,0,0,
+POR-Primeira Liga,2025-26,Tondela,Bernardo Fontes,BRA,GK,23-049,2002,4,4,360,4.0,9,2.25,24,15,66.7,0,1,3,0,0.0,1,1,0,0,0
+POR-Primeira Liga,2025-26,Vitória,Charles,BRA,GK,31-218,1994,4,4,360,4.0,8,2.0,21,14,61.9,1,1,2,0,0.0,0,0,0,0,

@@ -1,11 +1,20 @@
 {
-  "total_players": 7428,
-  "leagues": 5,
-  "teams": 119,
+  "total_players": 13601,
+  "leagues": 9,
+  "teams": 198,
   "positions": 10,
   "columns": 287,
   "seasons": [
-    "2024-25"
+    "2023-24",
+    "2024-25",
+    "2025-26"
   ],
-  "created": "2025-08-31T10:04:50.418291"
+  "created": "2025-09-09T23:52:58.455490",
+  "metadata": {
+    "collector_version": "1.1.0",
+    "python_version": "3.9.6",
+    "pandas": "2.3.1",
+    "numpy": "2.0.2",
+    "soccerdata": "1.8.7"
+  }
 }

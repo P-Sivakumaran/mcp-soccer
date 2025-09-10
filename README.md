@@ -16,6 +16,35 @@ A professional-grade Model Context Protocol (MCP) server that provides comprehen
 - **Statistics**: Goals, assists, xG, progressive passes, tackles, aerial duels, and 280+ more metrics
 - **Positions**: All standard positions including multi-position players
 
+## Adding More Leagues (POR/NED/BEL/AUT)
+
+This project can include additional European leagues from FBref beyond the Big 5 via the `soccerdata` FBref adapter using a custom league dictionary.
+
+Supported additions (tested):
+- Portugal: `POR-Primeira Liga` (FBref: "Primeira Liga")
+- Netherlands: `NED-Eredivisie` (FBref: "Eredivisie")
+- Belgium: `BEL-Belgian Pro League` (FBref: "Belgian Pro League")
+- Austria: `AUT-Bundesliga` (FBref: "Austrian Football Bundesliga")
+
+Setup (one-time):
+- Create `~/soccerdata/config/league_dict.json` with entries that map canonical IDs to FBref competition names, for example:
+  {
+    "POR-Primeira Liga": {"FBref": "Primeira Liga", "season_start": "Aug", "season_end": "May"},
+    "NED-Eredivisie": {"FBref": "Eredivisie", "season_start": "Aug", "season_end": "May"},
+    "BEL-Belgian Pro League": {"FBref": "Belgian Pro League", "season_start": "Aug", "season_end": "May"},
+    "AUT-Bundesliga": {"FBref": "Austrian Football Bundesliga", "season_start": "Jul", "season_end": "May"}
+  }
+
+Notes:
+- `soccerdata` looks for this file at `~/soccerdata/config/league_dict.json` by default. Alternatively, set `SOCCERDATA_DIR=/path/to/dir` to control where configs/data are stored.
+- Once configured, the included collector already targets these leagues by default. You can override on the CLI using `--leagues`.
+
+Examples:
+- Collect only the new leagues for 2024-25:
+  `python fbref_data_collector.py 2024-25 --leagues "POR-Primeira Liga" "NED-Eredivisie" "BEL-Belgian Pro League" "AUT-Bundesliga"`
+- Collect Big 5 + new leagues for three seasons:
+  `python fbref_data_collector.py 2023-24 2024-25 2025-26`
+
 ## Quick Start
 
 1. **Install Dependencies**:
